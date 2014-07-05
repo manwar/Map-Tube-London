@@ -1,8 +1,9 @@
 Build.PL
 Changes
 lib/Map/Tube/London.pm
+lib/Map/Tube/london-map.xml
 Makefile.PL
-MANIFEST			This list of files
+MANIFEST
 MANIFEST.SKIP
 README
 SIGNATURE
