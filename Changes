@@ -1,4 +1,8 @@
 Revision history for Map-Tube-London
 
+0.02    Sun Jul 06 03:20:19 2014
+        - Updated Build.PL and Makefile.PL to have correct version of Map::Tube as pre-requisite.
+        - Updated Makefile.PL to set the correct License details.
+
 0.01    Sat Jul 05 12:00:01 2014
-        First version, released.
+        - First version, released.
