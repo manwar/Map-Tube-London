@@ -18,8 +18,9 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Moo'       => 0,
-        'Map::Tube' => '2.21',
+        'Moo'              => 0,
+        'namespace::clean' => 0,
+        'Map::Tube'        => '2.22',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Map-Tube-London-*' },

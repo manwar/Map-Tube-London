@@ -16,8 +16,9 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires  => {
-        'Moo'       => 0,
-        'Map::Tube' => '2.21',
+        'Moo'              => 0,
+        'namespace::clean' => 0,
+        'Map::Tube'        => '2.22',
     },
     add_to_cleanup     => [ 'Map-Tube-London-*' ],
     create_makefile_pl => 'traditional',

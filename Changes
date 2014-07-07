@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.03    Mon Jul 07 20:52:00 2014
+        - Added missing pre-requisite 'namespace::clean' to Build.PL and Makefile.PL
+        - Also updated the pre-requisite version of 'Map::Tube' as 2.22
+
 0.02    Sun Jul 06 03:20:19 2014
         - Updated Build.PL and Makefile.PL to have correct version of Map::Tube as pre-requisite.
         - Updated Makefile.PL to set the correct License details.
