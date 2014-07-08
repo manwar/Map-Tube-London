@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.04    Tue Jul 08 03:50:20 2014
+        - Setting the default value for attribute 'xml' correctly.
+
 0.03    Mon Jul 07 20:52:00 2014
         - Added missing pre-requisite 'namespace::clean' to Build.PL and Makefile.PL
         - Also updated the pre-requisite version of 'Map::Tube' as 2.22
