@@ -1,14 +1,15 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.04';
+$Map::Tube::London::VERSION = '0.05';
 
 use 5.006;
 use Data::Dumper;
+use File::Share ':all';
 
 use Moo;
 use namespace::clean;
 
-has xml => (is => 'ro', default => sub { return 'london-map.xml' });
+has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.xml') });
 
 with 'Map::Tube';
 
@@ -18,7 +19,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =head1 DESCRIPTION
 

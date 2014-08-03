@@ -1,7 +1,6 @@
-Build.PL
 Changes
 lib/Map/Tube/London.pm
-lib/Map/Tube/london-map.xml
+share/london-map.xml
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP

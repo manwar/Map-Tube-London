@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.05    Sun Aug 03 05:30:09 2014
+        - Patch for RT #97672.
+
 0.04    Tue Jul 08 03:50:20 2014
         - Setting the default value for attribute 'xml' correctly.
 
