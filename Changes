@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.06    Fri Aug 08 23:05:00 2014
+        - Tidied up README
+
 0.05    Sun Aug 03 05:30:09 2014
         - Patch for RT #97672.
 
