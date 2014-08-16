@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.06';
+$Map::Tube::London::VERSION = '0.07';
 
 use 5.006;
 use Data::Dumper;
@@ -19,7 +19,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =head1 DESCRIPTION
 
@@ -52,11 +52,13 @@ insensitive. It returns back the node sequence from START to END.
     # Find the shortest route from 'Baker Street' to 'Farringdon'.
     my $route = $tube->get_shortest_route('Baker Street', 'Farringdon');
 
-=cut
-
 =head1 AUTHOR
 
 Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
+
+=head1 REPOSITORY
+
+L<https://github.com/Manwar/Map-Tube-London>
 
 =head1 BUGS
 

@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.07    Sat Aug 16 10:40:19 2014
+        - Added secction "REPOSITORY" to the pod
+        - Added key "META_MERGE" to Makefile.PL
+
 0.06    Fri Aug 08 23:05:00 2014
         - Tidied up README
 
