@@ -1,11 +1,14 @@
 Revision history for Map-Tube-London
 
+0.08    Sat Aug 30 02:59:00 2014
+        - Added key "META_MERGE" key on condition (ExUtils::MakeMake->VERSION(6.46).
+
 0.07    Sat Aug 16 10:40:19 2014
-        - Added secction "REPOSITORY" to the pod
+        - Added section "REPOSITORY" to the pod
         - Added key "META_MERGE" to Makefile.PL
 
 0.06    Fri Aug 08 23:05:00 2014
-        - Tidied up README
+        - Tidied up README file.
 
 0.05    Sun Aug 03 05:30:09 2014
         - Patch for RT #97672.

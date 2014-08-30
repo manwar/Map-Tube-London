@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.07';
+$Map::Tube::London::VERSION = '0.08';
 
 use 5.006;
 use Data::Dumper;
@@ -19,7 +19,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =head1 DESCRIPTION
 

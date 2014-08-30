@@ -25,20 +25,21 @@ WriteMakefile(
         'Moo'              => 0,
         'namespace::clean' => 0,
         'File::Share'      => 0,
-        'Map::Tube'        => '2.25',
+        'Map::Tube'        => '2.26',
     },
-    META_MERGE => {
+    dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    clean => { FILES => 'Map-Tube-London-*' },
+    (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
-        resources   => {
+        resources => {
             repository => {
                 type => 'git',
                 url  => 'https://github.com/Manwar/Map-Tube-London.git',
                 web  => 'https://github.com/Manwar/Map-Tube-London',
             },
-        },
-    },
-    dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'Map-Tube-London-*' },
+        }})
+     : ()
+    ),
 );
 
 package MY;
