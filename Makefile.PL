@@ -15,7 +15,7 @@ WriteMakefile(
     PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
-        'ExtUtils::MakeMakere'    => 0,
+        'ExtUtils::MakeMaker'     => 0,
         'File::ShareDir::Install' => 0,
     },
     BUILD_REQUIRES   => {
