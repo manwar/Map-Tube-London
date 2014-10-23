@@ -1,31 +1,34 @@
 Revision history for Map-Tube-London
 
-0.09    Sat Sep 20 22:16:30 2014
-        - Fixed the typo in the Makefile.PL
+0.10  Thu Oct 23 23:35:10 2014
+      - Made the package File::ShareDir::Install pre-requisite in the Makefile.PL file.
 
-0.08    Sat Aug 30 02:59:00 2014
-        - Added key "META_MERGE" key on condition (ExUtils::MakeMake->VERSION(6.46).
+0.09  Sat Sep 20 22:16:30 2014
+      - Fixed the typo in the Makefile.PL
 
-0.07    Sat Aug 16 10:40:19 2014
-        - Added section "REPOSITORY" to the pod document.
-        - Added key "META_MERGE" to Makefile.PL file.
+0.08  Sat Aug 30 02:59:00 2014
+      - Added key "META_MERGE" key on condition (ExUtils::MakeMake->VERSION(6.46).
 
-0.06    Fri Aug 08 23:05:00 2014
-        - Tidied up README file.
+0.07  Sat Aug 16 10:40:19 2014
+      - Added section "REPOSITORY" to the pod document.
+      - Added key "META_MERGE" to Makefile.PL file.
 
-0.05    Sun Aug 03 05:30:09 2014
-        - Patch for RT #97672.
+0.06  Fri Aug 08 23:05:00 2014
+      - Tidied up README file.
 
-0.04    Tue Jul 08 03:50:20 2014
-        - Setting the default value for attribute 'xml' correctly.
+0.05  Sun Aug 03 05:30:09 2014
+      - Patch for RT #97672.
 
-0.03    Mon Jul 07 20:52:00 2014
-        - Added missing pre-requisite 'namespace::clean' to Build.PL and Makefile.PL
-        - Also updated the pre-requisite version of 'Map::Tube' as 2.22
+0.04  Tue Jul 08 03:50:20 2014
+      - Setting the default value for attribute 'xml' correctly.
 
-0.02    Sun Jul 06 03:20:19 2014
-        - Updated Build.PL and Makefile.PL to have correct version of Map::Tube as pre-requisite.
-        - Updated Makefile.PL to set the correct License details.
+0.03  Mon Jul 07 20:52:00 2014
+      - Added missing pre-requisite 'namespace::clean' to Build.PL and Makefile.PL
+      - Also updated the pre-requisite version of 'Map::Tube' as 2.22
 
-0.01    Sat Jul 05 12:00:01 2014
-        - First version, released.
+0.02  Sun Jul 06 03:20:19 2014
+      - Updated Build.PL and Makefile.PL to have correct version of Map::Tube as pre-requisite.
+      - Updated Makefile.PL to set the correct License details.
+
+0.01  Sat Jul 05 12:00:01 2014
+      - First version, released.

@@ -2,9 +2,7 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use Test::More;
-
-plan tests => 1;
+use Test::More tests => 1;
 
 BEGIN {
     use_ok( 'Map::Tube::London' ) || print "Bail out!\n";
