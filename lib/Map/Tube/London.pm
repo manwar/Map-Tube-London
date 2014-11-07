@@ -1,6 +1,16 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.10';
+$Map::Tube::London::VERSION = '0.11';
+
+=head1 NAME
+
+Map::Tube::London - Interface to the London Tube Map.
+
+=head1 VERSION
+
+Version 0.11
+
+=cut
 
 use 5.006;
 use Data::Dumper;
@@ -13,20 +23,12 @@ has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'lo
 
 with 'Map::Tube';
 
-=head1 NAME
-
-Map::Tube::London - Interface to the London Tube Map.
-
-=head1 VERSION
-
-Version 0.10
-
 =head1 DESCRIPTION
 
-The L<Map::Tube::London>  currently  only  provides  functionality  to  find  the
-shortest  route between the two given nodes. It covers Bakerloo, Central, Circle,
-District,  DLR,  Hammersmith & City, Jubilee, Metropolitan, Northern, Overground,
-Piccadilly, Victoria and Waterloo & City.
+It currently provides functionality to find the shortest  route between  the  two
+given  nodes. It  covers  Bakerloo, Central, Circle, District, DLR, Hammersmith &
+City,  Jubilee,  Metropolitan,  Northern,  Overground,  Piccadilly,  Victoria and
+Waterloo & City.
 
 =head1 CONSTRUCTOR
 
@@ -51,6 +53,8 @@ insensitive. It returns back the node sequence from START to END.
 
     # Find the shortest route from 'Baker Street' to 'Farringdon'.
     my $route = $tube->get_shortest_route('Baker Street', 'Farringdon');
+
+    print "Route: $route\n";;
 
 =head1 AUTHOR
 
