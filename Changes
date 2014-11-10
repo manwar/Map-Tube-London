@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.12  Mon Nov 10 20:23:10 2014
+      - Added test script test-case-00.t.
+
 0.11  Fri Nov 07 23:19:10 2014
       - Tidied up the pod document.
 
