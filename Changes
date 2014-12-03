@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.13  Mon Nov 11 20:23:10 2014
+      - Upgraded to use Map::Tube v2.31 as it brings in new fix and feature.
+      - Added test script test-case-01.t.
+      - Removed SIGNATURE file.
+
 0.12  Mon Nov 10 20:23:10 2014
       - Added test script test-case-00.t.
 

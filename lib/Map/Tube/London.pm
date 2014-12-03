@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.12';
+$Map::Tube::London::VERSION = '0.13';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.12
+Version 0.13
 
 =cut
 
@@ -49,9 +49,7 @@ insensitive. It returns back the node sequence from START to END.
     use strict; use warnings;
     use Map::Tube::London;
 
-    my $tube = Map::Tube::London->new;
-
-    # Find the shortest route from 'Baker Street' to 'Farringdon'.
+    my $tube  = Map::Tube::London->new;
     my $route = $tube->get_shortest_route('Baker Street', 'Farringdon');
 
     print "Route: $route\n";;
