@@ -15,7 +15,7 @@
         <station id="A012" name="Arsenal" line="Piccadilly" link="F006,H028" />
         <station id="B001" name="Baker Street" line="Circle,Hammersmith &amp; City,Bakerloo,Metropolitan,Jubilee" link="B018,R004,M005,G008,S023,E011,F004" />
         <station id="B002" name="Balham" line="Northern" link="C023,T003" />
-        <station id="B003" name="Bank" line="Central,Northern,Waterloo &amp; City" link="S024,L013,M011,L012,W008" />
+        <station id="B003" name="Bank" line="Central,Northern,Waterloo &amp; City" link="S002,S024,L013,M011,L012,W008" />
         <station id="B004" name="Barbican" line="Circle,Hammersmith &amp; City,Metropolitan" link="F002,M011" />
         <station id="B005" name="Barking" line="District,Hammersmith &amp; City,Overground" link="E006,U003,W037" />
         <station id="B006" name="Barkingside" line="Central" link="N004,F001" />
@@ -88,7 +88,7 @@
         <station id="D008" name="Dollis Hill" line="Jubilee" link="N001,W030" />
         <station id="E001" name="Ealing Broadway" line="Central,District" link="E002,W014" />
         <station id="E002" name="Ealing Common" line="District,Piccadilly" link="A002,N007,E001" />
-        <station id="E003" name="Earl's Court" line="District" link="K004,H022,W015,G003" />
+        <station id="E003" name="Earl's Court" line="District" link="S012,K004,H022,W015,G003" />
         <station id="E004" name="East Acton" line="Central" link="W014,W028" />
         <station id="E005" name="East Finchley" line="Northern" link="H024,F003" />
         <station id="E006" name="East Ham" line="District,Hammersmith &amp; City" link="U005,B005" />
@@ -261,7 +261,7 @@
         <station id="R014" name="Ruislip Manor" line="Metropolitan,Piccadilly" link="E009,R012" />
         <station id="R015" name="Russel Square" line="Piccadilly" link="K013,H026" />
         <station id="S001" name="Seven Sisters" line="Victoria" link="F006,T006" />
-        <station id="S002" name="Shadwell" line="DLR,Overground" link="T008,M009,W029" />
+        <station id="S002" name="Shadwell" line="DLR,Overground" link="B003,T008,M009,W029" />
         <station id="S003" name="Shepherd's Bush" line="Central,Overground" link="W028,H027,W031,K004" />
         <station id="S004" name="Shepherd's Bush Market" line="Circle,Hammersmith &amp; City" link="G004,W035" />
         <station id="S005" name="Shoreditch High Steet" line="Overground" link="W029,H035" />
@@ -271,7 +271,7 @@
         <station id="S009" name="South Ealing" line="Piccadilly" link="A002,N011" />
         <station id="S010" name="South Hamstead" line="Overground" link="K010,E017" />
         <station id="S011" name="South Harrow" line="Piccadilly" link="R002,S031" />
-        <station id="S012" name="South Kensington" line="Circle,District" link="S006,G003,K015" />
+        <station id="S012" name="South Kensington" line="Circle,District" link="E003,S006,G003,K015" />
         <station id="S013" name="South Kenton" line="Overground,Bakerloo" link="K007,N010" />
         <station id="S014" name="South Quay" line="DLR" link="H020,C028" />
         <station id="S015" name="South Ruislip" line="Central" link="R013,N012" />

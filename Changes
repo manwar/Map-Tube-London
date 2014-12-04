@@ -1,5 +1,11 @@
 Revision history for Map-Tube-London
 
+0.14  Thu Dec 04 21:43:10 2014
+      - Updated unit test to make use of new class provided by Map::Tube role.
+      - Updated description of method get_shortest_route() in the pod documemt.
+      - Corrected the map data (fixed missing links)
+      - Fixed broken test because of change in map data.
+
 0.13  Mon Nov 11 20:23:10 2014
       - Upgraded to use Map::Tube v2.31 as it brings in new fix and feature.
       - Added test script test-case-01.t.
