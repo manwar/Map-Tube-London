@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.16  Fri Dec 05 10:42:10 2014
+      - Upgraded to use Map::Tube v2.32 as it brings in new fix and feature.
+      - Fixed the test data.
+      - Updated unit test to reflect the changes in Map::Tube v2.32.
+
 0.15  Fri Dec 05 10:42:10 2014
       - Updated the description of method get_shortest_route().
 

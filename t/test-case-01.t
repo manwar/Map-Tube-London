@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 use strict; use warnings;
 use Test::More tests => 21;
 use Map::Tube::London;
@@ -12,11 +14,16 @@ while (<DATA>) {
 
 sub _expected_route {
     my ($route) = @_;
-    my $routes  = [];
+    my $nodes   = [];
     foreach my $name (split /\,/,$route) {
-        push @$routes, $tube->get_node_by_name($name);
+        push @$nodes, $tube->get_node_by_name($name);
     }
-    return Map::Tube::Route->new({ nodes => $routes });
+
+    return Map::Tube::Route->new(
+        { from  => $nodes->[0],
+          to    => $nodes->[-1],
+          nodes => $nodes
+        });
 }
 
 __DATA__
@@ -40,4 +47,4 @@ Route 17|Westferry|Cannon      Street|Westferry,Limehouse,Shadwell,Monument,Cann
 Route 18|   Westferry|Cannon      Street|Westferry,Limehouse,Shadwell,Monument,Cannon Street
 Route 19|Westferry    |Cannon      Street|Westferry,Limehouse,Shadwell,Monument,Cannon Street
 Route 20|Westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Monument,Cannon Street
-Route 20|westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Monument,Cannon Street
+Route 21|westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Monument,Cannon Street
