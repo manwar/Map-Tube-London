@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.18  Sat Dec 07 11:15:10 2014
+      - Upgraded to use Map::Tube v2.34 to keep it up to date.
+
 0.17  Fri Dec 05 19:50:10 2014
       - Upgraded to use Map::Tube v2.33 to keep it up to date.
 
