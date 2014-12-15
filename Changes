@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.20  Mon Dec 15 17:35:40 2014
+      - Fixed the typo in pod document of Map::Tube::London regarding Bakerloo Line.
+      - List the common station names in the Map::Tube::London::Line::Bakerloo and
+        Map::Tube::London::Line::Central.
+
 0.19  Mon Dec 15 15:55:20 2014
       - Added package to list tube stations for Bakerloo and Central lines.
       - Updated pod document for Map::Tube::London about the above changes.

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION = '0.19';
+$Map::Tube::London::Line::Bakerloo::VERSION = '0.20';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =head1 DESCRIPTION
 
@@ -48,7 +48,7 @@ London Tube Map Bakerloo Line stations.
 
 =over 2
 
-=item * The station "" is also part of L<|Map::Tube::London::Line::Orange>.
+=item * The station "Oxford Circus" is also part of L<Central Line|Map::Tube::London::Line::Central>.
 
 =back
 
