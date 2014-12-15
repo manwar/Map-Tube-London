@@ -1,86 +1,56 @@
-package Map::Tube::London;
+package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::VERSION = '0.19';
+$Map::Tube::London::Line::Bakerloo::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::London - Interface to the London Tube Map.
+Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
 Version 0.19
 
-=cut
-
-use 5.006;
-use Data::Dumper;
-use File::Share ':all';
-
-use Moo;
-use namespace::clean;
-
-has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.xml') });
-
-with 'Map::Tube';
-
 =head1 DESCRIPTION
 
-It currently provides functionality to find the shortest  route between  the  two
-given nodes. It covers the following tube lines:
+London Tube Map Bakerloo Line stations.
+
+    +-----------------------+--------------------------------------+
+    |                       |                                      |
+    | Station Name          | Linked To                            |
+    |                       |                                      |
+    +-----------------------+--------------------------------------+
+    | Harrow & Wealdstone   | Kenton                               |
+    | Kenton                | Harrow & Wealdstone, South Kenton    |
+    | South Kenton          | Kenton, North Wembley                |
+    | North Wembley         | South Kenton, Wembley Central        |
+    | Wembley Central       | North Wembley, Stonebridge Park      |
+    | Stonebridge Park      | Wembley Central, Harlesden           |
+    | Harlesden             | Stonebridge Park, Willesden Junction |
+    | Willesden Junction    | Harlesden, Kensal Green              |
+    | Kensal Green          | Willesden Junction, Queen's Park     |
+    | Queen's Park          | Kensal Green, Kilburn Park           |
+    | Kilburn Park          | Queen's Park, Maida Vale             |
+    | Maida Vale            | Kilburn Park, Warwick Avenue         |
+    | Warwick Avenue        | Maida Vale, Paddington               |
+    | Paddington            | Warwick Avenue, Edgware Road         |
+    | Edgware Road          | Paddington, Marleybone               |
+    | Marylebone            | Edgware Road, Baker Street           |
+    | Baker Street          | Marleybone, Regent's Park            |
+    | Regent's Park         | Baker Street, Oxford Circus          |
+    | Oxford Circus         | Regent's Park, Picadilly Circus      |
+    | Piccadilly Circus     | Oxford Circus, Charing Cross         |
+    | Charing Cross         | Picadilly Circus, Embankment         |
+    | Embankment            | Charing Cross, Waterloo              |
+    | Waterloo              | Embankment, Lambeth North            |
+    | Lambeth North         | Waterloo, Elephant & Castle          |
+    | Elephant & Castle     | Lambeth North                        |
+    +-----------------------+--------------------------------------+
 
 =over 2
 
-=item * L<Bakerloo Line|Map::Tube::London::Line::Barkerloo>
-
-=item * L<Central Line|Map::Tube::London::Line::Central>
-
-=item * Circle Line
-
-=item * District Line
-
-=item * Dockland Light Railway Line
-
-=item * Hammersmith & City Line
-
-=item * Jubilee Line
-
-=item * Metropolitan Line
-
-=item * Northern Line
-
-=item * London Overground Line
-
-=item * Piccadilly Line
-
-=item * Victoria Line
-
-=item * Waterloo & City Line
+=item * The station "" is also part of L<|Map::Tube::London::Line::Orange>.
 
 =back
-
-=head1 CONSTRUCTOR
-
-The constructor DO NOT expects parameters.This setup the default node definitions.
-
-    use strict; use warnings;
-    use Map::Tube::London;
-
-    my $tube = Map::Tube::London->new;
-
-=head1 METHODS
-
-=head2 get_shortest_route($from, $to)
-
-Expects 'from' and 'to' station name and returns an object of type L<Map::Tube::Route>.
-On error it returns an object of type L<Map::Tube::Exception>.
-
-    use strict; use warnings;
-    use Map::Tube::London;
-
-    my $tube  = Map::Tube::London->new;
-    my $route = $tube->get_shortest_route('Baker Street', 'Farringdon');
-
-    print "Route: $route\n";;
 
 =head1 AUTHOR
 
@@ -101,7 +71,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::London
+    perldoc Map::Tube::London::Line::Bakerloo
 
 You can also look for information at:
 
@@ -165,4 +135,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::London
+1; # End of Map::Tube::London::Line::Bakerloo

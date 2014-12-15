@@ -1,5 +1,7 @@
 Changes
 lib/Map/Tube/London.pm
+lib/Map/Tube/London/Line/Bakerloo.pm
+lib/Map/Tube/London/Line/Central.pm
 share/london-map.xml
 Makefile.PL
 MANIFEST
