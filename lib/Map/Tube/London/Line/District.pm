@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.22';
+$Map::Tube::London::Line::District::VERSION = '0.23';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -80,6 +80,8 @@ London Tube Map District Line stations.
     | Upminster               | Upminster Bridge                              |
     +-------------------------+-----------------------------------------------+
 
+=head1 NOTE
+
 =over 2
 
 =item * The station "Hammersmith" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
@@ -110,7 +112,7 @@ London Tube Map District Line stations.
         | Northern Line.
 
 =item * The station "Monument" is also part of L<Central Line|Map::Tube::London::Line::Central>
-        | Nothern Line | Waterloo & City | Dockland Light Railway Line
+        | Nothern Line | Waterloo & City | Dockland Light Railway Line.
 
 =back
 

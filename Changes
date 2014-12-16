@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.23  Tue Dec 16 16:58:15 2014
+      - Added section "NOTE" to all line stations package.
+
 0.22  Tue Dec 16 15:51:10 2014
       - Added package to list tube stations for District lines.
       - Updated pod document for Map::Tube::London about the above changes.

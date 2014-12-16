@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION = '0.22';
+$Map::Tube::London::Line::Circle::VERSION = '0.23';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -55,6 +55,8 @@ London Tube Map Circle Line stations.
     | Notting Hill Gate       | High Street Kensington, Bayswater              |
     | Bayswater               | Notting Hill Gate                              |
     +-------------------------+------------------------------------------------+
+
+=head1 NOTE
 
 =over 2
 

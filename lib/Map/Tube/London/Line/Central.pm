@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION = '0.22';
+$Map::Tube::London::Line::Central::VERSION = '0.23';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Central - London Tube Map Central Line stations.
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -69,6 +69,8 @@ London Tube Map Central Line stations.
     | Theydon Bois         | Debden, Epping                       |
     | Epping               | Theydon Bois                         |
     +----------------------+--------------------------------------+
+
+=head1 NOTE
 
 =over 2
 

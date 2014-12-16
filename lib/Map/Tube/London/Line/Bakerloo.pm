@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION = '0.22';
+$Map::Tube::London::Line::Bakerloo::VERSION = '0.23';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -45,6 +45,8 @@ London Tube Map Bakerloo Line stations.
     | Lambeth North         | Waterloo, Elephant & Castle          |
     | Elephant & Castle     | Lambeth North                        |
     +-----------------------+--------------------------------------+
+
+=head1 NOTE
 
 =over 2
 
