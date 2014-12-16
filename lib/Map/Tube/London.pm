@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.21';
+$Map::Tube::London::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =cut
 
@@ -36,7 +36,7 @@ given nodes. It covers the following tube lines:
 
 =item * L<Circle Line|Map::Tube::London::Line::Circle>
 
-=item * District Line
+=item * L<District Line|Map::Tube::London::Line::District>
 
 =item * Dockland Light Railway Line
 

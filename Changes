@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.22  Tue Dec 16 15:51:10 2014
+      - Added package to list tube stations for District lines.
+      - Updated pod document for Map::Tube::London about the above changes.
+
 0.21  Tue Dec 16 11:35:30 2014
       - Added package to list tube stations for Circle lines.
       - Updated pod document for Map::Tube::London about the above changes.

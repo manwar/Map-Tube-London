@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION = '0.21';
+$Map::Tube::London::Line::Circle::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -57,6 +57,13 @@ London Tube Map Circle Line stations.
     +-------------------------+------------------------------------------------+
 
 =over 2
+
+=item * The station "Hammersmith" is also part of L<District Line|Map::Tube::London::Line::District>
+        | Picadilly Line | Hammersmith & City Line.
+
+=item * The station "High Street Kensington" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Gloucester Road" is also part of L<District Line|Map::Tube::London::Line::District>.
 
 =item * The station "Paddington" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | District Line.

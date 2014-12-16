@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION = '0.21';
+$Map::Tube::London::Line::Central::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Central - London Tube Map Central Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -73,6 +73,10 @@ London Tube Map Central Line stations.
 =over 2
 
 =item * The station "Oxford Circus" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
+
+=item * The station "Mile End" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Notting Hill Gate" is also part of L<District Line|Map::Tube::London::Line::District>.
 
 =back
 
