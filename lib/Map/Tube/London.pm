@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.20';
+$Map::Tube::London::VERSION = '0.21';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.20
+Version 0.21
 
 =cut
 
@@ -34,7 +34,7 @@ given nodes. It covers the following tube lines:
 
 =item * L<Central Line|Map::Tube::London::Line::Central>
 
-=item * Circle Line
+=item * L<Circle Line|Map::Tube::London::Line::Circle>
 
 =item * District Line
 
