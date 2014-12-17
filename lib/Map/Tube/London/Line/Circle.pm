@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION = '0.23';
+$Map::Tube::London::Line::Circle::VERSION = '0.24';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.23
+Version 0.24
 
 =head1 DESCRIPTION
 
@@ -60,20 +60,26 @@ London Tube Map Circle Line stations.
 
 =over 2
 
+=item * The station "Edgware Road" is also part of L<District Line|Map::Tube::London::Line::District>
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
+
 =item * The station "Hammersmith" is also part of L<District Line|Map::Tube::London::Line::District>
-        | Picadilly Line | Hammersmith & City Line.
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity> | Picadilly Line..
 
 =item * The station "High Street Kensington" is also part of L<District Line|Map::Tube::London::Line::District>.
 
 =item * The station "Gloucester Road" is also part of L<District Line|Map::Tube::London::Line::District>.
 
 =item * The station "Paddington" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
-        | District Line.
+        | L<District Line|Map::Tube::London::Line::District>.
 
 =item * The station "Moorgate" is also part of Northern Line.
 
-=item * The station "King's Cross St Pancras" is also part of Nothern Line | Picadilly Line |
+=item * The station "King's Cross St Pancras" is also part of Northern Line | Picadilly Line |
         Victoria Line.
+
+=item * The station "Liverpool Street" is also part of L<Central Line|Map::Tube::London::Line::Central>
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
 
 =back
 

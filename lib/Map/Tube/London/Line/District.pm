@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.23';
+$Map::Tube::London::Line::District::VERSION = '0.24';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.23
+Version 0.24
 
 =head1 DESCRIPTION
 
@@ -85,7 +85,7 @@ London Tube Map District Line stations.
 =over 2
 
 =item * The station "Hammersmith" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | Picadilly Line | Hammersmith & City Line.
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity> | Picadilly Line.
 
 =item * The station "Barons Court" is also part of Picadilly Line.
 
@@ -97,7 +97,13 @@ London Tube Map District Line stations.
 
 =item * The station "Whitechapel" is also part of London Overground Line.
 
-=item * The station "Aldgate East" is also part of Hammersmith & City Line.
+=item * The station "Aldgate East" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
+
+=item * The station "Paddington" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
+
+=item * The station "Edgware Road" is also part of L<District Line|Map::Tube::London::Line::District>
+        | L<Circle Line|Map::Tube::London::Line::Circle>.
 
 =item * The station "High Street Kensington" is also part of L<Circle Line|Map::Tube::London::Line::Circle>.
 
