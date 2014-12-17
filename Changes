@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.25  Wed Dec 17 17:25:45 2014
+      - Fixed the link in pod document of the package Map::Tube::London::Line::Bakerloo.
+
 0.24  Wed Dec 17 14:35:30 2014
       - Added package to list tube stations for Hammersmith & City lines.
       - Updated pod document for Map::Tube::London about the above changes.

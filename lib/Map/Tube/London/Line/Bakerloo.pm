@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION = '0.24';
+$Map::Tube::London::Line::Bakerloo::VERSION = '0.25';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.24
+Version 0.25
 
 =head1 DESCRIPTION
 
@@ -53,7 +53,7 @@ London Tube Map Bakerloo Line stations.
 =item * The station "Oxford Circus" is also part of L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Paddington" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | <Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
 
 =item * The station "Embankment" is also part of L<District Line|Map::Tube::London::Line::District>.
 
