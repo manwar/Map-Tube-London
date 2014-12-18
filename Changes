@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.27  Thu Dec 18 14:10:20 2014
+      - Added package to list tube stations for Jubilee lines.
+      - Updated pod document for Map::Tube::London about the above changes.
+
 0.26  Thu Dec 18 01:54:45 2014
       - Updated line information for station "Baker Street", "Livepool Street",
         "Paddington".

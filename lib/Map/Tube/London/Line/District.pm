@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.26';
+$Map::Tube::London::Line::District::VERSION = '0.27';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.26
+Version 0.27
 
 =head1 DESCRIPTION
 
@@ -85,7 +85,8 @@ London Tube Map District Line stations.
 =over 2
 
 =item * The station "Hammersmith" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity> | Picadilly Line.
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | Picadilly Line.
 
 =item * The station "Barons Court" is also part of Picadilly Line.
 

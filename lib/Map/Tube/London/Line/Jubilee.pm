@@ -1,10 +1,10 @@
-package Map::Tube::London::Line::Bakerloo;
+package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Bakerloo::VERSION = '0.27';
+$Map::Tube::London::Line::Jubilee::VERSION = '0.27';
 
 =head1 NAME
 
-Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
+Map::Tube::London::Line::Jubilee - London Tube Map Jubilee Line stations.
 
 =head1 VERSION
 
@@ -12,55 +12,63 @@ Version 0.27
 
 =head1 DESCRIPTION
 
-London Tube Map Bakerloo Line stations.
+London Tube Map Jubilee Line stations.
 
-    +-----------------------+--------------------------------------+
-    |                       |                                      |
-    | Station Name          | Linked To                            |
-    |                       |                                      |
-    +-----------------------+--------------------------------------+
-    | Harrow & Wealdstone   | Kenton                               |
-    | Kenton                | Harrow & Wealdstone, South Kenton    |
-    | South Kenton          | Kenton, North Wembley                |
-    | North Wembley         | South Kenton, Wembley Central        |
-    | Wembley Central       | North Wembley, Stonebridge Park      |
-    | Stonebridge Park      | Wembley Central, Harlesden           |
-    | Harlesden             | Stonebridge Park, Willesden Junction |
-    | Willesden Junction    | Harlesden, Kensal Green              |
-    | Kensal Green          | Willesden Junction, Queen's Park     |
-    | Queen's Park          | Kensal Green, Kilburn Park           |
-    | Kilburn Park          | Queen's Park, Maida Vale             |
-    | Maida Vale            | Kilburn Park, Warwick Avenue         |
-    | Warwick Avenue        | Maida Vale, Paddington               |
-    | Paddington            | Warwick Avenue, Edgware Road         |
-    | Edgware Road          | Paddington, Marleybone               |
-    | Marylebone            | Edgware Road, Baker Street           |
-    | Baker Street          | Marleybone, Regent's Park            |
-    | Regent's Park         | Baker Street, Oxford Circus          |
-    | Oxford Circus         | Regent's Park, Picadilly Circus      |
-    | Piccadilly Circus     | Oxford Circus, Charing Cross         |
-    | Charing Cross         | Picadilly Circus, Embankment         |
-    | Embankment            | Charing Cross, Waterloo              |
-    | Waterloo              | Embankment, Lambeth North            |
-    | Lambeth North         | Waterloo, Elephant & Castle          |
-    | Elephant & Castle     | Lambeth North                        |
-    +-----------------------+--------------------------------------+
+    +------------------+----------------------------------+
+    |                  |                                  |
+    | Station Name     | Connected To                     |
+    |                  |                                  |
+    +------------------+----------------------------------+
+    | Stanmore         | Cannons Park                     |
+    | Canons Park      | Stanmore, Queenbury              |
+    | Queensbury       | Cannons Park, Kingsbury          |
+    | Kingsbury        | Queensbury, Wembley Park         |
+    | Wembley Park     | Kingsbury, Neasden               |
+    | Neasden          | Wembley Park, Dollis Hill        |
+    | Dollis Hill      | Neasden, Willesden Green         |
+    | Willesden Green  | Dollis Hill, Kilburn             |
+    | Kilburn          | Willesden Green, West Hampstead  |
+    | West Hampstead   | Kilburn, Finchley Road           |
+    | Finchley Road    | West Hampstead, Swiss Cottage    |
+    | Swiss Cottage    | Finchley Road, St. John's Wood   |
+    | St. John's Wood  | Swiss Cottage, Baker Street      |
+    | Baker Street     | St. John's Wood, Bond Street     |
+    | Bond Street      | Baker Street, Green Park         |
+    | Green Park       | Bond Street, Westminster         |
+    | Westminster      | Green Park, Waterloo             |
+    | Waterloo         | Westminster, Southwark           |
+    | Southwark        | Waterloo, London Bridge          |
+    | London Bridge    | Southwark, Bermondsey            |
+    | Bermondsey       | London Bridge, Canada Water      |
+    | Canada Water     | Bermondsey, Canary Wharf         |
+    | Canary Wharf     | Canada Water, North Greenwich    |
+    | North Greenwich  | Canary Wharf, Canning Town       |
+    | Canning Town     | North Greenwich, West Ham        |
+    | West Ham         | Canning Town, Stratford          |
+    | Stratford        | West Ham                         |
+    +------------------+----------------------------------+
 
 =head1 NOTE
 
 =over 2
 
-=item * The station "Oxford Circus" is also part of L<Central Line|Map::Tube::London::Line::Central>.
+=item * The station "Wembley Park" is also part of Metropolitan Line.
 
-=item * The station "Paddington" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
+=item * The station "Finchley Road" is also part of Metropolitan Line.
 
-=item * The station "Embankment" is also part of L<District Line|Map::Tube::London::Line::District>.
-
-=item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
-        | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+=item * The station "Baker Street" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
+        | L<Circle Line|Map::Tube::London::Line::Circle>
         | Metropolitan Line.
+
+=item * The station "Waterloo" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
+        | Northern Line | Waterloo & City Line.
+
+=item * The station "London Bridge" is also part of Northern Line.
+
+=item * The station "West Ham" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | L<District Line|Map::Tube::London::Line::District>
+        | Docklands Light Railway Line.
 
 =back
 
@@ -83,7 +91,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::London::Line::Bakerloo
+    perldoc Map::Tube::London::Line::Jubilee
 
 You can also look for information at:
 
@@ -147,4 +155,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::London::Line::Bakerloo
+1; # End of Map::Tube::London::Line::Jubilee

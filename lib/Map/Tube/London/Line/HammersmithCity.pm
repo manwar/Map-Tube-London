@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION = '0.26';
+$Map::Tube::London::Line::HammersmithCity::VERSION = '0.27';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.26
+Version 0.27
 
 =head1 DESCRIPTION
 
@@ -71,7 +71,8 @@ London Tube Map Hammersmith & City Line stations.
 
 =item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
-        | Jubilee Line | Metropolitan Line.
+        | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+        | Metropolitan Line.
 
 =back
 

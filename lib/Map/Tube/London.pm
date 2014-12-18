@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.26';
+$Map::Tube::London::VERSION = '0.27';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.26
+Version 0.27
 
 =cut
 
@@ -42,7 +42,7 @@ given nodes. It covers the following tube lines:
 
 =item * L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
 
-=item * Jubilee Line
+=item * L<Jubilee Line|Map::Tube::London::Line::Jubilee>
 
 =item * Metropolitan Line
 
