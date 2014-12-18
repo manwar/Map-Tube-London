@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION = '0.25';
+$Map::Tube::London::Line::Bakerloo::VERSION = '0.26';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =head1 DESCRIPTION
 
@@ -57,7 +57,9 @@ London Tube Map Bakerloo Line stations.
 
 =item * The station "Embankment" is also part of L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Baker Street" is also part of Jubilee Line | Metropolitan Line.
+=item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+        | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | Jubilee Line | Metropolitan Line.
 
 =back
 

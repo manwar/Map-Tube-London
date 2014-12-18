@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION = '0.25';
+$Map::Tube::London::Line::HammersmithCity::VERSION = '0.26';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =head1 DESCRIPTION
 
@@ -37,7 +37,7 @@ London Tube Map Hammersmith & City Line stations.
     | Barbican                 | Farringdon, Moorgate                           |
     | Moorgate                 | Barbican, Liverpool Street                     |
     | Liverpool Street         | Moorgate, Aldgate East                         |
-    | Aldgate East I           | Liverpool Street, Whitechapel                  |
+    | Aldgate East             | Liverpool Street, Whitechapel                  |
     | Whitechapel              | Aldgate East, Stepney Green                    |
     | Stepney Green            | Whitechapel, Mile End                          |
     | Mile End                 | Stepney Green, Bow Road                        |
@@ -60,15 +60,18 @@ London Tube Map Hammersmith & City Line stations.
 =item * The station "Edgware Road" is also part of  L<Circle Line|Map::Tube::London::Line::Circle>
         | L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Paddington" is also part of  L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
-        | Jubliee Line | Metropolitan Line.
-
 =item * The station "King's Cross St Pancras" is also part of Northern Line | Picadilly Line | Victoria Line.
 
-=item * The station "Moorgate" is also part of Northern Line.
+=item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+        | Metropolitan Line | Northern Line.
 
 =item * The station "Liverpool Street" is also part of  L<Circle Line|Map::Tube::London::Line::Circle>
-        | L<Central Line|Map::Tube::London::Line::Central>.
+        | L<Central Line|Map::Tube::London::Line::Central>
+        | Metropolitan Line.
+
+=item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+        | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
+        | Jubilee Line | Metropolitan Line.
 
 =back
 

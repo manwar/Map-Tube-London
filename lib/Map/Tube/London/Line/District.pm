@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.25';
+$Map::Tube::London::Line::District::VERSION = '0.26';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =head1 DESCRIPTION
 
@@ -102,8 +102,7 @@ London Tube Map District Line stations.
 =item * The station "Paddington" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
 
-=item * The station "Edgware Road" is also part of L<District Line|Map::Tube::London::Line::District>
-        | L<Circle Line|Map::Tube::London::Line::Circle>.
+=item * The station "Edgware Road" is also part of L<Circle Line|Map::Tube::London::Line::Circle>.
 
 =item * The station "High Street Kensington" is also part of L<Circle Line|Map::Tube::London::Line::Circle>.
 

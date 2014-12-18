@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION = '0.25';
+$Map::Tube::London::Line::Circle::VERSION = '0.26';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =head1 DESCRIPTION
 
@@ -80,6 +80,9 @@ London Tube Map Circle Line stations.
 
 =item * The station "Liverpool Street" is also part of L<Central Line|Map::Tube::London::Line::Central>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
+
+=item * The station "Baker Street" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | Jubilee Line | Metropolitan Line.
 
 =back
 

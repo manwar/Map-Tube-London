@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.26  Thu Dec 18 01:54:45 2014
+      - Updated line information for station "Baker Street", "Livepool Street",
+        "Paddington".
+      - Some minor tidied up.
+
 0.25  Wed Dec 17 17:25:45 2014
       - Fixed the link in pod document of the package Map::Tube::London::Line::Bakerloo.
 
