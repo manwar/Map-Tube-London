@@ -6,6 +6,7 @@ lib/Map/Tube/London/Line/Circle.pm
 lib/Map/Tube/London/Line/District.pm
 lib/Map/Tube/London/Line/HammersmithCity.pm
 lib/Map/Tube/London/Line/Jubilee.pm
+lib/Map/Tube/London/Line/Metropolitan.pm
 share/london-map.xml
 Makefile.PL
 MANIFEST

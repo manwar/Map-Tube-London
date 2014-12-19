@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION = '0.27';
+$Map::Tube::London::Line::Central::VERSION = '0.28';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Central - London Tube Map Central Line stations.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =head1 DESCRIPTION
 
@@ -82,7 +82,7 @@ London Tube Map Central Line stations.
 
 =item * The station "Liverpool Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
-        | Metropolitan Line.
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =back
 

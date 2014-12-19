@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION = '0.27';
+$Map::Tube::London::Line::HammersmithCity::VERSION = '0.28';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =head1 DESCRIPTION
 
@@ -54,25 +54,30 @@ London Tube Map Hammersmith & City Line stations.
 
 =over 2
 
-=item * The station "Paddington" is also part of  L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
+=item * The station "Paddington" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Edgware Road" is also part of  L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Edgware Road" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "King's Cross St Pancras" is also part of Northern Line | Picadilly Line | Victoria Line.
+=item * The station "King's Cross St Pancras" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
+        | Northern Line
+        | Picadilly Line
+        | Victoria Line.
 
 =item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | Metropolitan Line | Northern Line.
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
+        | Northern Line.
 
-=item * The station "Liverpool Street" is also part of  L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Liverpool Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Central Line|Map::Tube::London::Line::Central>
-        | Metropolitan Line.
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
-        | Metropolitan Line.
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =back
 

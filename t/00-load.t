@@ -2,7 +2,7 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use Test::More tests => 6;
+use Test::More tests => 8;
 
 BEGIN {
     use_ok('Map::Tube::London')                        || print "Bail out!\n";
@@ -11,6 +11,8 @@ BEGIN {
     use_ok('Map::Tube::London::Line::Circle')          || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::District')        || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::HammersmithCity') || print "Bail out!\n";
+    use_ok('Map::Tube::London::Line::Jubilee')         || print "Bail out!\n";
+    use_ok('Map::Tube::London::Line::Metropolitan')    || print "Bail out!\n";
 }
 
 diag( "Testing Map::Tube::London $Map::Tube::London::VERSION, Perl $], $^X" );

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION = '0.27';
+$Map::Tube::London::Line::Jubilee::VERSION = '0.28';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map Jubilee Line stations.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =head1 DESCRIPTION
 
@@ -52,17 +52,18 @@ London Tube Map Jubilee Line stations.
 
 =over 2
 
-=item * The station "Wembley Park" is also part of Metropolitan Line.
+=item * The station "Wembley Park" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Finchley Road" is also part of Metropolitan Line.
+=item * The station "Finchley Road" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =item * The station "Baker Street" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Circle Line|Map::Tube::London::Line::Circle>
-        | Metropolitan Line.
+        | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =item * The station "Waterloo" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
-        | Northern Line | Waterloo & City Line.
+        | Northern Line
+        | Waterloo & City Line.
 
 =item * The station "London Bridge" is also part of Northern Line.
 

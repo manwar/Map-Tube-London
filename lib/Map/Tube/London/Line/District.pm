@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.27';
+$Map::Tube::London::Line::District::VERSION = '0.28';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =head1 DESCRIPTION
 
@@ -118,7 +118,9 @@ London Tube Map District Line stations.
         | Northern Line.
 
 =item * The station "Monument" is also part of L<Central Line|Map::Tube::London::Line::Central>
-        | Nothern Line | Waterloo & City | Dockland Light Railway Line.
+        | Northern Line
+        | Waterloo & City Line
+        | Dockland Light Railway Line.
 
 =back
 
