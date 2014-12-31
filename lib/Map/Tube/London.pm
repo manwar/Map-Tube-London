@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION = '0.28';
+$Map::Tube::London::VERSION = '0.29';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.28
+Version 0.29
 
 =cut
 

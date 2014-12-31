@@ -1,5 +1,14 @@
 Revision history for Map-Tube-London
 
+0.29  Wed Dec 31 12:10:10 2014
+      - Updated link information for station 'Bank'.
+      - Updated link information for station 'Monument'.
+      - Updated link information for station 'Shadwell'.
+      - Updated link information for station 'Victoria'.
+      - Updated unit test to reflect the changes in the xml map data.
+      - Updated package Map::Tube::London::Line::Circle w.r.t. station 'Monument'.
+      - Updated package Map::Tube::London::Line::District w.r.t. station 'Monument'.
+
 0.28  Fri Dec 19 12:40:20 2014
       - Added package to list tube stations for Metropolitan lines.
       - Updated pod document for Map::Tube::London about the above changes.

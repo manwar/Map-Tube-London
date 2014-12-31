@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION = '0.28';
+$Map::Tube::London::Line::Circle::VERSION = '0.29';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.28
+Version 0.29
 
 =head1 DESCRIPTION
 
@@ -39,7 +39,7 @@ London Tube Map Circle Line stations.
     | Liverpool Street        | Moorgate, Aldgate                              |
     | Aldgate                 | Liverpool Street, Tower Hill                   |
     | Tower Hill              | Aldgate, Monument                              |
-    | Monument                | Tower Hill, Cannon Street                      |
+    | Monument                | Tower Hill, Bank, Cannon Street                |
     | Cannon Street           | Monument, Mansion House                        |
     | Mansion House           | Cannon Street, Blackfriars                     |
     | Blackfriars             | Mansion House, Temple                          |

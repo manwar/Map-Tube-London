@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION = '0.28';
+$Map::Tube::London::Line::District::VERSION = '0.29';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.28
+Version 0.29
 
 =head1 DESCRIPTION
 
@@ -58,7 +58,7 @@ London Tube Map District Line stations.
     | Blackfriars             | Temple, Mansion House                         |
     | Mansion House           | Blackfriars, Cannon Street                    |
     | Cannon Street           | Mansion House, Monument                       |
-    | Monument                | Cannon Street, Tower Hill                     |
+    | Monument                | Cannon Street, Bank, Tower Hill               |
     | Tower Hill              | Monument, Aldgate East                        |
     | Aldgate East            | Tower Hill, Whitechapel                       |
     | Whitechapel             | Aldgate East, Stepney Green                   |
