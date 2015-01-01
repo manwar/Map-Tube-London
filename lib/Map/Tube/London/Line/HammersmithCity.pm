@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION = '0.29';
+$Map::Tube::London::Line::HammersmithCity::VERSION = '0.30';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.29
+Version 0.30
 
 =head1 DESCRIPTION
 

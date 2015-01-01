@@ -19,8 +19,8 @@
         <station id="B004" name="Barbican" line="Circle,Hammersmith &amp; City,Metropolitan" link="F002,M011" />
         <station id="B005" name="Barking" line="District,Hammersmith &amp; City,Overground" link="E006,U003,W037" />
         <station id="B006" name="Barkingside" line="Central" link="N004,F001" />
-        <station id="B007" name="Barons Court" line="District,Piccadilly" link="H005,W022" />
-        <station id="B008" name="Bayswater" line="Circle,District" link="N016,E011" />
+        <station id="B007" name="Barons Court" line="District,Piccadilly" link="E003,H005,W022" />
+        <station id="B008" name="Bayswater" line="Circle,District" link="N016,P001" />
         <station id="B009" name="Beckton" line="DLR" link="G001" />
         <station id="B010" name="Beckton Park" line="DLR" link="R009,C034" />
         <station id="B011" name="Becontree" line="District" link="U003,D002" />
@@ -88,7 +88,7 @@
         <station id="D008" name="Dollis Hill" line="Jubilee" link="N001,W030" />
         <station id="E001" name="Ealing Broadway" line="Central,District" link="E002,W014" />
         <station id="E002" name="Ealing Common" line="District,Piccadilly" link="A002,N007,E001" />
-        <station id="E003" name="Earl's Court" line="District" link="S012,K004,H022,W015,G003" />
+        <station id="E003" name="Earl's Court" line="District,Piccadilly" link="B007,K004,H022,W015,G003" />
         <station id="E004" name="East Acton" line="Central" link="W014,W028" />
         <station id="E005" name="East Finchley" line="Northern" link="H024,F003" />
         <station id="E006" name="East Ham" line="District,Hammersmith &amp; City" link="U005,B005" />
@@ -114,7 +114,7 @@
         <station id="F008" name="Fulham Broadway" line="District" link="W015,P003" />
         <station id="G001" name="Gallons Reach" line="DLR" link="C034,B009" />
         <station id="G002" name="Gants Hill" line="Central" link="R003,N004" />
-        <station id="G003" name="Gloucester Road" line="Circle,District" link="S012,H022,E003" />
+        <station id="G003" name="Gloucester Road" line="Circle,District,Piccadilly" link="S012,H022,E003" />
         <station id="G004" name="Goldhawk Road" line="Circle,Hammersmith &amp; City" link="H005,S004" />
         <station id="G005" name="Goodge Street" line="Northern" link="W006,T005" />
         <station id="G006" name="Gospel Oak" line="Overground" link="K006,U004,H007" />
@@ -227,7 +227,7 @@
         <station id="O003" name="Osterley" line="Piccadilly" link="H033,S009" />
         <station id="O004" name="Oval" line="Northern" link="S028,K001" />
         <station id="O005" name="Oxford Circus" line="Central,Victoria,Bakerloo" link="G009,W006,B018,R004,P006,T005" />
-        <station id="P001" name="Paddington" line="Circle,Hammersmith &amp; City,Bakerloo" link="W007,E011,R010" />
+        <station id="P001" name="Paddington" line="Circle,Hammersmith &amp; City,Bakerloo" link="B008,W007,E011,R010" />
         <station id="P002" name="Park Royal" line="Piccadilly" link="N007,A006" />
         <station id="P003" name="Parsons Green" line="District" link="F008,P015" />
         <station id="P004" name="Penge West" line="Overground" link="S035,A008" />
@@ -271,7 +271,7 @@
         <station id="S009" name="South Ealing" line="Piccadilly" link="A002,N011" />
         <station id="S010" name="South Hamstead" line="Overground" link="K010,E017" />
         <station id="S011" name="South Harrow" line="Piccadilly" link="R002,S031" />
-        <station id="S012" name="South Kensington" line="Circle,District" link="E003,S006,G003,K015" />
+        <station id="S012" name="South Kensington" line="Circle,District,Piccadilly" link="S006,G003,K015" />
         <station id="S013" name="South Kenton" line="Overground,Bakerloo" link="K007,N010" />
         <station id="S014" name="South Quay" line="DLR" link="H020,C028" />
         <station id="S015" name="South Ruislip" line="Central" link="R013,N012" />
@@ -314,7 +314,7 @@
         <station id="U005" name="Upton Park" line="Hammersmith &amp; City" link="P009,E006" />
         <station id="U006" name="Uxbridge" line="Metropolitan,Piccadilly" link="H025" />
         <station id="V001" name="Vauxhall" line="Victoria" link="S028,P007" />
-        <station id="V002" name="Victoria" line="Circle,District,Victoria" link="P007,S022,G009,S006" />
+        <station id="V002" name="Victoria" line="Circle,District,Victoria" link="P007,G009,S006,S022" />
         <station id="W001" name="Walthamstow Central" line="Victoria" link="B016" />
         <station id="W002" name="Walthamstow Queen's Road" line="Overground" link="B016,L009" />
         <station id="W003" name="Wanstead" line="Central" link="L010,R003" />

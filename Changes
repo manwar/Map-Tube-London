@@ -1,5 +1,17 @@
 Revision history for Map-Tube-London
 
+0.30  Thu Jan 01 10:25:10 2015
+      - Upgraded to use Map::Tube v2.50 to keep it up to date.
+      - Updated link information for station 'Barons Court'.
+      - Updated link information for station 'Bayswater'.
+      - Updated link information for station 'Earl's Court'.
+      - Updated line information for station 'Earl's Court'.
+      - Updated line information for station 'Gloucester Road'.
+      - Updated link information for station 'Paddington'.
+      - Updated link information for station 'South Kensington'.
+      - Updated line information for station 'South Kensington'.
+      - Updated unit test to respect the changes in the map xml data.
+
 0.29  Wed Dec 31 12:10:10 2014
       - Updated link information for station 'Bank'.
       - Updated link information for station 'Monument'.
