@@ -1,5 +1,12 @@
 Revision history for Map-Tube-London
 
+0.31  Sat Jan 03 11:35:00 2015
+      - Defined $AUTHORITY in each package of the distribution Map-Tube-London.
+      - Added the following files to the MANIFEST.SKIP file
+        - '_eumm/META_new.json'
+        - '_eumm/META_new.yml'
+        - '_eumm/Map-Tube-London.ppd'
+
 0.30  Thu Jan 01 10:25:10 2015
       - Upgraded to use Map::Tube v2.50 to keep it up to date.
       - Updated link information for station 'Barons Court'.

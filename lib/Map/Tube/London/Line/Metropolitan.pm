@@ -1,6 +1,9 @@
 package Map::Tube::London::Line::Metropolitan;
 
-$Map::Tube::London::Line::Metropolitan::VERSION = '0.30';
+$Map::Tube::London::Line::Metropolitan::VERSION   = '0.31';
+$Map::Tube::London::Line::Metropolitan::AUTHORITY = 'cpan:MANWAR';
+
+use strict; use warnings;
 
 =head1 NAME
 
@@ -8,7 +11,7 @@ Map::Tube::London::Line::Metropolitan - London Tube Map Metropolitan Line statio
 
 =head1 VERSION
 
-Version 0.30
+Version 0.31
 
 =head1 DESCRIPTION
 
