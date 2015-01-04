@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.33  Sun Jan 04 03:20:10 2015
+      - Added the missing package Map::Tube::London::Line::District to the 'proovides' list.
+      - Fixed the typo in the package name Map::Tube::London::Line::Jubilee in the 'provides' list.
+
 0.32  Sun Jan 04 01:40:00 2015
       - Upgraded to use Map::Tube v2.57 as it brings in new fix and feature.
       - Updated Makefile.PL to generate the key 'provides' for META file correctly.
