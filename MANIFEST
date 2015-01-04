@@ -9,11 +9,14 @@ lib/Map/Tube/London/Line/Jubilee.pm
 lib/Map/Tube/London/Line/Metropolitan.pm
 share/london-map.xml
 Makefile.PL
+LICENSE
 MANIFEST
 MANIFEST.SKIP
 README
 t/00-load.t
 t/manifest.t
 t/pod.t
+t/meta-yml.t
+t/meta-json.t
 t/test-case-00.t
 t/test-case-01.t
