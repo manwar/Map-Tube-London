@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION   = '0.33';
+$Map::Tube::London::Line::Bakerloo::VERSION   = '0.34';
 $Map::Tube::London::Line::Bakerloo::AUTHORITY = 'cpan:MANWAR';
 
 use strict; use warnings;
@@ -11,7 +11,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.33
+Version 0.34
 
 =head1 DESCRIPTION
 
