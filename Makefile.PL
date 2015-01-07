@@ -24,7 +24,7 @@ WriteMakefile(
         'Moo'              => 0,
         'namespace::clean' => 0,
         'File::Share'      => 0,
-        'Map::Tube'        => '2.57',
+        'Map::Tube'        => '2.61',
         'File::ShareDir::Install' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
@@ -33,21 +33,21 @@ WriteMakefile(
         'meta-spec' => { version => 2 },
         provides    => {
             'Map::Tube::London'
-                => { file => 'lib/Map/Tube/London.pm',                      version => '0.34' },
+                => { file => 'lib/Map/Tube/London.pm',                      version => '0.35' },
             'Map::Tube::London::Line::Bakerloo'
-                => { file => 'lib/Map/Tube/London/Line/Bakerloo.pm',        version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/Bakerloo.pm',        version => '0.35' },
             'Map::Tube::London::Line::Central'
-                => { file => 'lib/Map/Tube/London/Line/Central.pm',         version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/Central.pm',         version => '0.35' },
             'Map::Tube::London::Line::Circle'
-                => { file => 'lib/Map/Tube/London/Line/Circle.pm',          version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/Circle.pm',          version => '0.35' },
             'Map::Tube::London::Line::District'
-                => { file => 'lib/Map/Tube/London/Line/District.pm',        version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/District.pm',        version => '0.35' },
             'Map::Tube::London::Line::HammersmithCity'
-                => { file => 'lib/Map/Tube/London/Line/HammersmithCity.pm', version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/HammersmithCity.pm', version => '0.35' },
             'Map::Tube::London::Line::Jubilee'
-                => { file => 'lib/Map/Tube/London/Line/Jubilee.pm',         version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/Jubilee.pm',         version => '0.35' },
             'Map::Tube::London::Line::Metropolitan'
-                => { file => 'lib/Map/Tube/London/Line/Metropolitan.pm',    version => '0.34' },
+                => { file => 'lib/Map/Tube/London/Line/Metropolitan.pm',    version => '0.35' },
         },
         resources => {
             repository => {

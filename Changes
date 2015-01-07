@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.35  Wed Jan 07 17:45:20 2015
+      - Upgraded to use Map::Tube v2.61 as it brings in new fix and feature.
+      - Tidied up the test scripts meta-yml.t and meta-json.t.
+
 0.34  Tue Jan 06 17:00:00 2015
       - Tidied up the MANIFEST.SKIP file.
 
