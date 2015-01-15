@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Metropolitan;
 
-$Map::Tube::London::Line::Metropolitan::VERSION   = '0.36';
+$Map::Tube::London::Line::Metropolitan::VERSION   = '0.37';
 $Map::Tube::London::Line::Metropolitan::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,52 +12,52 @@ Map::Tube::London::Line::Metropolitan - London Tube Map Metropolitan Line statio
 
 =head1 VERSION
 
-Version 0.36
+Version 0.37
 
 =head1 DESCRIPTION
 
 London Tube Map Metropolitan Line stations.
 
-    +--------------------------+------------------------------------------------+
-    |                          |                                                |
-    | Station Name             | Connected To                                   |
-    |                          |                                                |
-    +--------------------------+------------------------------------------------+
-    | Aldgate                  | Liverpool Street                               |
-    | Liverpool Street         | Aldgate, Moorgate                              |
-    | Moorgate                 | Liverpool Street, Barbican                     |
-    | Barbican                 | Moorgate, Farringdon                           |
-    | Farringdon               | Barbican, King's Cross St Pancras              |
-    | King's Cross St Pancras  | Farringdon, Euston Square                      |
-    | Euston Square            | King's Cross St Pancras, Great Portland Street |
-    | Great Portland Street    | Euston Square, Baker Street                    |
-    | Baker Street             | Great Portland Street, Finchley Road           |
-    | Finchley Road            | Baker Street, Wembley Park                     |
-    | Wembley Park             | Finchley Road, Preston Road                    |
-    | Preston Road             | Wembley Park, Northwick Park                   |
-    | Northwick Park           | Preston Road, Harrow-on-the-Hill               |
-    | Harrow-on-the-Hill       | Norhtwick Park, West Harrow                    |
-    | West Harrow              | Harrow-on-the-Hill, Rayners Lane               |
-    | Rayners Lane             | West Harrow, Eastcote                          |
-    | Eastcote                 | Rayners Lane, Ruislip Manor                    |
-    | Ruislip Manor            | Eastcode, Ruislip                              |
-    | Ruislip                  | Ruislip Manor, Ickenham                        |
-    | Ickenham                 | Ruislip, Hillingdon                            |
-    | Hillingdon               | Ickenham, Uxbridge                             |
-    | Uxbridge                 | Hillingdon, North Harrow                       |
-    | North Harrow             | Uxbridge, Pinner                               |
-    | Pinner                   | North Harrow, Northwood Hills                  |
-    | Northwood Hills          | Pinner, Northwood                              |
-    | Northwood                | Northwood Hills, Moor Park                     |
-    | Moor Park                | Northwood, Croxley                             |
-    | Croxley                  | Moor Park, Watford                             |
-    | Watford                  | Croxley, Rickmansworth                         |
-    | Rickmansworth            | Watford, Chorleywood                           |
-    | Chorleywood              | Rickmansworth, Chalfont & Latimer              |
-    | Chalfont & Latimer       | Chorleywood, Chesham                           |
-    | Chesham                  | Chalfont & Latimer, Amersham                   |
-    | Amersham                 | Chesham                                        |
-    +--------------------------+------------------------------------------------+
+    +--------------------------+-------------------------------------------------+
+    |                          |                                                 |
+    | Station Name             | Connected To                                    |
+    |                          |                                                 |
+    +--------------------------+-------------------------------------------------+
+    | Aldgate                  | Liverpool Street                                |
+    | Liverpool Street         | Aldgate, Moorgate                               |
+    | Moorgate                 | Liverpool Street, Barbican                      |
+    | Barbican                 | Moorgate, Farringdon                            |
+    | Farringdon               | Barbican, King's Cross St. Pancras              |
+    | King's Cross St. Pancras | Farringdon, Euston Square                       |
+    | Euston Square            | King's Cross St. Pancras, Great Portland Street |
+    | Great Portland Street    | Euston Square, Baker Street                     |
+    | Baker Street             | Great Portland Street, Finchley Road            |
+    | Finchley Road            | Baker Street, Wembley Park                      |
+    | Wembley Park             | Finchley Road, Preston Road                     |
+    | Preston Road             | Wembley Park, Northwick Park                    |
+    | Northwick Park           | Preston Road, Harrow-on-the-Hill                |
+    | Harrow-on-the-Hill       | Norhtwick Park, West Harrow                     |
+    | West Harrow              | Harrow-on-the-Hill, Rayners Lane                |
+    | Rayners Lane             | West Harrow, Eastcote                           |
+    | Eastcote                 | Rayners Lane, Ruislip Manor                     |
+    | Ruislip Manor            | Eastcode, Ruislip                               |
+    | Ruislip                  | Ruislip Manor, Ickenham                         |
+    | Ickenham                 | Ruislip, Hillingdon                             |
+    | Hillingdon               | Ickenham, Uxbridge                              |
+    | Uxbridge                 | Hillingdon, North Harrow                        |
+    | North Harrow             | Uxbridge, Pinner                                |
+    | Pinner                   | North Harrow, Northwood Hills                   |
+    | Northwood Hills          | Pinner, Northwood                               |
+    | Northwood                | Northwood Hills, Moor Park                      |
+    | Moor Park                | Northwood, Croxley                              |
+    | Croxley                  | Moor Park, Watford                              |
+    | Watford                  | Croxley, Rickmansworth                          |
+    | Rickmansworth            | Watford, Chorleywood                            |
+    | Chorleywood              | Rickmansworth, Chalfont & Latimer               |
+    | Chalfont & Latimer       | Chorleywood, Chesham                            |
+    | Chesham                  | Chalfont & Latimer, Amersham                    |
+    | Amersham                 | Chesham                                         |
+    +--------------------------+-------------------------------------------------+
 
 =head1 NOTE
 

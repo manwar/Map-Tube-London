@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION   = '0.36';
+$Map::Tube::London::Line::Circle::VERSION   = '0.37';
 $Map::Tube::London::Line::Circle::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,53 +12,53 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.36
+Version 0.37
 
 =head1 DESCRIPTION
 
 London Tube Map Circle Line stations.
 
-    +--------------------------------------------------------------------------+
-    |                         |                                                |
-    | Station Name            | Connected To                                   |
-    |                         |                                                |
-    +-------------------------+------------------------------------------------+
-    | Hammersmith             | Goldhawk Road                                  |
-    | Goldhawk Road           | Hammersmith, Shepherd's Bush Market            |
-    | Shepherd's Bush Market  | Goldhawk Road, Wood Lane                       |
-    | Wood Lane               | Shepherd's Bush Market, Latimer Road           |
-    | Latimer Road            | Wood Lane, Ladbroke Grove                      |
-    | Ladbroke Grove          | Latimer Road, Westbourne Park                  |
-    | Westbourne Park         | Ladbroke Grove, Royal Oak                      |
-    | Royal Oak               | Westbourne Park, Paddington                    |
-    | Paddington              | Royal Oak, Edgware Road                        |
-    | Edgware Road            | Paddington, Baker Street                       |
-    | Baker Street            | Edgware Road, Great Portland Street            |
-    | Great Portland Street   | Baker Street, Euston Square                    |
-    | Euston Square           | Great Portland Street, King's Cross St Pancras |
-    | King's Cross St Pancras | Euston Square, Farringdon                      |
-    | Farringdon              | King's Cross St Pancras, Barbican              |
-    | Barbican                | Farringdon, Moorgate                           |
-    | Moorgate                | Barbican, Liverpool Street                     |
-    | Liverpool Street        | Moorgate, Aldgate                              |
-    | Aldgate                 | Liverpool Street, Tower Hill                   |
-    | Tower Hill              | Aldgate, Monument                              |
-    | Monument                | Tower Hill, Bank, Cannon Street                |
-    | Cannon Street           | Monument, Mansion House                        |
-    | Mansion House           | Cannon Street, Blackfriars                     |
-    | Blackfriars             | Mansion House, Temple                          |
-    | Temple                  | Blackfriars, Embankment                        |
-    | Embankment              | Temple, Westminster                            |
-    | Westminster             | Embankment, St Jame's Park                     |
-    | St James's Park         | Westminster, Victoria                          |
-    | Victoria                | St. James Park, Sloane Square                  |
-    | Sloane Square           | Victoria, South Kensington                     |
-    | South Kensington        | Sloane Square, Gloucester Road                 |
-    | Gloucester Road         | South Kensington, High Street Kensington       |
-    | High Street Kensington  | Gloucester Road, Notting Hill Gate             |
-    | Notting Hill Gate       | High Street Kensington, Bayswater              |
-    | Bayswater               | Notting Hill Gate                              |
-    +-------------------------+------------------------------------------------+
+    +----------------------------------------------------------------------------+
+    |                          |                                                 |
+    | Station Name             | Connected To                                    |
+    |                          |                                                 |
+    +--------------------------+-------------------------------------------------+
+    | Hammersmith              | Goldhawk Road                                   |
+    | Goldhawk Road            | Hammersmith, Shepherd's Bush Market             |
+    | Shepherd's Bush Market   | Goldhawk Road, Wood Lane                        |
+    | Wood Lane                | Shepherd's Bush Market, Latimer Road            |
+    | Latimer Road             | Wood Lane, Ladbroke Grove                       |
+    | Ladbroke Grove           | Latimer Road, Westbourne Park                   |
+    | Westbourne Park          | Ladbroke Grove, Royal Oak                       |
+    | Royal Oak                | Westbourne Park, Paddington                     |
+    | Paddington               | Royal Oak, Edgware Road                         |
+    | Edgware Road             | Paddington, Baker Street                        |
+    | Baker Street             | Edgware Road, Great Portland Street             |
+    | Great Portland Street    | Baker Street, Euston Square                     |
+    | Euston Square            | Great Portland Street, King's Cross St. Pancras |
+    | King's Cross St. Pancras | Euston Square, Farringdon                       |
+    | Farringdon               | King's Cross St. Pancras, Barbican              |
+    | Barbican                 | Farringdon, Moorgate                            |
+    | Moorgate                 | Barbican, Liverpool Street                      |
+    | Liverpool Street         | Moorgate, Aldgate                               |
+    | Aldgate                  | Liverpool Street, Tower Hill                    |
+    | Tower Hill               | Aldgate, Monument                               |
+    | Monument                 | Tower Hill, Bank, Cannon Street                 |
+    | Cannon Street            | Monument, Mansion House                         |
+    | Mansion House            | Cannon Street, Blackfriars                      |
+    | Blackfriars              | Mansion House, Temple                           |
+    | Temple                   | Blackfriars, Embankment                         |
+    | Embankment               | Temple, Westminster                             |
+    | Westminster              | Embankment, St Jame's Park                      |
+    | St James's Park          | Westminster, Victoria                           |
+    | Victoria                 | St. James Park, Sloane Square                   |
+    | Sloane Square            | Victoria, South Kensington                      |
+    | South Kensington         | Sloane Square, Gloucester Road                  |
+    | Gloucester Road          | South Kensington, High Street Kensington        |
+    | High Street Kensington   | Gloucester Road, Notting Hill Gate              |
+    | Notting Hill Gate        | High Street Kensington, Bayswater               |
+    | Bayswater                | Notting Hill Gate                               |
+    +--------------------------+-------------------------------------------------+
 
 =head1 NOTE
 

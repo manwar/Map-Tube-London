@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.36';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.37';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,47 +12,47 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.36
+Version 0.37
 
 =head1 DESCRIPTION
 
 London Tube Map Hammersmith & City Line stations.
 
-    +--------------------------+------------------------------------------------+
-    |                          |                                                |
-    | Station Name             | Connected To                                   |
-    |                          |                                                |
-    +--------------------------+------------------------------------------------+
-    | Hammersmith              | Goldhawk Road                                  |
-    | Goldhawk Road            | Hammersmith, Shepherd's Bush Market            |
-    | Shepherd's Bush Market   | Goldhawk Road, Wood Lane                       |
-    | Wood Lane                | Shepherd's Bush Market, Latimer Road           |
-    | Latimer Road             | Wood Lane, Ladbroke Grove                      |
-    | Ladbroke Grove           | Latimer Road, Westbourne Park                  |
-    | Westbourne Park          | Ladbroke Grove, Royal Oak                      |
-    | Royal Oak                | Westbourne Park, Paddington                    |
-    | Paddington               | Royal Oak, Edgware Road                        |
-    | Edgware Road             | Paddington, Baker Street                       |
-    | Baker Street             | Edgware Road, Great Portland Street            |
-    | Great Portland Street    | Baker Street, Euston Square                    |
-    | Euston Square            | Great Portland Street, King's Cross St Pancras |
-    | King's Cross St Pancras  | Euston Square, Farringdon                      |
-    | Farringdon               | King's Cross St Pancras, Barbican              |
-    | Barbican                 | Farringdon, Moorgate                           |
-    | Moorgate                 | Barbican, Liverpool Street                     |
-    | Liverpool Street         | Moorgate, Aldgate East                         |
-    | Aldgate East             | Liverpool Street, Whitechapel                  |
-    | Whitechapel              | Aldgate East, Stepney Green                    |
-    | Stepney Green            | Whitechapel, Mile End                          |
-    | Mile End                 | Stepney Green, Bow Road                        |
-    | Bow Road                 | Mile End, Bromley-by-Bow                       |
-    | Bromley-by-Bow           | Bow Road, West Ham                             |
-    | West Ham                 | Bromley-by-Bow, Plaistow                       |
-    | Plaistow                 | West Ham, Upton Park                           |
-    | Upton Park               | Plaistow, East Ham                             |
-    | East Ham                 | Upton Park, Barking                            |
-    | Barking                  | East Ham                                       |
-    +--------------------------+------------------------------------------------+
+    +--------------------------+-------------------------------------------------+
+    |                          |                                                 |
+    | Station Name             | Connected To                                    |
+    |                          |                                                 |
+    +--------------------------+-------------------------------------------------+
+    | Hammersmith              | Goldhawk Road                                   |
+    | Goldhawk Road            | Hammersmith, Shepherd's Bush Market             |
+    | Shepherd's Bush Market   | Goldhawk Road, Wood Lane                        |
+    | Wood Lane                | Shepherd's Bush Market, Latimer Road            |
+    | Latimer Road             | Wood Lane, Ladbroke Grove                       |
+    | Ladbroke Grove           | Latimer Road, Westbourne Park                   |
+    | Westbourne Park          | Ladbroke Grove, Royal Oak                       |
+    | Royal Oak                | Westbourne Park, Paddington                     |
+    | Paddington               | Royal Oak, Edgware Road                         |
+    | Edgware Road             | Paddington, Baker Street                        |
+    | Baker Street             | Edgware Road, Great Portland Street             |
+    | Great Portland Street    | Baker Street, Euston Square                     |
+    | Euston Square            | Great Portland Street, King's Cross St. Pancras |
+    | King's Cross St. Pancras | Euston Square, Farringdon                       |
+    | Farringdon               | King's Cross St. Pancras, Barbican              |
+    | Barbican                 | Farringdon, Moorgate                            |
+    | Moorgate                 | Barbican, Liverpool Street                      |
+    | Liverpool Street         | Moorgate, Aldgate East                          |
+    | Aldgate East             | Liverpool Street, Whitechapel                   |
+    | Whitechapel              | Aldgate East, Stepney Green                     |
+    | Stepney Green            | Whitechapel, Mile End                           |
+    | Mile End                 | Stepney Green, Bow Road                         |
+    | Bow Road                 | Mile End, Bromley-by-Bow                        |
+    | Bromley-by-Bow           | Bow Road, West Ham                              |
+    | West Ham                 | Bromley-by-Bow, Plaistow                        |
+    | Plaistow                 | West Ham, Upton Park                            |
+    | Upton Park               | Plaistow, East Ham                              |
+    | East Ham                 | Upton Park, Barking                             |
+    | Barking                  | East Ham                                        |
+    +--------------------------+-------------------------------------------------+
 
 =head1 NOTE
 

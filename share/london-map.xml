@@ -135,7 +135,7 @@
         <station id="H009" name="Haringay Green Lanes" line="Overground" link="C029,S016" />
         <station id="H010" name="Harlesden" line="Overground,Bakerloo" link="S029,W031" />
         <station id="H011" name="Harrow &amp; Wealdstone" line="Overground,Bakerloo" link="K007" />
-        <station id="H012" name="Harrow-on-the-Hill" line="Metropolitan" link="N005,W013,W020,N009,U006,M010,F004" />
+        <station id="H012" name="Harrow-on-the-Hill" line="Metropolitan" link="N005,W013,W020,N009,M010,F004" />
         <station id="H013" name="Hatch End" line="Overground" link="H015,C011" />
         <station id="H014" name="Hatton Cross" line="Piccadilly" link="H017" />
         <station id="H015" name="Headstone Lane" line="Overground" link="H011,H013" />
@@ -210,7 +210,7 @@
         <station id="N002" name="New Cross" line="Overground" link="S033" />
         <station id="N003" name="New Cross Gate" line="Overground" link="B026,S033" />
         <station id="N004" name="Newbury Park" line="Central" link="G002,B006" />
-        <station id="N005" name="Norhtwick Park" line="Metropolitan" link="P012,H012" />
+        <station id="N005" name="Northwick Park" line="Metropolitan" link="P012,H012" />
         <station id="N006" name="North Acton" line="Central" link="H008,W014,E004" />
         <station id="N007" name="North Ealing" line="Piccadilly" link="E002,P002" />
         <station id="N008" name="North Greenwich" line="Jubilee" link="C006,C007" />
@@ -246,7 +246,7 @@
         <station id="Q002" name="Queensbury" line="Jubilee" link="C010,K014" />
         <station id="Q003" name="Queensway" line="Central" link="N016,L003" />
         <station id="R001" name="Ravenscourt Park" line="District" link="H005,S025" />
-        <station id="R002" name="Rayners Lane" line="Piccadilly" link="W020,E009,S011" />
+        <station id="R002" name="Rayners Lane" line="Piccadilly,Metropolitan" link="W020,E009,S011" />
         <station id="R003" name="Redbridge" line="Central" link="W003,G002" />
         <station id="R004" name="Regent's Park" line="Bakerloo" link="B001,O005" />
         <station id="R005" name="Richmond" line="District,Overground" link="K008" />
@@ -332,7 +332,7 @@
         <station id="W015" name="West Brompton" line="District,Overground" link="E003,F008,K004" />
         <station id="W016" name="West Croydon" line="Overground" link="N015" />
         <station id="W017" name="West Finchley" line="Northern" link="F003,W038" />
-        <station id="W018" name="West Ham" line="District,Hammersmith &amp; City" link="C007,S030,B027,P009" />
+        <station id="W018" name="West Ham" line="Jubilee,District,Hammersmith &amp; City" link="C007,S030,B027,P009" />
         <station id="W019" name="West Hampstead" line="Jubilee" link="K009,F004" />
         <station id="W020" name="West Harrow" line="Metropolitan" link="H012,R002" />
         <station id="W021" name="West India Quay" line="DLR" link="P011,C006,W026" />
