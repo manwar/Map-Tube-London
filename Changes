@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.40  Mon Jan 19 11:35:00 2015
+      - Fixed the code in the pod document about method as_image().
+
 0.39  Sun Jan 18 23:50:00 2015
       - Upgraded to use Map::Tube v2.64 to bring in the graph pluggin support.
       - Added tube name to the xml data.

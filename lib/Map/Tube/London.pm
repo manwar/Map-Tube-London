@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.39';
+$Map::Tube::London::VERSION   = '0.40';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.39
+Version 0.40
 
 =cut
 
@@ -115,9 +115,9 @@ to be installed.
 
     my $tube = Map::Tube::London->new;
     my $line = 'Jubilee';
-    open(GRAPH, ">${line}.png");
-    print GRAPH decode_base64($map->as_image($line));
-    close(GRAPH);
+    open(my $IMAGE, ">$line.png");
+    print $IMAGE decode_base64($tube->as_image($line));
+    close($IMAGE);
 
 =head1 AUTHOR
 
