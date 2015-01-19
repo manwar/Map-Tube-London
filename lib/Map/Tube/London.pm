@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.38';
+$Map::Tube::London::VERSION   = '0.39';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.38
+Version 0.39
 
 =cut
 
@@ -20,9 +20,30 @@ use File::Share ':all';
 use Moo;
 use namespace::clean;
 
-has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.xml') });
-
+has xml  => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.xml') });
+has skip => (is => 'ro', default => sub { _skip(); });
 with 'Map::Tube';
+
+sub _skip {
+
+    return {
+        'Jubilee' => {
+            'Baker Street'  => { 'Finchley Road' => 1 },
+            'Finchley Road' => { 'Wembley Park'  => 1 },
+        },
+        'Bakerloo' => {
+            'Edgware Road'  => { 'Baker Street'  => 1 },
+        },
+        'Circle' => {
+            'Wood Lane'  => { 'White City'  => 1 },
+        },
+        'District' => {
+            "Earl's Court" => { 'Barons Court'  => 1 },
+            'Hammersmith'  => { 'Turnham Green' => 1 },
+            'Acton Town'   => { 'Turnham Green' => 1 },
+        },
+    };
+}
 
 =head1 DESCRIPTION
 
@@ -82,6 +103,21 @@ On error it returns an object of type L<Map::Tube::Exception>.
     my $route = $tube->get_shortest_route('Baker Street', 'Farringdon');
 
     print "Route: $route\n";;
+
+=head2 as_image($line_name)
+
+Returns line image as base64 encoded string. It expects the plugin L<Map::Tube::Plugin::Graph>
+to be installed.
+
+    use strict; use warnings;
+    use MIME::Base64;
+    use Map::Tube::London;
+
+    my $tube = Map::Tube::London->new;
+    my $line = 'Jubilee';
+    open(GRAPH, ">${line}.png");
+    print GRAPH decode_base64($map->as_image($line));
+    close(GRAPH);
 
 =head1 AUTHOR
 

@@ -1,5 +1,27 @@
 Revision history for Map-Tube-London
 
+0.39  Sun Jan 18 23:50:00 2015
+      - Upgraded to use Map::Tube v2.64 to bring in the graph pluggin support.
+      - Added tube name to the xml data.
+      - Added new optional attribute 'skip' to the package Map::Tube::London.
+      - Fixed the link information for the following stations:
+        - Aldgate East
+        - Buckhurst Hill
+        - Earl's Court
+        - High Street Kensington
+        - Holborn
+        - Kensington (Olympia)
+        - Latimer Road
+        - Oxford Circus
+        - Tottenham Court Road
+        - West Brompton
+        - White City
+        - West Brompton
+        - Wood Lane
+      - Fixed the line information for the following stations:
+        - Paddington
+        - Upton Park
+
 0.38  Thu Jan 15 17:40:20 2015
       - Updated the link for the station 'Westminster'.
 
