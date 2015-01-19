@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.40';
+$Map::Tube::London::VERSION   = '0.41';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.40
+Version 0.41
 
 =cut
 
@@ -27,20 +27,20 @@ with 'Map::Tube';
 sub _skip {
 
     return {
-        'Jubilee' => {
+        'Jubilee'  => {
             'Baker Street'  => { 'Finchley Road' => 1 },
             'Finchley Road' => { 'Wembley Park'  => 1 },
         },
         'Bakerloo' => {
             'Edgware Road'  => { 'Baker Street'  => 1 },
         },
-        'Circle' => {
-            'Wood Lane'  => { 'White City'  => 1 },
+        'Circle'   => {
+            'Wood Lane'     => { 'White City'    => 1 },
         },
         'District' => {
-            "Earl's Court" => { 'Barons Court'  => 1 },
-            'Hammersmith'  => { 'Turnham Green' => 1 },
-            'Acton Town'   => { 'Turnham Green' => 1 },
+            "Earl's Court"  => { 'Barons Court'  => 1 },
+            'Hammersmith'   => { 'Turnham Green' => 1 },
+            'Acton Town'    => { 'Turnham Green' => 1 },
         },
     };
 }

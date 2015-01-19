@@ -342,7 +342,7 @@
         <station id="W025" name="Westbourne Park" line="Circle,Hammersmith &amp; City" link="L001,R010" />
         <station id="W026" name="Westferry" line="DLR" link="P011,L011" />
         <station id="W027" name="Westminster" line="Circle,District,Jubilee" link="S022,G009,W008,E015" />
-        <station id="W028" name="White City" line="Central" link="E004,S003,W035,S003" />
+        <station id="W028" name="White City" line="Central" link="E004,S003,W035" />
         <station id="W029" name="Whitechapel" line="District,Hammersmith &amp; City,Overground" link="A004,S027,S002,S005" />
         <station id="W030" name="Willesden Green" line="Jubilee" link="D008,K009" />
         <station id="W031" name="Willesdon Junction" line="Overground,Bakerloo" link="H010,K002,K003,A001,S003" />
