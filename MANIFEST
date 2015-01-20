@@ -7,6 +7,13 @@ lib/Map/Tube/London/Line/District.pm
 lib/Map/Tube/London/Line/HammersmithCity.pm
 lib/Map/Tube/London/Line/Jubilee.pm
 lib/Map/Tube/London/Line/Metropolitan.pm
+maps/Bakerloo.png
+maps/Central.png
+maps/Circle.png
+maps/District.png
+maps/HammersmithCity.png
+maps/Jubilee.png
+maps/Metropolitan.png
 share/london-map.xml
 Makefile.PL
 LICENSE
