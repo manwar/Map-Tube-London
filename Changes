@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.42  Tue Jan 20 00:30:00 2015
+      - Upgraded to use Map::Tube v2.66 to bring better plugin handler.
+
 0.41  Mon Jan 19 16:25:00 2015
       - Upgraded to use Map::Tube v2.65 to bring in the map data validation feature.
       - Updated the link information for the station 'White City'.
