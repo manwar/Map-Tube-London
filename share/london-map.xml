@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tube name="London Metro">
+<tube name="London Tube">
     <stations>
         <station id="A001" name="Acton Central" line="Overground" link="W031,S008" />
         <station id="A002" name="Acton Town" line="District,Piccadilly" link="C018,E002,S009,T011" />

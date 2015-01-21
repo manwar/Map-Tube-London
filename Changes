@@ -1,5 +1,12 @@
 Revision history for Map-Tube-London
 
+0.45  Wed Jan 21 20:45:00 2015
+      - Upgraded to use Map::Tube v2.69.
+      - Updated map name in the xml data.
+      - Updated tube map images.
+      - Updated pod document of District and Jubilee Line regarding map height and width.
+      - Updated MANIFEST.SKIP file to exclude maps from the distribution.
+
 0.44  Tue Jan 20 40:30:00 2015
       - Upgraded to use Map::Tube v2.68.
       - Updated section "MAP" in the pod document of all packages Map::Tube::London::Line::*.
