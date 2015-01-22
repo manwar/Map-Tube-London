@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION   = '0.45';
+$Map::Tube::London::Line::Bakerloo::VERSION   = '0.46';
 $Map::Tube::London::Line::Bakerloo::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
 
 =head1 VERSION
 
-Version 0.45
+Version 0.46
 
 =head1 DESCRIPTION
 
@@ -37,9 +37,9 @@ London Tube Map Bakerloo Line stations.
     | Maida Vale            | Kilburn Park, Warwick Avenue         |
     | Warwick Avenue        | Maida Vale, Paddington               |
     | Paddington            | Warwick Avenue, Edgware Road         |
-    | Edgware Road          | Paddington, Marleybone               |
+    | Edgware Road          | Paddington, Marylebone               |
     | Marylebone            | Edgware Road, Baker Street           |
-    | Baker Street          | Marleybone, Regent's Park            |
+    | Baker Street          | Marylebone, Regent's Park            |
     | Regent's Park         | Baker Street, Oxford Circus          |
     | Oxford Circus         | Regent's Park, Picadilly Circus      |
     | Piccadilly Circus     | Oxford Circus, Charing Cross         |
