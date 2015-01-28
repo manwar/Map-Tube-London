@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.47  Wed Jan 28 15:25:00 2015
+      - Upgraded to use Map::Tube v2.77.
+      - Added package to list tube stations for Northern lines.
+
 0.46  Thu Jan 22 16:45:00 2015
       - Patched RT: 101669 (Gisbert W. Selke)
       - Upgraded to use Map::Tube v2.70.

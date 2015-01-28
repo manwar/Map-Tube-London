@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION   = '0.46';
+$Map::Tube::London::Line::Circle::VERSION   = '0.47';
 $Map::Tube::London::Line::Circle::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.46
+Version 0.47
 
 =head1 DESCRIPTION
 
@@ -84,7 +84,7 @@ London Tube Map Circle Line stations.
 
 =item * The station "King's Cross St Pancras" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
-        | Northern Line
+        | L<Northern Line|Map::Tube::London::Line::Northern>
         | Picadilly Line
         | Victoria Line.
 

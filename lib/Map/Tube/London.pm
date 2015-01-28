@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.46';
+$Map::Tube::London::VERSION   = '0.47';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.46
+Version 0.47
 
 =cut
 
@@ -68,7 +68,7 @@ given nodes. It covers the following tube lines:
 
 =item * L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
 
-=item * Northern Line
+=item * L<Northern Line|Map::Tube::London::Line::Northern>
 
 =item * London Overground Line
 

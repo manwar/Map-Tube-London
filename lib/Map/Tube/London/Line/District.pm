@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.46';
+$Map::Tube::London::Line::District::VERSION   = '0.47';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.46
+Version 0.47
 
 =head1 DESCRIPTION
 
@@ -119,10 +119,10 @@ London Tube Map District Line stations.
         | Picadilly Line.
 
 =item * The station "Embankment" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
-        | Northern Line.
+        | L<Northern Line|Map::Tube::London::Line::Northern>.
 
 =item * The station "Monument" is also part of L<Central Line|Map::Tube::London::Line::Central>
-        | Northern Line
+        | L<Northern Line|Map::Tube::London::Line::Northern>
         | Waterloo & City Line
         | Dockland Light Railway Line.
 
