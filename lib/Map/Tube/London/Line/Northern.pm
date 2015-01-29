@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.47';
+$Map::Tube::London::Line::Northern::VERSION   = '0.48';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map Northern Line stations.
 
 =head1 VERSION
 
-Version 0.47
+Version 0.48
 
 =head1 DESCRIPTION
 
@@ -54,7 +54,7 @@ London Tube Map Northern Line stations.
     | Hampstead                | Golders Green, Belsize Park           |
     | Belsize Park             | Hampstead, Chalk Farm                 |
     | Chalk Farm               | Belsize Park                          |
-    +-----------------------  -+---------------------------------------+
+    +--------------------------+---------------------------------------+
 
 =head2 Charing Cross Branch
 

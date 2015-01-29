@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="London Tube">
     <lines>
-        <line id="Bakerloo"               name="Bakerloo"               color="brown"      />
-        <line id="Central"                name="Central"                color="red"        />
-        <line id="Circle"                 name="Circle"                 color="yellow"     />
-        <line id="District"               name="District"               color="green"      />
-        <line id="DLR"                    name="DLR"                    color="turquoise"  />
-        <line id="Hammersmith &amp; City" name="Hammersmith &amp; City" color="pink"       />
-        <line id="Jubilee"                name="Jubilee"                color="grey"       />
-        <line id="Metropolitan"           name="Metropolitan"           color="magenta"    />
-        <line id="Northern"               name="Northern"               color="black"      />
-        <line id="Overground"             name="Overground"             color="orange"     />
-        <line id="Picadilly"              name="Picadilly"              color="blue"       />
-        <line id="Victoria"               name="Victoria"               color="light blue" />
-        <line id="Waterloo &amp; City"    name="Waterloo &amp; City"    color="turquoise"  />
+        <line id="Bakerloo"               name="Bakerloo"               color="#A52A2A" />
+        <line id="Central"                name="Central"                color="#FF0000" />
+        <line id="Circle"                 name="Circle"                 color="#FFFF00" />
+        <line id="District"               name="District"               color="#00FF00" />
+        <line id="DLR"                    name="DLR"                    color="#40E0D0" />
+        <line id="Hammersmith &amp; City" name="Hammersmith &amp; City" color="#FFC0CB" />
+        <line id="Jubilee"                name="Jubilee"                color="#BEBEBE" />
+        <line id="Metropolitan"           name="Metropolitan"           color="#FF00FF" />
+        <line id="Northern"               name="Northern"               color="#000000" />
+        <line id="Overground"             name="Overground"             color="#FFA500" />
+        <line id="Picadilly"              name="Picadilly"              color="#0000FF" />
+        <line id="Victoria"               name="Victoria"               color="#ADD8E6" />
+        <line id="Waterloo &amp; City"    name="Waterloo &amp; City"    color="#40E0D0" />
     </lines>
 
     <stations>
@@ -315,7 +315,7 @@
         <station id="T002" name="Theydon Bois"                      line="Central"                                                        link="D005,E016"                          />
         <station id="T003" name="Tooting Bec"                       line="Northern"                                                       link="B002,T004"                          />
         <station id="T004" name="Tooting Broadway"                  line="Northern"                                                       link="T003,C025"                          />
-        <station id="T005" name="Tottenham Court Road"              line="Central,Northern"                                               link="G005,L006"                          />
+        <station id="T005" name="Tottenham Court Road"              line="Northern"                                                       link="G005,L006"                          />
         <station id="T006" name="Tottenham Hale"                    line="Victoria"                                                       link="S001,B016"                          />
         <station id="T007" name="Totteridge &amp; Whetstone"        line="Northern"                                                       link="W038,H021"                          />
         <station id="T008" name="Tower Gateway"                     line="DLR"                                                            link="S002"                               />

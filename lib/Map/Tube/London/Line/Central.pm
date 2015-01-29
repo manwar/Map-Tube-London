@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.47';
+$Map::Tube::London::Line::Central::VERSION   = '0.48';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Central - London Tube Map Central Line stations.
 
 =head1 VERSION
 
-Version 0.47
+Version 0.48
 
 =head1 DESCRIPTION
 
