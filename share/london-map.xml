@@ -118,7 +118,7 @@
         <station id="E014" name="Elverson Road"                     line="DLR"                                                            link="D006,L007"                          />
         <station id="E015" name="Embankment"                        line="Circle,District,Northern,Bakerloo"                              link="C015,W008,T001,W027"                />
         <station id="E016" name="Epping"                            line="Central"                                                        link="T002"                               />
-        <station id="E017" name="Euston"                            line="Northern,Overground,Victoria"                                   link="W006,M008,K013,S010"                />
+        <station id="E017" name="Euston"                            line="Northern,Overground,Victoria"                                   link="C004,W006,M008,K013,S010"           />
         <station id="E018" name="Euston Square"                     line="Circle,Hammersmith &amp; City,Metropolitan"                     link="G008,K013"                          />
         <station id="F001" name="Fairlop"                           line="Central"                                                        link="B006,H004"                          />
         <station id="F002" name="Farringdon"                        line="Circle,Hammersmith &amp; City,Metropolitan"                     link="K013,B004"                          />
