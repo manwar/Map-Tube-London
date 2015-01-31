@@ -1,5 +1,11 @@
 Revision history for Map-Tube-London
 
+0.50  Sat Jan 31 11:20:00 2015
+      - Updated line informations for the stations 'Elephant & Castle' and 'King's Cross St. Pancras'.
+      - Updated link informations for the stations 'Stockwell' and 'Waterloo'.
+      - Updated section "MAP" of the pod document.
+      - Updated Northern line tube map.
+
 0.49  Fri Jan 30 23:20:00 2015
       - Updated link informations for the station 'Euston' in the xml data.
       - Updated Northern line tube map.

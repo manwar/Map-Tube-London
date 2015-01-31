@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.49';
+$Map::Tube::London::VERSION   = '0.50';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.49
+Version 0.50
 
 =cut
 
@@ -41,6 +41,9 @@ sub _skip {
             "Earl's Court"  => { 'Barons Court'  => 1 },
             'Hammersmith'   => { 'Turnham Green' => 1 },
             'Acton Town'    => { 'Turnham Green' => 1 },
+        },
+        'Northern' => {
+            'Waterloo'      => { 'Bank'          => 1 },
         },
     };
 }
