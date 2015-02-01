@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.50';
+$Map::Tube::London::Line::District::VERSION   = '0.51';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::District - London Tube Map District Line stations.
 
 =head1 VERSION
 
-Version 0.50
+Version 0.51
 
 =head1 DESCRIPTION
 
@@ -98,7 +98,7 @@ London Tube Map District Line stations.
 
 =item * The station "South Kensington" is also part of Picadilly Line.
 
-=item * The station "Victoria" is also part of Victoria Line.
+=item * The station "Victoria" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Whitechapel" is also part of London Overground Line.
 

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.50';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.51';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map Hammersmith & City Li
 
 =head1 VERSION
 
-Version 0.50
+Version 0.51
 
 =head1 DESCRIPTION
 
@@ -68,7 +68,7 @@ London Tube Map Hammersmith & City Line stations.
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
         | Picadilly Line
-        | Victoria Line.
+        | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>

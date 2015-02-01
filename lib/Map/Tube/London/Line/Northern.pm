@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.50';
+$Map::Tube::London::Line::Northern::VERSION   = '0.51';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map Northern Line stations.
 
 =head1 VERSION
 
-Version 0.50
+Version 0.51
 
 =head1 DESCRIPTION
 
@@ -117,7 +117,7 @@ London Tube Map Northern Line stations.
 
 =over 2
 
-=item * The station "Warren Street" is also part of Victoria Line.
+=item * The station "Warren Street" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Tottenham Court Road" is also part of L<Central Line|Map::Tube::London::Line::Central>
 

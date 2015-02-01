@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION   = '0.50';
+$Map::Tube::London::Line::Circle::VERSION   = '0.51';
 $Map::Tube::London::Line::Circle::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,13 +12,13 @@ Map::Tube::London::Line::Circle - London Tube Map Circle Line stations.
 
 =head1 VERSION
 
-Version 0.50
+Version 0.51
 
 =head1 DESCRIPTION
 
 London Tube Map Circle Line stations.
 
-    +----------------------------------------------------------------------------+
+    +--------------------------+-------------------------------------------------+
     |                          |                                                 |
     | Station Name             | Connected To                                    |
     |                          |                                                 |
@@ -80,13 +80,13 @@ London Tube Map Circle Line stations.
 
 =item * The station "Moorgate" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
-        | Northern Line.
+        | L<Northern Line|Map::Tube::London::Line::Northern>.
 
 =item * The station "King's Cross St Pancras" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
         | Picadilly Line
-        | Victoria Line.
+        | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Liverpool Street" is also part of L<Central Line|Map::Tube::London::Line::Central>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>

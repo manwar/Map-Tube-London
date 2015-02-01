@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.50';
+$Map::Tube::London::VERSION   = '0.51';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.50
+Version 0.51
 
 =cut
 
@@ -77,7 +77,7 @@ given nodes. It covers the following tube lines:
 
 =item * Piccadilly Line
 
-=item * Victoria Line
+=item * L<Victoria Line|Map::Tube::London::Line::Victoria>
 
 =item * Waterloo & City Line
 
