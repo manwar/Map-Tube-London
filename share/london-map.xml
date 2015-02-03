@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="London Tube">
     <lines>
-        <line id="Bakerloo"               name="Bakerloo"               color="#A52A2A" />
-        <line id="Central"                name="Central"                color="#FF0000" />
-        <line id="Circle"                 name="Circle"                 color="#FFFF00" />
-        <line id="District"               name="District"               color="#00FF00" />
-        <line id="DLR"                    name="DLR"                    color="#40E0D0" />
-        <line id="Hammersmith &amp; City" name="Hammersmith &amp; City" color="#FFC0CB" />
-        <line id="Jubilee"                name="Jubilee"                color="#BEBEBE" />
-        <line id="Metropolitan"           name="Metropolitan"           color="#FF00FF" />
-        <line id="Northern"               name="Northern"               color="#000000" />
-        <line id="Overground"             name="Overground"             color="#FFA500" />
-        <line id="Picadilly"              name="Picadilly"              color="#0000FF" />
-        <line id="Victoria"               name="Victoria"               color="#ADD8E6" />
-        <line id="Waterloo &amp; City"    name="Waterloo &amp; City"    color="#40E0D0" />
+        <line id="Bakerloo"               name="Bakerloo"               color="#550000" /> <!-- Brown      -->
+        <line id="Central"                name="Central"                color="#8B0000" /> <!-- Red        -->
+        <line id="Circle"                 name="Circle"                 color="#FFFF00" /> <!-- Yellow     -->
+        <line id="District"               name="District"               color="#006400" /> <!-- Green      -->
+        <line id="DLR"                    name="DLR"                    color="#00CED1" /> <!-- Turquoise  -->
+        <line id="Hammersmith &amp; City" name="Hammersmith &amp; City" color="#FF69B4" /> <!-- Pink       -->
+        <line id="Jubilee"                name="Jubilee"                color="#2F4F4F" /> <!-- Grey       -->
+        <line id="Metropolitan"           name="Metropolitan"           color="#8B008B" /> <!-- Magenta    -->
+        <line id="Northern"               name="Northern"               color="#000000" /> <!-- Black      -->
+        <line id="Overground"             name="Overground"             color="#ff4f00" /> <!-- Orange     -->
+        <line id="Picadilly"              name="Picadilly"              color="#000080" /> <!-- Blue       -->
+        <line id="Victoria"               name="Victoria"               color="#000080" /> <!-- Light Blue -->
+        <line id="Waterloo &amp; City"    name="Waterloo &amp; City"    color="#00CED1" /> <!-- Turquoise  -->
     </lines>
 
     <stations>
