@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.53  Mon Feb 09 13:40:00 2015
+      - Fixed the typo in the line name 'Piccadilly' in the xml data file.
+
 0.52  Tue Feb 03 14:40:00 2015
       - Updated 'skip' data for Bakerloo line.
       - Added sample map to the pod document of Map::Tube::London.

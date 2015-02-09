@@ -11,7 +11,7 @@
         <line id="Metropolitan"           name="Metropolitan"           color="#8B008B" /> <!-- Magenta    -->
         <line id="Northern"               name="Northern"               color="#000000" /> <!-- Black      -->
         <line id="Overground"             name="Overground"             color="#ff4f00" /> <!-- Orange     -->
-        <line id="Picadilly"              name="Picadilly"              color="#000080" /> <!-- Blue       -->
+        <line id="Piccadilly"             name="Piccadilly"             color="#000080" /> <!-- Blue       -->
         <line id="Victoria"               name="Victoria"               color="#000080" /> <!-- Light Blue -->
         <line id="Waterloo &amp; City"    name="Waterloo &amp; City"    color="#00CED1" /> <!-- Turquoise  -->
     </lines>
