@@ -7,7 +7,7 @@
         <line id="District"               name="District"               color="#006400" /> <!-- Green      -->
         <line id="DLR"                    name="DLR"                    color="#00CED1" /> <!-- Turquoise  -->
         <line id="Hammersmith &amp; City" name="Hammersmith &amp; City" color="#FF69B4" /> <!-- Pink       -->
-        <line id="Jubilee"                name="Jubilee"                color="#2F4F4F" /> <!-- Grey       -->
+        <line id="Jubilee"                name="Jubilee"                color="#2F4F4F" /> <!-- Gray       -->
         <line id="Metropolitan"           name="Metropolitan"           color="#8B008B" /> <!-- Magenta    -->
         <line id="Northern"               name="Northern"               color="#000000" /> <!-- Black      -->
         <line id="Overground"             name="Overground"             color="#ff4f00" /> <!-- Orange     -->

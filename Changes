@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.54  Mon Feb 16 18:10:00 2015
+      - Upgraded to use Map::Tube v2.83.
+      - Updated sample code in the pod document of Map::Tube::London.
+      - Added London tube map.
+
 0.53  Mon Feb 09 13:40:00 2015
       - Fixed the typo in the line name 'Piccadilly' in the xml data file.
 
