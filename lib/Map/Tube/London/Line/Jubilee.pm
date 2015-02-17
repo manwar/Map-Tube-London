@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.58';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.59';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,15 +8,15 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::Jubilee - London Tube Map Jubilee Line stations.
+Map::Tube::London::Line::Jubilee - London Tube Map: Jubilee Line.
 
 =head1 VERSION
 
-Version 0.58
+Version 0.59
 
 =head1 DESCRIPTION
 
-London Tube Map Jubilee Line stations.
+London Tube Map: Jubilee Line.
 
     +------------------+----------------------------------+
     |                  |                                  |

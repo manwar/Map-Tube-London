@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::WaterlooCity;
 
-$Map::Tube::London::Line::WaterlooCity::VERSION   = '0.58';
+$Map::Tube::London::Line::WaterlooCity::VERSION   = '0.59';
 $Map::Tube::London::Line::WaterlooCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,15 +8,15 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::WaterlooCity - London Tube Map Waterloo & City Line.
+Map::Tube::London::Line::WaterlooCity - London Tube Map: Waterloo & City Line.
 
 =head1 VERSION
 
-Version 0.58
+Version 0.59
 
 =head1 DESCRIPTION
 
-London Tube Map Waterloo & City Line.
+London Tube Map: Waterloo & City Line.
 
     +--------------+------------------------------------------------------------+
     |              |                                                            |
