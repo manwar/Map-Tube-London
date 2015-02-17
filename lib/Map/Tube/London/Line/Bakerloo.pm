@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION   = '0.54';
+$Map::Tube::London::Line::Bakerloo::VERSION   = '0.55';
 $Map::Tube::London::Line::Bakerloo::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,47 +8,47 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line stations.
+Map::Tube::London::Line::Bakerloo - London Tube Map Bakerloo Line.
 
 =head1 VERSION
 
-Version 0.54
+Version 0.55
 
 =head1 DESCRIPTION
 
-London Tube Map Bakerloo Line stations.
+London Tube Map Bakerloo Line.
 
-    +-----------------------+--------------------------------------+
-    |                       |                                      |
-    | Station Name          | Linked To                            |
-    |                       |                                      |
-    +-----------------------+--------------------------------------+
-    | Harrow & Wealdstone   | Kenton                               |
-    | Kenton                | Harrow & Wealdstone, South Kenton    |
-    | South Kenton          | Kenton, North Wembley                |
-    | North Wembley         | South Kenton, Wembley Central        |
-    | Wembley Central       | North Wembley, Stonebridge Park      |
-    | Stonebridge Park      | Wembley Central, Harlesden           |
-    | Harlesden             | Stonebridge Park, Willesden Junction |
-    | Willesden Junction    | Harlesden, Kensal Green              |
-    | Kensal Green          | Willesden Junction, Queen's Park     |
-    | Queen's Park          | Kensal Green, Kilburn Park           |
-    | Kilburn Park          | Queen's Park, Maida Vale             |
-    | Maida Vale            | Kilburn Park, Warwick Avenue         |
-    | Warwick Avenue        | Maida Vale, Paddington               |
-    | Paddington            | Warwick Avenue, Edgware Road         |
-    | Edgware Road          | Paddington, Marylebone               |
-    | Marylebone            | Edgware Road, Baker Street           |
-    | Baker Street          | Marylebone, Regent's Park            |
-    | Regent's Park         | Baker Street, Oxford Circus          |
-    | Oxford Circus         | Regent's Park, Picadilly Circus      |
-    | Piccadilly Circus     | Oxford Circus, Charing Cross         |
-    | Charing Cross         | Picadilly Circus, Embankment         |
-    | Embankment            | Charing Cross, Waterloo              |
-    | Waterloo              | Embankment, Lambeth North            |
-    | Lambeth North         | Waterloo, Elephant & Castle          |
-    | Elephant & Castle     | Lambeth North                        |
-    +-----------------------+--------------------------------------+
+    +-----------------------+---------------------------------------------------+
+    |                       |                                                   |
+    | Station Name          | Linked To                                         |
+    |                       |                                                   |
+    +-----------------------+---------------------------------------------------+
+    | Harrow & Wealdstone   | Kenton                                            |
+    | Kenton                | Harrow & Wealdstone, South Kenton                 |
+    | South Kenton          | Kenton, North Wembley                             |
+    | North Wembley         | South Kenton, Wembley Central                     |
+    | Wembley Central       | North Wembley, Stonebridge Park                   |
+    | Stonebridge Park      | Wembley Central, Harlesden                        |
+    | Harlesden             | Stonebridge Park, Willesden Junction              |
+    | Willesden Junction    | Harlesden, Kensal Green                           |
+    | Kensal Green          | Willesden Junction, Queen's Park                  |
+    | Queen's Park          | Kensal Green, Kilburn Park                        |
+    | Kilburn Park          | Queen's Park, Maida Vale                          |
+    | Maida Vale            | Kilburn Park, Warwick Avenue                      |
+    | Warwick Avenue        | Maida Vale, Paddington                            |
+    | Paddington            | Warwick Avenue, Edgware Road                      |
+    | Edgware Road          | Paddington, Marylebone                            |
+    | Marylebone            | Edgware Road, Baker Street                        |
+    | Baker Street          | Marylebone, Regent's Park                         |
+    | Regent's Park         | Baker Street, Oxford Circus                       |
+    | Oxford Circus         | Regent's Park, Picadilly Circus                   |
+    | Piccadilly Circus     | Oxford Circus, Charing Cross                      |
+    | Charing Cross         | Picadilly Circus, Embankment                      |
+    | Embankment            | Charing Cross, Waterloo                           |
+    | Waterloo              | Embankment, Lambeth North                         |
+    | Lambeth North         | Waterloo, Elephant & Castle                       |
+    | Elephant & Castle     | Lambeth North                                     |
+    +-----------------------+---------------------------------------------------+
 
 =head1 NOTE
 
@@ -67,6 +67,10 @@ London Tube Map Bakerloo Line stations.
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+
+=item * The station "Waterloo" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+        | L<Northern Line|Map::Tube::London::Line::Northern>
+        | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
 
 =back
 

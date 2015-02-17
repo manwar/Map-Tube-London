@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.55  Tue Feb 17 14:10:00 2015
+      - Added package to list tube stations for Waterloo & City lines.
+
 0.54  Mon Feb 16 18:10:00 2015
       - Upgraded to use Map::Tube v2.83.
       - Updated sample code in the pod document of Map::Tube::London.

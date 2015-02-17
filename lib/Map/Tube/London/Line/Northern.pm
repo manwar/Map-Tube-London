@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.54';
+$Map::Tube::London::Line::Northern::VERSION   = '0.55';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,15 +8,15 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::Northern - London Tube Map Northern Line stations.
+Map::Tube::London::Line::Northern - London Tube Map Northern Line.
 
 =head1 VERSION
 
-Version 0.54
+Version 0.55
 
 =head1 DESCRIPTION
 
-London Tube Map Northern Line stations.
+London Tube Map Northern Line.
 
 =head2 High Barnet Branch
 
@@ -129,7 +129,7 @@ London Tube Map Northern Line stations.
 
 =item * The station "Waterloo" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
-        | Waterloo & City Line.
+        | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
 
 =back
 

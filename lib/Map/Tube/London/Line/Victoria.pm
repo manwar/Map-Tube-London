@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Victoria;
 
-$Map::Tube::London::Line::Victoria::VERSION   = '0.54';
+$Map::Tube::London::Line::Victoria::VERSION   = '0.55';
 $Map::Tube::London::Line::Victoria::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,38 +8,38 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::Victoria - London Tube Map Victoria Line stations.
+Map::Tube::London::Line::Victoria - London Tube Map Victoria Line.
 
 =head1 VERSION
 
-Version 0.54
+Version 0.55
 
 =head1 DESCRIPTION
 
-London Tube Map Victoria Line stations.
+London Tube Map Victoria Line.
 
-    +--------------------------+-----------------------------------------+
-    |                          |                                         |
-    | Station Name             | Linked To                               |
-    |                          |                                         |
-    +--------------------------+-----------------------------------------+
-    | Walthamstow Central      | Blackhorse Road                         |
-    | Blackhorse Road          | Walthamstow Road, Tottenham Hale        |
-    | Tottenham Hale           | Blackhorse Road, Seven Sisters          |
-    | Seven Sisters            | Tottenham Hale, Finsbury Park           |
-    | Finsbury Park            | Seven Sisters, Highbury & Islington     |
-    | Highbury & Islington     | Finsbury Park, King's Cross St. Pancras |
-    | King's Cross St. Pancras | Highbury & Islington, Euston            |
-    | Euston                   | King's Cross St. Pancras, Warren Street |
-    | Warren Street            | Euston, Oxford Circus                   |
-    | Oxford Circus            | Warren Street, Green Park               |
-    | Green Park               | Oxford Circus, Victoria                 |
-    | Victoria                 | Green Park, Pimlico                     |
-    | Pimlico                  | Victoria, Vauxhall                      |
-    | Vauxhall                 | Pimlico, Stockwell                      |
-    | Stockwell                | Vauxhall, Brixton                       |
-    | Brixton                  | Stockwell                               |
-    +--------------------------+-----------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Linked To                                      |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Walthamstow Central      | Blackhorse Road                                |
+    | Blackhorse Road          | Walthamstow Road, Tottenham Hale               |
+    | Tottenham Hale           | Blackhorse Road, Seven Sisters                 |
+    | Seven Sisters            | Tottenham Hale, Finsbury Park                  |
+    | Finsbury Park            | Seven Sisters, Highbury & Islington            |
+    | Highbury & Islington     | Finsbury Park, King's Cross St. Pancras        |
+    | King's Cross St. Pancras | Highbury & Islington, Euston                   |
+    | Euston                   | King's Cross St. Pancras, Warren Street        |
+    | Warren Street            | Euston, Oxford Circus                          |
+    | Oxford Circus            | Warren Street, Green Park                      |
+    | Green Park               | Oxford Circus, Victoria                        |
+    | Victoria                 | Green Park, Pimlico                            |
+    | Pimlico                  | Victoria, Vauxhall                             |
+    | Vauxhall                 | Pimlico, Stockwell                             |
+    | Stockwell                | Vauxhall, Brixton                              |
+    | Brixton                  | Stockwell                                      |
+    +--------------------------+------------------------------------------------+
 
 =head1 NOTE
 

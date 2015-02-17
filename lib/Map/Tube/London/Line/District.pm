@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.54';
+$Map::Tube::London::Line::District::VERSION   = '0.55';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,81 +8,81 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::District - London Tube Map District Line stations.
+Map::Tube::London::Line::District - London Tube Map District Line.
 
 =head1 VERSION
 
-Version 0.54
+Version 0.55
 
 =head1 DESCRIPTION
 
-London Tube Map District Line stations.
+London Tube Map District Line.
 
-    +-------------------------+-----------------------------------------------+
-    |                         |                                               |
-    | Station Name            | Connected To                                  |
-    |                         |                                               |
-    +-------------------------+-----------------------------------------------+
-    | Richmond                | Kew Gardens                                   |
-    | Kew Gardens             | Richmond, Gunnersbury                         |
-    | Gunnersbury             | Kew Gardens, Ealing Broadway                  |
-    | Ealing Broadway         | Gunnerbury, Ealing Common                     |
-    | Ealing Common           | Ealing Broadway, Acton Towm                   |
-    | Acton Town              | Ealing Common, Chiswick Park                  |
-    | Chiswick Park           | Acton Town, Turnham Green                     |
-    | Turnham Green           | Chiswick Park, Stamford Brook                 |
-    | Stamford Brook          | Turnham Green, Havenscourt Park               |
-    | Ravenscourt Park        | Stamford Brook, Hammersmith                   |
-    | Hammersmith             | Ravenscourt Park, Barons Court                |
-    | Barons Court            | Hammersmith, West Kensington                  |
-    | West Kensington         | Barons Court, Wimbledon                       |
-    | Wimbledon               | West Kensington, Wimbledon Park               |
-    | Wimbledon Park          | Wimbledon, Southfields                        |
-    | Southfields             | Wimbledon Park, East Putney                   |
-    | East Putney             | Southfields, Putney Bridge                    |
-    | Putney Bridge           | East Putney, Parsons Green                    |
-    | Parsons Green           | Putney Bridge, Fulham Broadway                |
-    | Fulham Broadway         | Parsons Green, West Brompton                  |
-    | West Brompton           | Fulham Broadway, Kensington (Olympia)         |
-    | Kensington (Olympia)    | West Brompton, Earl's Court                   |
-    | Earl's Court            | Kensington (Olympia), High Street Kensington  |
-    | High Street Kensington  | Earl's Court, Notting Hill Gate               |
-    | Notting Hill Gate       | High Street Kensington, Bayswater             |
-    | Bayswater               | Notting Hill Gate, Paddington                 |
-    | Paddington              | Bayswater, Edgware Road                       |
-    | Edgware Road            | Paddington, Gloucester Road                   |
-    | Gloucester Road         | Edgware Road, South Kensington                |
-    | South Kensington        | Gloucester Road, Sloane Square                |
-    | Sloane Square           | South Kensington, Victoria                    |
-    | Victoria                | Sloane Square, St Jame's Park                 |
-    | St James's Park         | Victoria, Westminster                         |
-    | Westminster             | St Jame's Park, Embankment                    |
-    | Embankment              | Westminster, Temple                           |
-    | Temple                  | Embankment, Blackfriars                       |
-    | Blackfriars             | Temple, Mansion House                         |
-    | Mansion House           | Blackfriars, Cannon Street                    |
-    | Cannon Street           | Mansion House, Monument                       |
-    | Monument                | Cannon Street, Bank, Tower Hill               |
-    | Tower Hill              | Monument, Aldgate East                        |
-    | Aldgate East            | Tower Hill, Whitechapel                       |
-    | Whitechapel             | Aldgate East, Stepney Green                   |
-    | Stepney Green           | Whitechapel, Mile End                         |
-    | Mile End                | Stepney Green, Bow Road                       |
-    | Bow Road                | Mile End, Bromley-by-Bow                      |
-    | Bromley-by-Bow          | Row Road, West Ham                            |
-    | West Ham                | Bromley-by-Bow, Plaistow                      |
-    | Plaistow                | West Ham, Upton Park                          |
-    | Upton Park              | Plaistow, East Ham                            |
-    | East Ham                | Upton Park, Barking                           |
-    | Barking                 | East Ham, Becontree                           |
-    | Becontree               | Barking, Dagenham Heathway                    |
-    | Dagenham Heathway       | Becontree, Dagenham East                      |
-    | Dagenham East           | Dagenham Heathway, Elm Park                   |
-    | Elm Park                | Dagenham East, Hornchurch                     |
-    | Hornchurch              | Elm Park, Upminster Bridge                    |
-    | Upminster Bridge        | Hornchurch, Upminster                         |
-    | Upminster               | Upminster Bridge                              |
-    +-------------------------+-----------------------------------------------+
+    +-------------------------+-------------------------------------------------+
+    |                         |                                                 |
+    | Station Name            | Connected To                                    |
+    |                         |                                                 |
+    +-------------------------+-------------------------------------------------+
+    | Richmond                | Kew Gardens                                     |
+    | Kew Gardens             | Richmond, Gunnersbury                           |
+    | Gunnersbury             | Kew Gardens, Ealing Broadway                    |
+    | Ealing Broadway         | Gunnerbury, Ealing Common                       |
+    | Ealing Common           | Ealing Broadway, Acton Towm                     |
+    | Acton Town              | Ealing Common, Chiswick Park                    |
+    | Chiswick Park           | Acton Town, Turnham Green                       |
+    | Turnham Green           | Chiswick Park, Stamford Brook                   |
+    | Stamford Brook          | Turnham Green, Havenscourt Park                 |
+    | Ravenscourt Park        | Stamford Brook, Hammersmith                     |
+    | Hammersmith             | Ravenscourt Park, Barons Court                  |
+    | Barons Court            | Hammersmith, West Kensington                    |
+    | West Kensington         | Barons Court, Wimbledon                         |
+    | Wimbledon               | West Kensington, Wimbledon Park                 |
+    | Wimbledon Park          | Wimbledon, Southfields                          |
+    | Southfields             | Wimbledon Park, East Putney                     |
+    | East Putney             | Southfields, Putney Bridge                      |
+    | Putney Bridge           | East Putney, Parsons Green                      |
+    | Parsons Green           | Putney Bridge, Fulham Broadway                  |
+    | Fulham Broadway         | Parsons Green, West Brompton                    |
+    | West Brompton           | Fulham Broadway, Kensington (Olympia)           |
+    | Kensington (Olympia)    | West Brompton, Earl's Court                     |
+    | Earl's Court            | Kensington (Olympia), High Street Kensington    |
+    | High Street Kensington  | Earl's Court, Notting Hill Gate                 |
+    | Notting Hill Gate       | High Street Kensington, Bayswater               |
+    | Bayswater               | Notting Hill Gate, Paddington                   |
+    | Paddington              | Bayswater, Edgware Road                         |
+    | Edgware Road            | Paddington, Gloucester Road                     |
+    | Gloucester Road         | Edgware Road, South Kensington                  |
+    | South Kensington        | Gloucester Road, Sloane Square                  |
+    | Sloane Square           | South Kensington, Victoria                      |
+    | Victoria                | Sloane Square, St Jame's Park                   |
+    | St James's Park         | Victoria, Westminster                           |
+    | Westminster             | St Jame's Park, Embankment                      |
+    | Embankment              | Westminster, Temple                             |
+    | Temple                  | Embankment, Blackfriars                         |
+    | Blackfriars             | Temple, Mansion House                           |
+    | Mansion House           | Blackfriars, Cannon Street                      |
+    | Cannon Street           | Mansion House, Monument                         |
+    | Monument                | Cannon Street, Bank, Tower Hill                 |
+    | Tower Hill              | Monument, Aldgate East                          |
+    | Aldgate East            | Tower Hill, Whitechapel                         |
+    | Whitechapel             | Aldgate East, Stepney Green                     |
+    | Stepney Green           | Whitechapel, Mile End                           |
+    | Mile End                | Stepney Green, Bow Road                         |
+    | Bow Road                | Mile End, Bromley-by-Bow                        |
+    | Bromley-by-Bow          | Row Road, West Ham                              |
+    | West Ham                | Bromley-by-Bow, Plaistow                        |
+    | Plaistow                | West Ham, Upton Park                            |
+    | Upton Park              | Plaistow, East Ham                              |
+    | East Ham                | Upton Park, Barking                             |
+    | Barking                 | East Ham, Becontree                             |
+    | Becontree               | Barking, Dagenham Heathway                      |
+    | Dagenham Heathway       | Becontree, Dagenham East                        |
+    | Dagenham East           | Dagenham Heathway, Elm Park                     |
+    | Elm Park                | Dagenham East, Hornchurch                       |
+    | Hornchurch              | Elm Park, Upminster Bridge                      |
+    | Upminster Bridge        | Hornchurch, Upminster                           |
+    | Upminster               | Upminster Bridge                                |
+    +-------------------------+-------------------------------------------------+
 
 =head1 NOTE
 
@@ -123,7 +123,6 @@ London Tube Map District Line stations.
 
 =item * The station "Monument" is also part of L<Central Line|Map::Tube::London::Line::Central>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Waterloo & City Line
         | Dockland Light Railway Line.
 
 =back

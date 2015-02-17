@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.54';
+$Map::Tube::London::Line::Central::VERSION   = '0.55';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,75 +8,78 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::London::Line::Central - London Tube Map Central Line stations.
+Map::Tube::London::Line::Central - London Tube Map Central Line.
 
 =head1 VERSION
 
-Version 0.54
+Version 0.55
 
 =head1 DESCRIPTION
 
-London Tube Map Central Line stations.
+London Tube Map Central Line.
 
-    +----------------------+--------------------------------------+
-    |                      |                                      |
-    | Station Name         | Linked To                            |
-    |                      |                                      |
-    +----------------------+--------------------------------------+
-    | West Ruislip         | Ruislip Gardens                      |
-    | Ruislip Gardens      | West Ruislip, South Ruislip          |
-    | South Ruislip        | Ruislip Gardens, Northolt            |
-    | Northolt             | South Ruislip, Greenford             |
-    | Greenford            | Northolt, Perivale                   |
-    | Perivale             | Greenford, Hanger Lane               |
-    | Hanger Lane          | Perivale, Ealing Broadway            |
-    | Ealing Broadway      | Hanger Lane, West Acton              |
-    | West Acton           | Ealing Broadway, North Acton         |
-    | North Acton          | West Acton, East Acton               |
-    | East Acton           | North Acton, White City              |
-    | White City           | East Acton, Shepherd's Bush          |
-    | Shepherd's Bush      | White City, Holland Park             |
-    | Holland Park         | Shepherd's Bush, Notting Hill Gate   |
-    | Notting Hill Gate    | Holland Park, Queensway              |
-    | Queensway            | Notting Hill Gate, Lancaster Gate    |
-    | Lancaster Gate       | Queensway, Marble Arch               |
-    | Marble Arch          | Lancaster Gate, Bond Street          |
-    | Bond Street          | Marble Arch, Oxford Circus           |
-    | Oxford Circus        | Bond Street, Tottenham Court Road    |
-    | Tottenham Court Road | Oxford Circus, Holborn               |
-    | Holborn              | Tottenham Court Road, Chancery Lane  |
-    | Chancery Lane        | Holborn, St. Paul's                  |
-    | St. Paul's           | Chancery Lane, Bank                  |
-    | Bank                 | St. Paul's, Liverpool Street         |
-    | Liverpool Street     | Bank, Bethnal Green                  |
-    | Bethnal Green        | Liverpool Street, Mile End           |
-    | Mile End             | Bethnal Green, Stratford             |
-    | Stratford            | Mile End, Leyton                     |
-    | Leyton               | Stratford, Leytonstone               |
-    | Leytonstone          | Leyton, Wanstead                     |
-    | Wanstead             | Leytonstone, Redbridge               |
-    | Redbridge            | Wanstead, Gants Hill                 |
-    | Gants Hill           | Redbridge, Newbury Park              |
-    | Newbury Park         | Gants Hill, Barkingside              |
-    | Barkingside          | Newbury Park, Fairlop                |
-    | Fairlop              | Barkingside, Hainault                |
-    | Hainault             | Fairlop, Grange Hill                 |
-    | Grange Hill          | Hainault, Chigwell                   |
-    | Chigwell             | Grange Hill, ROding Valley           |
-    | Roding Valley        | Chigwell, Snaresbrook                |
-    | Snaresbrook          | Roding Valley, South Woodford        |
-    | South Woodford       | Snaresbrook, Woodford                |
-    | Woodford             | South Woodford, Buckhurst Hill       |
-    | Buckhurst Hill       | Woodford, Loughton                   |
-    | Loughton             | Buckhurst Hill, Debden               |
-    | Debden               | Loughton, Theydon Bois               |
-    | Theydon Bois         | Debden, Epping                       |
-    | Epping               | Theydon Bois                         |
-    +----------------------+--------------------------------------+
+    +----------------------+----------------------------------------------------+
+    |                      |                                                    |
+    | Station Name         | Linked To                                          |
+    |                      |                                                    |
+    +----------------------+----------------------------------------------------+
+    | West Ruislip         | Ruislip Gardens                                    |
+    | Ruislip Gardens      | West Ruislip, South Ruislip                        |
+    | South Ruislip        | Ruislip Gardens, Northolt                          |
+    | Northolt             | South Ruislip, Greenford                           |
+    | Greenford            | Northolt, Perivale                                 |
+    | Perivale             | Greenford, Hanger Lane                             |
+    | Hanger Lane          | Perivale, Ealing Broadway                          |
+    | Ealing Broadway      | Hanger Lane, West Acton                            |
+    | West Acton           | Ealing Broadway, North Acton                       |
+    | North Acton          | West Acton, East Acton                             |
+    | East Acton           | North Acton, White City                            |
+    | White City           | East Acton, Shepherd's Bush                        |
+    | Shepherd's Bush      | White City, Holland Park                           |
+    | Holland Park         | Shepherd's Bush, Notting Hill Gate                 |
+    | Notting Hill Gate    | Holland Park, Queensway                            |
+    | Queensway            | Notting Hill Gate, Lancaster Gate                  |
+    | Lancaster Gate       | Queensway, Marble Arch                             |
+    | Marble Arch          | Lancaster Gate, Bond Street                        |
+    | Bond Street          | Marble Arch, Oxford Circus                         |
+    | Oxford Circus        | Bond Street, Tottenham Court Road                  |
+    | Tottenham Court Road | Oxford Circus, Holborn                             |
+    | Holborn              | Tottenham Court Road, Chancery Lane                |
+    | Chancery Lane        | Holborn, St. Paul's                                |
+    | St. Paul's           | Chancery Lane, Bank                                |
+    | Bank                 | St. Paul's, Liverpool Street                       |
+    | Liverpool Street     | Bank, Bethnal Green                                |
+    | Bethnal Green        | Liverpool Street, Mile End                         |
+    | Mile End             | Bethnal Green, Stratford                           |
+    | Stratford            | Mile End, Leyton                                   |
+    | Leyton               | Stratford, Leytonstone                             |
+    | Leytonstone          | Leyton, Wanstead                                   |
+    | Wanstead             | Leytonstone, Redbridge                             |
+    | Redbridge            | Wanstead, Gants Hill                               |
+    | Gants Hill           | Redbridge, Newbury Park                            |
+    | Newbury Park         | Gants Hill, Barkingside                            |
+    | Barkingside          | Newbury Park, Fairlop                              |
+    | Fairlop              | Barkingside, Hainault                              |
+    | Hainault             | Fairlop, Grange Hill                               |
+    | Grange Hill          | Hainault, Chigwell                                 |
+    | Chigwell             | Grange Hill, ROding Valley                         |
+    | Roding Valley        | Chigwell, Snaresbrook                              |
+    | Snaresbrook          | Roding Valley, South Woodford                      |
+    | South Woodford       | Snaresbrook, Woodford                              |
+    | Woodford             | South Woodford, Buckhurst Hill                     |
+    | Buckhurst Hill       | Woodford, Loughton                                 |
+    | Loughton             | Buckhurst Hill, Debden                             |
+    | Debden               | Loughton, Theydon Bois                             |
+    | Theydon Bois         | Debden, Epping                                     |
+    | Epping               | Theydon Bois                                       |
+    +----------------------+----------------------------------------------------+
 
 =head1 NOTE
 
 =over 2
+
+=item * The station "Bank" is also part of L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>
+        | L<Northern Line|Map::Tube::London::Line::Northern>.
 
 =item * The station "Oxford Circus" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
