@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.56';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.57';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map Jubilee Line stations.
 
 =head1 VERSION
 
-Version 0.56
+Version 0.57
 
 =head1 DESCRIPTION
 

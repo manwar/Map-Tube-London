@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.57  Tue Feb 17 14:50:00 2015
+      - Added package Map::Tube::London::Line::WaterlooCity to the 'provides' list in Makefile.PL file.
+
 0.56  Tue Feb 17 14:10:00 2015
       - Added package to list tube stations for Waterloo & City lines.
 

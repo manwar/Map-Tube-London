@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.56';
+$Map::Tube::London::Line::District::VERSION   = '0.57';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::District - London Tube Map District Line.
 
 =head1 VERSION
 
-Version 0.56
+Version 0.57
 
 =head1 DESCRIPTION
 
