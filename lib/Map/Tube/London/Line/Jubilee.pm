@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.57';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.58';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map Jubilee Line stations.
 
 =head1 VERSION
 
-Version 0.57
+Version 0.58
 
 =head1 DESCRIPTION
 
@@ -67,7 +67,7 @@ London Tube Map Jubilee Line stations.
 
 =item * The station "Waterloo" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Waterloo & City Line.
+        | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
 
 =item * The station "London Bridge" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 

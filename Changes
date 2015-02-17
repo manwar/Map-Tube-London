@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.58  Tue Feb 17 15:20:00 2015
+      - Linked the station "Waterloo" in the Jubilee Line to Waterloo & City Line in the pod document.
+
 0.57  Tue Feb 17 14:50:00 2015
       - Added package Map::Tube::London::Line::WaterlooCity to the 'provides' list in Makefile.PL file.
 
