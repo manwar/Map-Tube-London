@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.60  Wed Feb 18 15:20:00 2015
+      - Upgraded to use Map::Tube v2.84.
+      - Added package to list tube stations for Dockland Light Railway lines.
+
 0.59  Tue Feb 17 16:00:00 2015
       - Minor changes to the name of line packages.
 

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.59';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.60';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map: Jubilee Line.
 
 =head1 VERSION
 
-Version 0.59
+Version 0.60
 
 =head1 DESCRIPTION
 
@@ -73,7 +73,7 @@ London Tube Map: Jubilee Line.
 
 =item * The station "West Ham" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<District Line|Map::Tube::London::Line::District>
-        | Docklands Light Railway Line.
+        | L<Docklands Light Railway Line|Map::Tube::London::Line::DLR>.
 
 =back
 
