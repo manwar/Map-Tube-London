@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.61  Wed Feb 17 15:30:00 2015
+      - Added package Map::Tube::London::Line::DLR to the 'provides' list in Makefile.PL file.
+
 0.60  Wed Feb 18 15:20:00 2015
       - Upgraded to use Map::Tube v2.84.
       - Added package to list tube stations for Dockland Light Railway lines.
