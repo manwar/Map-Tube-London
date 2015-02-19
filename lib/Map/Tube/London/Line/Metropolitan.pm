@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Metropolitan;
 
-$Map::Tube::London::Line::Metropolitan::VERSION   = '0.61';
+$Map::Tube::London::Line::Metropolitan::VERSION   = '0.62';
 $Map::Tube::London::Line::Metropolitan::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Metropolitan - London Tube Map: Metropolitan Line.
 
 =head1 VERSION
 
-Version 0.61
+Version 0.62
 
 =head1 DESCRIPTION
 
@@ -66,7 +66,8 @@ London Tube Map: Metropolitan Line.
 =item * The station "Aldgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>.
 
 =item * The station "Liverpool Street" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
-        | L<Circle Line|Map::Tube::London::Line::Circle>.
+        | L<Circle Line|Map::Tube::London::Line::Circle>
+        | L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Wembley Park" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>.
 
@@ -76,6 +77,12 @@ London Tube Map: Metropolitan Line.
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>.
+
+=item * The station "King's Cross St. Pancras" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+        | L<Circle Line|Map::Tube::London::Line::Circle>
+        | L<Victoria Line|Map::Tube::London::Line::Victoria>
+        | L<Northern Line|Map::Tube::London::Line::Northern>
+        | Piccadilly Line.
 
 =back
 

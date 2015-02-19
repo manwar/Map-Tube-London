@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.61';
+$Map::Tube::London::Line::Central::VERSION   = '0.62';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Central - London Tube Map: Central Line.
 
 =head1 VERSION
 
-Version 0.61
+Version 0.62
 
 =head1 DESCRIPTION
 
@@ -79,7 +79,8 @@ London Tube Map: Central Line.
 =over 2
 
 =item * The station "Bank" is also part of L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>
-        | L<Northern Line|Map::Tube::London::Line::Northern>.
+        | L<Northern Line|Map::Tube::London::Line::Northern>
+        | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
 =item * The station "Oxford Circus" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
@@ -91,6 +92,10 @@ London Tube Map: Central Line.
 =item * The station "Liverpool Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+
+=item * The station "Stratford" is also part of L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>
+        | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+        | London Overground Line.
 
 =back
 

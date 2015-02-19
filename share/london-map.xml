@@ -29,6 +29,7 @@
         <station id="A010" name="Archway"                           line="Northern"                                                                link="T010,H024"                          />
         <station id="A011" name="Arnos Grove"                       line="Piccadilly"                                                              link="B021,S020"                          />
         <station id="A012" name="Arsenal"                           line="Piccadilly"                                                              link="F006,H028"                          />
+        <station id="A013" name="Abbey Road"                        line="DLR"                                                                     link="W018,S037"                          />
         <station id="B001" name="Baker Street"                      line="Circle,Hammersmith &amp; City,Bakerloo,Metropolitan,Jubilee"             link="B018,R004,M005,G008,S023,E011,F004" />
         <station id="B002" name="Balham"                            line="Northern"                                                                link="C023,T003"                          />
         <station id="B003" name="Bank"                              line="Central,DLR,Northern,Waterloo &amp; City"                                link="S002,S024,L013,M009,M011,L012,W008" />
@@ -66,7 +67,7 @@
         <station id="C004" name="Camden Town"                       line="Northern"                                                                link="C013,K005,M008,E017"                />
         <station id="C005" name="Canada Water"                      line="Overground,Jubilee"                                                      link="B013,C006,S033,R008"                />
         <station id="C006" name="Canary Wharf"                      line="DLR,Jubilee"                                                             link="C005,N008,W021,H020"                />
-        <station id="C007" name="Canning Town"                      line="DLR,Jubilee"                                                             link="N008,W018,W024,R011,E007"           />
+        <station id="C007" name="Canning Town"                      line="DLR,Jubilee"                                                             link="N008,W024,R011,E007,S036"           />
         <station id="C008" name="Cannon Street"                     line="Circle,District"                                                         link="M009,M003"                          />
         <station id="C009" name="Canonbury"                         line="Overground"                                                              link="D004,H023"                          />
         <station id="C010" name="Canons Park"                       line="Jubilee"                                                                 link="S026,Q002"                          />
@@ -128,7 +129,7 @@
         <station id="F006" name="Finsbury Park"                     line="Victoria,Piccadilly"                                                     link="H023,S001,A012,M002"                />
         <station id="F007" name="Forest Hill"                       line="Overground"                                                              link="S035,H030"                          />
         <station id="F008" name="Fulham Broadway"                   line="District"                                                                link="W015,P003"                          />
-        <station id="G001" name="Gallons Reach"                     line="DLR"                                                                     link="C034,B009"                          />
+        <station id="G001" name="Gallions Reach"                    line="DLR"                                                                     link="C034,B009"                          />
         <station id="G002" name="Gants Hill"                        line="Central"                                                                 link="R003,N004"                          />
         <station id="G003" name="Gloucester Road"                   line="Circle,District,Piccadilly"                                              link="S012,H022,E003"                     />
         <station id="G004" name="Goldhawk Road"                     line="Circle,Hammersmith &amp; City"                                           link="H005,S004"                          />
@@ -146,7 +147,7 @@
         <station id="H004" name="Hainault"                          line="Central"                                                                 link="F001,G007"                          />
         <station id="H005" name="Hammersmith"                       line="Circle,District,Hammersmith &amp; City,Piccadilly"                       link="G004,B007,R001,T011"                />
         <station id="H006" name="Hampstead"                         line="Northern"                                                                link="B012,B024"                          />
-        <station id="H007" name="Hamstead Heath"                    line="Overground"                                                              link="G006,F005"                          />
+        <station id="H007" name="Hampstead Heath"                   line="Overground"                                                              link="G006,F005"                          />
         <station id="H008" name="Hanger Lane"                       line="Central"                                                                 link="P005,N006"                          />
         <station id="H009" name="Haringay Green Lanes"              line="Overground"                                                              link="C029,S016"                          />
         <station id="H010" name="Harlesden"                         line="Overground,Bakerloo"                                                     link="S029,W031"                          />
@@ -217,7 +218,7 @@
         <station id="M006" name="Mile End"                          line="Central,District,Hammersmith &amp; City"                                 link="B014,S030,S027,B023"                />
         <station id="M007" name="Mill Hill East"                    line="Northern"                                                                link="F003"                               />
         <station id="M008" name="Momington Crescent"                line="Northern"                                                                link="C004,E017"                          />
-        <station id="M009" name="Monument"                          line="DLR,Circle,District"                                                     link="B003,T009,C008"                     />
+        <station id="M009" name="Monument"                          line="Circle,District"                                                         link="B003,T009,C008"                     />
         <station id="M010" name="Moor Park"                         line="Metropolitan"                                                            link="N013,C030,R006,H012"                />
         <station id="M011" name="Moorgate"                          line="Circle,Northern,Hammersmith &amp; City,Metropolitan"                     link="L012,B004,B003,O002"                />
         <station id="M012" name="Morden"                            line="Northern"                                                                link="S017"                               />
@@ -277,7 +278,7 @@
         <station id="R014" name="Ruislip Manor"                     line="Metropolitan,Piccadilly"                                                 link="E009,R012"                          />
         <station id="R015" name="Russel Square"                     line="Piccadilly"                                                              link="K013,H026"                          />
         <station id="S001" name="Seven Sisters"                     line="Victoria"                                                                link="F006,T006"                          />
-        <station id="S002" name="Shadwell"                          line="DLR,Overground"                                                          link="B003,T008,W029,W005"                />
+        <station id="S002" name="Shadwell"                          line="DLR,Overground"                                                          link="B003,T008,W029,W005,L011"           />
         <station id="S003" name="Shepherd's Bush"                   line="Central,Overground"                                                      link="W028,H027,W031,K004"                />
         <station id="S004" name="Shepherd's Bush Market"            line="Circle,Hammersmith &amp; City"                                           link="G004,W035"                          />
         <station id="S005" name="Shoreditch High Steet"             line="Overground"                                                              link="W029,H035"                          />
@@ -305,12 +306,15 @@
         <station id="S027" name="Stepney Green"                     line="District,Hammersmith &amp; City"                                         link="W029,M006"                          />
         <station id="S028" name="Stockwell"                         line="Northern,Victoria"                                                       link="B025,V001,O004,C022"                />
         <station id="S029" name="Stonebridge Park"                  line="Overground,Bakerloo"                                                     link="W012,H010"                          />
-        <station id="S030" name="Stratford"                         line="Central,DLR,Overground,Jubilee"                                          link="M006,L008,W018,P014,H002"           />
+        <station id="S030" name="Stratford"                         line="Central,DLR,Overground,Jubilee"                                          link="M006,L008,W018,P014,H002,S037,S038" />
         <station id="S031" name="Sudbury Hill"                      line="Piccadilly"                                                              link="S032,S011"                          />
         <station id="S032" name="Sudbury Town"                      line="Piccadilly"                                                              link="A006,S031"                          />
         <station id="S033" name="Surrey Quays"                      line="Overground"                                                              link="N003,N002"                          />
         <station id="S034" name="Swiss Cottage"                     line="Jubilee"                                                                 link="F004,S023"                          />
         <station id="S035" name="Syndenham"                         line="Overground"                                                              link="P004,C031"                          />
+        <station id="S036" name="Star Lane"                         line="DLR"                                                                     link="C007,W018"                          />
+        <station id="S037" name="Stratford High Street"             line="DLR"                                                                     link="S030,A013"                          />
+        <station id="S038" name="Stratford International"           line="DLR"                                                                     link="S030"                               />
         <station id="T001" name="Temple"                            line="Circle,District"                                                         link="B015,E015"                          />
         <station id="T002" name="Theydon Bois"                      line="Central"                                                                 link="D005,E016"                          />
         <station id="T003" name="Tooting Bec"                       line="Northern"                                                                link="B002,T004"                          />
@@ -348,7 +352,7 @@
         <station id="W015" name="West Brompton"                     line="District,Overground"                                                     link="E003,F008"                          />
         <station id="W016" name="West Croydon"                      line="Overground"                                                              link="N015"                               />
         <station id="W017" name="West Finchley"                     line="Northern"                                                                link="F003,W038"                          />
-        <station id="W018" name="West Ham"                          line="Jubilee,District,Hammersmith &amp; City"                                 link="C007,S030,B027,P009"                />
+        <station id="W018" name="West Ham"                          line="DLR,Jubilee,District,Hammersmith &amp; City"                             link="S030,B027,P009,S036,A013"           />
         <station id="W019" name="West Hampstead"                    line="Jubilee"                                                                 link="K009,F004"                          />
         <station id="W020" name="West Harrow"                       line="Metropolitan"                                                            link="H012,R002"                          />
         <station id="W021" name="West India Quay"                   line="DLR"                                                                     link="P011,C006,W026"                     />
@@ -356,7 +360,7 @@
         <station id="W023" name="West Ruislip"                      line="Central"                                                                 link="R013"                               />
         <station id="W024" name="West Silvertown"                   line="DLR"                                                                     link="C007,P010"                          />
         <station id="W025" name="Westbourne Park"                   line="Circle,Hammersmith &amp; City"                                           link="L001,R010"                          />
-        <station id="W026" name="Westferry"                         line="DLR"                                                                     link="P011,L011"                          />
+        <station id="W026" name="Westferry"                         line="DLR"                                                                     link="P011,L011,W021"                     />
         <station id="W027" name="Westminster"                       line="Circle,District,Jubilee"                                                 link="S022,G009,W008,E015"                />
         <station id="W028" name="White City"                        line="Central"                                                                 link="E004,S003,W035"                     />
         <station id="W029" name="Whitechapel"                       line="District,Hammersmith &amp; City,Overground"                              link="A004,S027,S002,S005"                />

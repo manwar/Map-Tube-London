@@ -1,5 +1,22 @@
 Revision history for Map-Tube-London
 
+0.62  Thu Feb 18 13:20:00 2015
+      - Added 'skip' data for DLR line.
+      - Added following stations to the DLR Line:
+        - Abbey Road
+        - Star Lane
+        - Stratford High Street
+        - Stratford International
+      - Updated the link information for the station "Westferry".
+      - Updated the line and link information for the station "West Ham".
+      - Updated the link information for the station "Stratford".
+      - Updated the link information for the station "Shadwell".
+      - Updated the line information for the station "Monument".
+      - Updated the link information for the station "Canning Town".
+      - Updated station name "Hampstead Heath".
+      - Updated station name "Gallions Reach".
+      - Updated the map for DLR line.
+
 0.61  Wed Feb 17 15:30:00 2015
       - Added package Map::Tube::London::Line::DLR to the 'provides' list in Makefile.PL file.
 

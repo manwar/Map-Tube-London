@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::WaterlooCity;
 
-$Map::Tube::London::Line::WaterlooCity::VERSION   = '0.61';
+$Map::Tube::London::Line::WaterlooCity::VERSION   = '0.62';
 $Map::Tube::London::Line::WaterlooCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::WaterlooCity - London Tube Map: Waterloo & City Line.
 
 =head1 VERSION
 
-Version 0.61
+Version 0.62
 
 =head1 DESCRIPTION
 
@@ -32,7 +32,8 @@ London Tube Map: Waterloo & City Line.
 =over 2
 
 =item * The station "Bank" is also part of L<Central Line|Map::Tube::London::Line::Central>
-        | L<Northern Line|Map::Tube::London::Line::Northern>.
+        | L<Northern Line|Map::Tube::London::Line::Northern>
+        | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
 =item * The station "Waterloo" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>

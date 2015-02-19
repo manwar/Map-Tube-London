@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.61';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.62';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map: Hammersmith & City L
 
 =head1 VERSION
 
-Version 0.61
+Version 0.62
 
 =head1 DESCRIPTION
 
@@ -58,6 +58,27 @@ London Tube Map: Hammersmith & City Line.
 
 =over 2
 
+=item * The station "Aldgate East" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Barking" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Bromley-by-Bow" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Bow Road" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "East Ham" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Upton Park" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "Mile End" is also part of L<District Line|Map::Tube::London::Line::District>
+        | L<Central Line|Map::Tube::London::Line::Central>
+
+=item * The station "Plaistow" is also part of L<District Line|Map::Tube::London::Line::District>.
+
+=item * The station "West Ham" is also part of L<District Line|Map::Tube::London::Line::District>
+        | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+        | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
+
 =item * The station "Paddington" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<District Line|Map::Tube::London::Line::District>.
 
@@ -67,7 +88,7 @@ London Tube Map: Hammersmith & City Line.
 =item * The station "King's Cross St Pancras" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Picadilly Line
+        | Piccadilly Line
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
@@ -82,6 +103,9 @@ London Tube Map: Hammersmith & City Line.
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+
+=item * The station "Whitechapel" is also part of L<District Line|Map::Tube::London::Line::District>
+        | London Overground Line.
 
 =back
 

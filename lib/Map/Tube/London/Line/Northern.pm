@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.61';
+$Map::Tube::London::Line::Northern::VERSION   = '0.62';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map: Northern Line.
 
 =head1 VERSION
 
-Version 0.61
+Version 0.62
 
 =head1 DESCRIPTION
 
@@ -117,11 +117,19 @@ London Tube Map: Northern Line.
 
 =over 2
 
+=item * The station "Bank" is also part of L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>
+        | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
+
 =item * The station "Warren Street" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Tottenham Court Road" is also part of L<Central Line|Map::Tube::London::Line::Central>
 
-=item * The station "Leicester Square" is also part of Picadilly Line.
+=item * The station "Leicester Square" is also part of Piccadilly Line.
+
+=item * The station "Euston" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>
+        | London Overground Line.
+
+=item * The station "London Bridge" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>.
 
 =item * The station "Embankment" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Circle Line|Map::Tube::London::Line::Circle>
@@ -130,6 +138,10 @@ London Tube Map: Northern Line.
 =item * The station "Waterloo" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
+
+=item * The station "Elephant & Castle" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
+
+=item * The station "Stockwell" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =back
 
