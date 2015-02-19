@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.62';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.63';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map: Jubilee Line.
 
 =head1 VERSION
 
-Version 0.62
+Version 0.63
 
 =head1 DESCRIPTION
 
@@ -58,7 +58,7 @@ London Tube Map: Jubilee Line.
 
 =item * The station "Canada Water" is also part of London Overground Line.
 
-=item * The station "Canning Town" is also part of L<Docklands Light Railway Line|Map::Tube::London::Line::DLR>.
+=item * The station "Canning Town" is also part of L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
 =item * The station "Wembley Park" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
@@ -79,14 +79,14 @@ London Tube Map: Jubilee Line.
         | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
 
 =item * The station "Straftford" is also part of L<Central Line|Map::Tube::London::Line::Central>
-        | L<Docklands Light Railway Line|Map::Tube::London::Line::DLR>
+        | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>
         | London Overground Line.
 
 =item * The station "London Bridge" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 
 =item * The station "West Ham" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<District Line|Map::Tube::London::Line::District>
-        | L<Docklands Light Railway Line|Map::Tube::London::Line::DLR>.
+        | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
 =item * The station "West Hampstead" is also part of London Overground Line.
 

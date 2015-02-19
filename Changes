@@ -1,5 +1,13 @@
 Revision history for Map-Tube-London
 
+0.63  Thu Feb 18 15:45:00 2015
+      - Updated link information for the station "Green Park".
+      - Updated link information for the station "Leicester Square".
+      - Updated link information for the station "Surrey Quays".
+      - Updated link information for the station "Sydenham".
+      - Updated the name of station "Sydenham".
+      - Updated London map to reflect the change in the xml data.
+
 0.62  Thu Feb 18 13:20:00 2015
       - Added 'skip' data for DLR line.
       - Added following stations to the DLR Line:

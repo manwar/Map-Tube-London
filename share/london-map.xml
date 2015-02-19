@@ -137,7 +137,7 @@
         <station id="G006" name="Gospel Oak"                        line="Overground"                                                              link="K006,U004,H007"                     />
         <station id="G007" name="Grange Hill"                       line="Central"                                                                 link="H004,C017"                          />
         <station id="G008" name="Great Portland Street"             line="Circle,Hammersmith &amp; City,Metropolitan"                              link="B001,E018"                          />
-        <station id="G009" name="Green Park"                        line="Victoria,Jubilee,Piccadilly"                                             link="V002,O005,B018,W027,L006"           />
+        <station id="G009" name="Green Park"                        line="Victoria,Jubilee,Piccadilly"                                             link="V002,O005,B018,W027,L006,H036"      />
         <station id="G010" name="Greenford"                         line="Central"                                                                 link="N012,P005"                          />
         <station id="G011" name="Greenwich"                         line="DLR"                                                                     link="C033,D006"                          />
         <station id="G012" name="Gunnersbury"                       line="District,Overground"                                                     link="T011,K008,S008"                     />
@@ -200,7 +200,7 @@
         <station id="L003" name="Lancaster Gate"                    line="Central"                                                                 link="Q003,M004"                          />
         <station id="L004" name="Langdon Park"                      line="DLR"                                                                     link="A005,D007"                          />
         <station id="L005" name="Latimer Road"                      line="Circle,Hammersmith &amp; City"                                           link="W035,L001"                          />
-        <station id="L006" name="Leicester Square"                  line="Northern,Piccadilly"                                                     link="T005,C015,P006"                     />
+        <station id="L006" name="Leicester Square"                  line="Northern,Piccadilly"                                                     link="T005,C015,P006,C027"                />
         <station id="L007" name="Lewisham"                          line="DLR"                                                                     link="E014"                               />
         <station id="L008" name="Leyton"                            line="Central"                                                                 link="S030,L010"                          />
         <station id="L009" name="Leyton Midland Road"               line="Overground"                                                              link="W002,W004"                          />
@@ -309,9 +309,9 @@
         <station id="S030" name="Stratford"                         line="Central,DLR,Overground,Jubilee"                                          link="M006,L008,W018,P014,H002,S037,S038" />
         <station id="S031" name="Sudbury Hill"                      line="Piccadilly"                                                              link="S032,S011"                          />
         <station id="S032" name="Sudbury Town"                      line="Piccadilly"                                                              link="A006,S031"                          />
-        <station id="S033" name="Surrey Quays"                      line="Overground"                                                              link="N003,N002"                          />
+        <station id="S033" name="Surrey Quays"                      line="Overground"                                                              link="N003,N002,C005"                     />
         <station id="S034" name="Swiss Cottage"                     line="Jubilee"                                                                 link="F004,S023"                          />
-        <station id="S035" name="Syndenham"                         line="Overground"                                                              link="P004,C031"                          />
+        <station id="S035" name="Sydenham"                          line="Overground"                                                              link="P004,C031,F007"                     />
         <station id="S036" name="Star Lane"                         line="DLR"                                                                     link="C007,W018"                          />
         <station id="S037" name="Stratford High Street"             line="DLR"                                                                     link="S030,A013"                          />
         <station id="S038" name="Stratford International"           line="DLR"                                                                     link="S030"                               />
