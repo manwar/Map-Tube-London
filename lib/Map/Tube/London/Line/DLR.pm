@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::DLR;
 
-$Map::Tube::London::Line::DLR::VERSION   = '0.63';
+$Map::Tube::London::Line::DLR::VERSION   = '0.64';
 $Map::Tube::London::Line::DLR::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::DLR - London Tube Map: Dockland Light Railway Line.
 
 =head1 VERSION
 
-Version 0.63
+Version 0.64
 
 =head1 DESCRIPTION
 

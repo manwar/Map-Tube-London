@@ -1,6 +1,10 @@
 Revision history for Map-Tube-London
 
-0.63  Thu Feb 18 15:45:00 2015
+0.64  Fri Feb 20 16:40:00 2015
+      - Upgraded to use Map::Tube v2.86.
+      - Added unit test to validate map data (xml) using Test::Map::Tube.
+
+0.63  Thu Feb 19 15:45:00 2015
       - Updated link information for the station "Green Park".
       - Updated link information for the station "Leicester Square".
       - Updated link information for the station "Surrey Quays".
@@ -8,7 +12,7 @@ Revision history for Map-Tube-London
       - Updated the name of station "Sydenham".
       - Updated London map to reflect the change in the xml data.
 
-0.62  Thu Feb 18 13:20:00 2015
+0.62  Thu Feb 19 13:20:00 2015
       - Added 'skip' data for DLR line.
       - Added following stations to the DLR Line:
         - Abbey Road
@@ -25,7 +29,7 @@ Revision history for Map-Tube-London
       - Updated station name "Gallions Reach".
       - Updated the map for DLR line.
 
-0.61  Wed Feb 17 15:30:00 2015
+0.61  Wed Feb 18 15:30:00 2015
       - Added package Map::Tube::London::Line::DLR to the 'provides' list in Makefile.PL file.
 
 0.60  Wed Feb 18 15:20:00 2015
