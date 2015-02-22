@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.64';
+$Map::Tube::London::Line::Northern::VERSION   = '0.65';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map: Northern Line.
 
 =head1 VERSION
 
-Version 0.64
+Version 0.65
 
 =head1 DESCRIPTION
 
@@ -20,98 +20,98 @@ London Tube Map: Northern Line.
 
 =head2 High Barnet Branch
 
-    +--------------------------+---------------------------------------+
-    |                          |                                       |
-    | Station Name             | Connected To                          |
-    |                          |                                       |
-    +--------------------------+---------------------------------------+
-    | High Barnet              | Totteridge & Whetstone                |
-    | Totteridge & Whetstone   | High Barnet, Woodside Park            |
-    | Woodside Park            | Totteridge & Whetstone, West Finchley |
-    | West Finchley            | Woodside Park, Mill Hill East         |
-    | Mill Hill East           | West Finchley, Finchley Central       |
-    | Finchley Central         | Mill Hill East, East Finchley         |
-    | East Finchley            | Finchley Central, Highgate            |
-    | Highgate                 | East Finchley, Archway                |
-    | Archway                  | Highgate, Tufnell Park                |
-    | Tufnell Park             | Archway, Kentish Town                 |
-    | Kentish Town             | Tufnell Park                          |
-    +--------------------------+---------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | High Barnet              | Totteridge & Whetstone                         |
+    | Totteridge & Whetstone   | High Barnet, Woodside Park                     |
+    | Woodside Park            | Totteridge & Whetstone, West Finchley          |
+    | West Finchley            | Woodside Park, Mill Hill East                  |
+    | Mill Hill East           | West Finchley, Finchley Central                |
+    | Finchley Central         | Mill Hill East, East Finchley                  |
+    | East Finchley            | Finchley Central, Highgate                     |
+    | Highgate                 | East Finchley, Archway                         |
+    | Archway                  | Highgate, Tufnell Park                         |
+    | Tufnell Park             | Archway, Kentish Town                          |
+    | Kentish Town             | Tufnell Park                                   |
+    +--------------------------+------------------------------------------------+
 
 =head2 Edgware Branch
 
-    +--------------------------+---------------------------------------+
-    |                          |                                       |
-    | Station Name             | Connected To                          |
-    |                          |                                       |
-    +--------------------------+---------------------------------------+
-    | Edgware                  | Burnt Oak                             |
-    | Burnt Oak                | Edgware Road, Collindale              |
-    | Colindale                | Burnt Oak, Hendon Central             |
-    | Hendon Central           | Collindale, Brent Cross               |
-    | Brent Cross              | Hendon Central, Golders Green         |
-    | Golders Green            | Brent Cross, Hamstead                 |
-    | Hampstead                | Golders Green, Belsize Park           |
-    | Belsize Park             | Hampstead, Chalk Farm                 |
-    | Chalk Farm               | Belsize Park                          |
-    +--------------------------+---------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Edgware                  | Burnt Oak                                      |
+    | Burnt Oak                | Edgware Road, Collindale                       |
+    | Colindale                | Burnt Oak, Hendon Central                      |
+    | Hendon Central           | Collindale, Brent Cross                        |
+    | Brent Cross              | Hendon Central, Golders Green                  |
+    | Golders Green            | Brent Cross, Hamstead                          |
+    | Hampstead                | Golders Green, Belsize Park                    |
+    | Belsize Park             | Hampstead, Chalk Farm                          |
+    | Chalk Farm               | Belsize Park                                   |
+    +--------------------------+------------------------------------------------+
 
 =head2 Charing Cross Branch
 
-    +--------------------------+---------------------------------------+
-    |                          |                                       |
-    | Station Name             | Connected To                          |
-    |                          |                                       |
-    +--------------------------+---------------------------------------+
-    | Mornington Crescent      | Euston                                |
-    | Euston                   | Mornington Crescent, Warren Street    |
-    | Warren Street            | Euston, Goodge Street                 |
-    | Goodge Street            | Warren Street, Tottenham Court Road   |
-    | Tottenham Court Road     | Goodge Street, Leicester Square       |
-    | Leicester Square         | Tottenham Court Road, Charing Cross   |
-    | Charing Cross            | Leicester Square, Embankment          |
-    | Embankment               | Charing Cross, Waterloo               |
-    | Waterloo                 | Embankment                            |
-    +--------------------------+---------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Mornington Crescent      | Euston                                         |
+    | Euston                   | Mornington Crescent, Warren Street             |
+    | Warren Street            | Euston, Goodge Street                          |
+    | Goodge Street            | Warren Street, Tottenham Court Road            |
+    | Tottenham Court Road     | Goodge Street, Leicester Square                |
+    | Leicester Square         | Tottenham Court Road, Charing Cross            |
+    | Charing Cross            | Leicester Square, Embankment                   |
+    | Embankment               | Charing Cross, Waterloo                        |
+    | Waterloo                 | Embankment                                     |
+    +--------------------------+------------------------------------------------+
 
 =head2 Bank Branch
 
-    +--------------------------+---------------------------------------+
-    |                          |                                       |
-    | Station Name             | Connected To                          |
-    |                          |                                       |
-    +--------------------------+---------------------------------------+
-    | Euston                   | King's Cross St. Pancras              |
-    | King's Cross St. Pancras | Euston, Angel                         |
-    | Angel                    | King's Cross St. Pancras, Old Street  |
-    | Old Street               | Angel, Moorgate                       |
-    | Moorgate                 | Old Street, Bank                      |
-    | Bank                     | Moorgate, London Bridge               |
-    | London Bridge            | Bank, Borough                         |
-    | Borough                  | London Bridge, Elephant and Castle    |
-    | Elephant and Castle      | Borough                               |
-    +--------------------------+---------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Euston                   | King's Cross St. Pancras                       |
+    | King's Cross St. Pancras | Euston, Angel                                  |
+    | Angel                    | King's Cross St. Pancras, Old Street           |
+    | Old Street               | Angel, Moorgate                                |
+    | Moorgate                 | Old Street, Bank                               |
+    | Bank                     | Moorgate, London Bridge                        |
+    | London Bridge            | Bank, Borough                                  |
+    | Borough                  | London Bridge, Elephant and Castle             |
+    | Elephant and Castle      | Borough                                        |
+    +--------------------------+------------------------------------------------+
 
 =head2 Morden Branch
 
-    +--------------------------+---------------------------------------+
-    |                          |                                       |
-    | Station Name             | Connected To                          |
-    |                          |                                       |
-    +--------------------------+---------------------------------------+
-    | Kennington               | Oval                                  |
-    | Oval                     | Kennington, Stockwell                 |
-    | Stockwell                | Oval, Clapham North                   |
-    | Clapham North            | Stockwell, Clapham Common             |
-    | Clapham Common           | Clapham North, Clapham South          |
-    | Clapham South            | Clapham Common, Balham                |
-    | Balham                   | Clapham South, Tooting Bec            |
-    | Tooting Bec              | Balham, Tooting Broadway              |
-    | Tooting Broadway         | Tooting Bec, Colliers Wood            |
-    | Colliers Wood            | Tooting Broadway, South Wimbledon     |
-    | South Wimbledon          | Colliers Wood, Morden                 |
-    | Morden                   | South Wimbledon                       |
-    +--------------------------+---------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Kennington               | Oval                                           |
+    | Oval                     | Kennington, Stockwell                          |
+    | Stockwell                | Oval, Clapham North                            |
+    | Clapham North            | Stockwell, Clapham Common                      |
+    | Clapham Common           | Clapham North, Clapham South                   |
+    | Clapham South            | Clapham Common, Balham                         |
+    | Balham                   | Clapham South, Tooting Bec                     |
+    | Tooting Bec              | Balham, Tooting Broadway                       |
+    | Tooting Broadway         | Tooting Bec, Colliers Wood                     |
+    | Colliers Wood            | Tooting Broadway, South Wimbledon              |
+    | South Wimbledon          | Colliers Wood, Morden                          |
+    | Morden                   | South Wimbledon                                |
+    +--------------------------+------------------------------------------------+
 
 =head1 NOTE
 
@@ -208,8 +208,8 @@ L<http://search.cpan.org/dist/Map-Tube-London/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.65  Sun Feb 22 17:17:00 2015
+      - Updated london tube line maps post change in the data xml.
+      - Tidied up the pod document.
+
 0.64  Fri Feb 20 16:40:00 2015
       - Upgraded to use Map::Tube v2.86.
       - Added unit test to validate map data (xml) using Test::Map::Tube.

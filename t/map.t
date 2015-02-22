@@ -7,6 +7,6 @@ use Test::More;
 use Map::Tube::London;
 
 eval "use Test::Map::Tube";
-plan skip_all => "Skipping, required Test::Map::Tube" if $@;
+plan skip_all => "Test::Map::Tube required." if $@;
 
 ok_map(Map::Tube::London->new);
