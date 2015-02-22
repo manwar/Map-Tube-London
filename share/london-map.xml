@@ -106,7 +106,7 @@
         <station id="E001" name="Ealing Broadway"                   line="Central,District"                                                        link="E002,W014"                          />
         <station id="E002" name="Ealing Common"                     line="District,Piccadilly"                                                     link="A002,N007,E001"                     />
         <station id="E003" name="Earl's Court"                      line="District,Piccadilly"                                                     link="B007,K004,H022,W015,G003,W022"      />
-        <station id="E004" name="East Acton"                        line="Central"                                                                 link="W014,W028,N006"                     />
+        <station id="E004" name="East Acton"                        line="Central"                                                                 link="W028,N006"                          />
         <station id="E005" name="East Finchley"                     line="Northern"                                                                link="H024,F003"                          />
         <station id="E006" name="East Ham"                          line="District,Hammersmith &amp; City"                                         link="U005,B005"                          />
         <station id="E007" name="East India"                        line="DLR"                                                                     link="C007,B017"                          />
@@ -348,7 +348,7 @@
         <station id="W011" name="Watford Junction"                  line="Overground"                                                              link="W010"                               />
         <station id="W012" name="Wembley Central"                   line="Overground,Bakerloo"                                                     link="N010,S029"                          />
         <station id="W013" name="Wembley Park"                      line="Metropolitan,Jubilee"                                                    link="K014,N001,F004,P012,H012"           />
-        <station id="W014" name="West Acton"                        line="Central"                                                                 link="E001,E004,N006"                     />
+        <station id="W014" name="West Acton"                        line="Central"                                                                 link="E001,N006"                          />
         <station id="W015" name="West Brompton"                     line="District,Overground"                                                     link="E003,F008"                          />
         <station id="W016" name="West Croydon"                      line="Overground"                                                              link="N015"                               />
         <station id="W017" name="West Finchley"                     line="Northern"                                                                link="F003,W038"                          />

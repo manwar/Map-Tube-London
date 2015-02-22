@@ -1,5 +1,12 @@
 Revision history for Map-Tube-London
 
+0.66  Sun Feb 22 20:20:00 2015
+      - Upgraded to use Map::Tube v2.87.
+      - Updated link information for the station "East Acton".
+      - Updated link information for the station "West Acton".
+      - Updated Central Line map image to reflect the above changes to the map data.
+      - Updated London Tube map image to reflect the above changes to the map data.
+
 0.65  Sun Feb 22 17:17:00 2015
       - Updated london tube line maps post change in the data xml.
       - Tidied up the pod document.
