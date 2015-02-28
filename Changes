@@ -1,5 +1,8 @@
 Revision history for Map-Tube-London
 
+0.68  Sat Feb 28 12:20:00 2015
+      - Added package Map::Tube::London::Line::Overground to the 'provides' list in Makefile.PL file.
+
 0.67  Sat Feb 28 12:15:00 2015
       - Added File::ShareDir::Install as configure requires in the Makefile.PL file.
       - Added package to list tube stations for London Overground lines.
