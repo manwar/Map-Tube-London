@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.66';
+$Map::Tube::London::Line::Northern::VERSION   = '0.67';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map: Northern Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -127,7 +127,7 @@ London Tube Map: Northern Line.
 =item * The station "Leicester Square" is also part of Piccadilly Line.
 
 =item * The station "Euston" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>
-        | London Overground Line.
+        | L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "London Bridge" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>.
 

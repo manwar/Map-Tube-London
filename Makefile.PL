@@ -17,7 +17,8 @@ WriteMakefile(
     PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
-        'ExtUtils::MakeMaker' => 0,
+        'ExtUtils::MakeMaker'     => 0,
+        'File::ShareDir::Install' => 0,
     },
     BUILD_REQUIRES   => {
         'Test::More' => 0,
@@ -33,18 +34,18 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Map::Tube::London'                        => { file => 'lib/Map/Tube/London.pm',                      version => '0.66' },
-            'Map::Tube::London::Line::Bakerloo'        => { file => 'lib/Map/Tube/London/Line/Bakerloo.pm',        version => '0.66' },
-            'Map::Tube::London::Line::Central'         => { file => 'lib/Map/Tube/London/Line/Central.pm',         version => '0.66' },
-            'Map::Tube::London::Line::Circle'          => { file => 'lib/Map/Tube/London/Line/Circle.pm',          version => '0.66' },
-            'Map::Tube::London::Line::District'        => { file => 'lib/Map/Tube/London/Line/District.pm',        version => '0.66' },
-            'Map::Tube::London::Line::DLR'             => { file => 'lib/Map/Tube/London/Line/DLR.pm',             version => '0.66' },
-            'Map::Tube::London::Line::HammersmithCity' => { file => 'lib/Map/Tube/London/Line/HammersmithCity.pm', version => '0.66' },
-            'Map::Tube::London::Line::Jubilee'         => { file => 'lib/Map/Tube/London/Line/Jubilee.pm',         version => '0.66' },
-            'Map::Tube::London::Line::Metropolitan'    => { file => 'lib/Map/Tube/London/Line/Metropolitan.pm',    version => '0.66' },
-            'Map::Tube::London::Line::Northern'        => { file => 'lib/Map/Tube/London/Line/Northern.pm',        version => '0.66' },
-            'Map::Tube::London::Line::Victoria'        => { file => 'lib/Map/Tube/London/Line/Victoria.pm',        version => '0.66' },
-            'Map::Tube::London::Line::WaterlooCity'    => { file => 'lib/Map/Tube/London/Line/WaterlooCity.pm',    version => '0.66' },
+            'Map::Tube::London'                        => { file => 'lib/Map/Tube/London.pm',                      version => '0.67' },
+            'Map::Tube::London::Line::Bakerloo'        => { file => 'lib/Map/Tube/London/Line/Bakerloo.pm',        version => '0.67' },
+            'Map::Tube::London::Line::Central'         => { file => 'lib/Map/Tube/London/Line/Central.pm',         version => '0.67' },
+            'Map::Tube::London::Line::Circle'          => { file => 'lib/Map/Tube/London/Line/Circle.pm',          version => '0.67' },
+            'Map::Tube::London::Line::District'        => { file => 'lib/Map/Tube/London/Line/District.pm',        version => '0.67' },
+            'Map::Tube::London::Line::DLR'             => { file => 'lib/Map/Tube/London/Line/DLR.pm',             version => '0.67' },
+            'Map::Tube::London::Line::HammersmithCity' => { file => 'lib/Map/Tube/London/Line/HammersmithCity.pm', version => '0.67' },
+            'Map::Tube::London::Line::Jubilee'         => { file => 'lib/Map/Tube/London/Line/Jubilee.pm',         version => '0.67' },
+            'Map::Tube::London::Line::Metropolitan'    => { file => 'lib/Map/Tube/London/Line/Metropolitan.pm',    version => '0.67' },
+            'Map::Tube::London::Line::Northern'        => { file => 'lib/Map/Tube/London/Line/Northern.pm',        version => '0.67' },
+            'Map::Tube::London::Line::Victoria'        => { file => 'lib/Map/Tube/London/Line/Victoria.pm',        version => '0.67' },
+            'Map::Tube::London::Line::WaterlooCity'    => { file => 'lib/Map/Tube/London/Line/WaterlooCity.pm',    version => '0.67' },
         },
         resources => {
             repository => {

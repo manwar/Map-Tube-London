@@ -151,7 +151,7 @@
         <station id="H008" name="Hanger Lane"                       line="Central"                                                                 link="P005,N006"                          />
         <station id="H009" name="Haringay Green Lanes"              line="Overground"                                                              link="C029,S016"                          />
         <station id="H010" name="Harlesden"                         line="Overground,Bakerloo"                                                     link="S029,W031"                          />
-        <station id="H011" name="Harrow &amp; Wealdstone"           line="Overground,Bakerloo"                                                     link="K007"                               />
+        <station id="H011" name="Harrow &amp; Wealdstone"           line="Overground,Bakerloo"                                                     link="K007,H015"                          />
         <station id="H012" name="Harrow-on-the-Hill"                line="Metropolitan"                                                            link="N005,W013,W020,N009,M010,F004"      />
         <station id="H013" name="Hatch End"                         line="Overground"                                                              link="H015,C011"                          />
         <station id="H014" name="Hatton Cross"                      line="Piccadilly"                                                              link="H017"                               />
@@ -183,7 +183,7 @@
         <station id="K001" name="Kennington"                        line="Northern"                                                                link="W008,E012,O004"                     />
         <station id="K002" name="Kensal Green"                      line="Overground,Bakerloo"                                                     link="W031,Q001"                          />
         <station id="K003" name="Kensal Rise"                       line="Overground"                                                              link="W031,B028"                          />
-        <station id="K004" name="Kensington (Olympia)"              line="District,Overground"                                                     link="E003,S003"                          />
+        <station id="K004" name="Kensington (Olympia)"              line="District,Overground"                                                     link="E003,S003,W015"                     />
         <station id="K005" name="Kentish Town"                      line="Northern"                                                                link="C004,T010"                          />
         <station id="K006" name="Kentish Town West"                 line="Overground"                                                              link="C003,G006"                          />
         <station id="K007" name="Kenton"                            line="Overground,Bakerloo"                                                     link="H011,S013"                          />
@@ -349,7 +349,7 @@
         <station id="W012" name="Wembley Central"                   line="Overground,Bakerloo"                                                     link="N010,S029"                          />
         <station id="W013" name="Wembley Park"                      line="Metropolitan,Jubilee"                                                    link="K014,N001,F004,P012,H012"           />
         <station id="W014" name="West Acton"                        line="Central"                                                                 link="E001,N006"                          />
-        <station id="W015" name="West Brompton"                     line="District,Overground"                                                     link="E003,F008"                          />
+        <station id="W015" name="West Brompton"                     line="District,Overground"                                                     link="E003,F008,K004,I002"                />
         <station id="W016" name="West Croydon"                      line="Overground"                                                              link="N015"                               />
         <station id="W017" name="West Finchley"                     line="Northern"                                                                link="F003,W038"                          />
         <station id="W018" name="West Ham"                          line="DLR,Jubilee,District,Hammersmith &amp; City"                             link="S030,B027,P009,S036,A013"           />

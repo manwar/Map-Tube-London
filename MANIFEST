@@ -9,6 +9,7 @@ lib/Map/Tube/London/Line/HammersmithCity.pm
 lib/Map/Tube/London/Line/Jubilee.pm
 lib/Map/Tube/London/Line/Metropolitan.pm
 lib/Map/Tube/London/Line/Northern.pm
+lib/Map/Tube/London/Line/Overground.pm
 lib/Map/Tube/London/Line/Victoria.pm
 lib/Map/Tube/London/Line/WaterlooCity.pm
 share/london-map.xml

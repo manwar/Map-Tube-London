@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.66';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.67';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,51 +12,51 @@ Map::Tube::London::Line::Jubilee - London Tube Map: Jubilee Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
 London Tube Map: Jubilee Line.
 
-    +------------------+----------------------------------+
-    |                  |                                  |
-    | Station Name     | Connected To                     |
-    |                  |                                  |
-    +------------------+----------------------------------+
-    | Stanmore         | Cannons Park                     |
-    | Canons Park      | Stanmore, Queenbury              |
-    | Queensbury       | Cannons Park, Kingsbury          |
-    | Kingsbury        | Queensbury, Wembley Park         |
-    | Wembley Park     | Kingsbury, Neasden               |
-    | Neasden          | Wembley Park, Dollis Hill        |
-    | Dollis Hill      | Neasden, Willesden Green         |
-    | Willesden Green  | Dollis Hill, Kilburn             |
-    | Kilburn          | Willesden Green, West Hampstead  |
-    | West Hampstead   | Kilburn, Finchley Road           |
-    | Finchley Road    | West Hampstead, Swiss Cottage    |
-    | Swiss Cottage    | Finchley Road, St. John's Wood   |
-    | St. John's Wood  | Swiss Cottage, Baker Street      |
-    | Baker Street     | St. John's Wood, Bond Street     |
-    | Bond Street      | Baker Street, Green Park         |
-    | Green Park       | Bond Street, Westminster         |
-    | Westminster      | Green Park, Waterloo             |
-    | Waterloo         | Westminster, Southwark           |
-    | Southwark        | Waterloo, London Bridge          |
-    | London Bridge    | Southwark, Bermondsey            |
-    | Bermondsey       | London Bridge, Canada Water      |
-    | Canada Water     | Bermondsey, Canary Wharf         |
-    | Canary Wharf     | Canada Water, North Greenwich    |
-    | North Greenwich  | Canary Wharf, Canning Town       |
-    | Canning Town     | North Greenwich, West Ham        |
-    | West Ham         | Canning Town, Stratford          |
-    | Stratford        | West Ham                         |
-    +------------------+----------------------------------+
+    +------------------+--------------------------------------------------------+
+    |                  |                                                        |
+    | Station Name     | Connected To                                           |
+    |                  |                                                        |
+    +------------------+--------------------------------------------------------+
+    | Stanmore         | Cannons Park                                           |
+    | Canons Park      | Stanmore, Queenbury                                    |
+    | Queensbury       | Cannons Park, Kingsbury                                |
+    | Kingsbury        | Queensbury, Wembley Park                               |
+    | Wembley Park     | Kingsbury, Neasden                                     |
+    | Neasden          | Wembley Park, Dollis Hill                              |
+    | Dollis Hill      | Neasden, Willesden Green                               |
+    | Willesden Green  | Dollis Hill, Kilburn                                   |
+    | Kilburn          | Willesden Green, West Hampstead                        |
+    | West Hampstead   | Kilburn, Finchley Road                                 |
+    | Finchley Road    | West Hampstead, Swiss Cottage                          |
+    | Swiss Cottage    | Finchley Road, St. John's Wood                         |
+    | St. John's Wood  | Swiss Cottage, Baker Street                            |
+    | Baker Street     | St. John's Wood, Bond Street                           |
+    | Bond Street      | Baker Street, Green Park                               |
+    | Green Park       | Bond Street, Westminster                               |
+    | Westminster      | Green Park, Waterloo                                   |
+    | Waterloo         | Westminster, Southwark                                 |
+    | Southwark        | Waterloo, London Bridge                                |
+    | London Bridge    | Southwark, Bermondsey                                  |
+    | Bermondsey       | London Bridge, Canada Water                            |
+    | Canada Water     | Bermondsey, Canary Wharf                               |
+    | Canary Wharf     | Canada Water, North Greenwich                          |
+    | North Greenwich  | Canary Wharf, Canning Town                             |
+    | Canning Town     | North Greenwich, West Ham                              |
+    | West Ham         | Canning Town, Stratford                                |
+    | Stratford        | West Ham                                               |
+    +------------------+--------------------------------------------------------+
 
 =head1 NOTE
 
 =over 2
 
-=item * The station "Canada Water" is also part of London Overground Line.
+=item * The station "Canada Water" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "Canning Town" is also part of L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
@@ -78,9 +78,9 @@ London Tube Map: Jubilee Line.
         | L<Northern Line|Map::Tube::London::Line::Northern>
         | L<Waterloo & City Line|Map::Tube::London::Line::WaterlooCity>.
 
-=item * The station "Straftford" is also part of L<Central Line|Map::Tube::London::Line::Central>
+=item * The station "Stratford" is also part of L<Central Line|Map::Tube::London::Line::Central>
         | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>
-        | London Overground Line.
+        | L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "London Bridge" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 
@@ -88,7 +88,7 @@ London Tube Map: Jubilee Line.
         | L<District Line|Map::Tube::London::Line::District>
         | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
-=item * The station "West Hampstead" is also part of London Overground Line.
+=item * The station "West Hampstead" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "Westminster" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<District Line|Map::Tube::London::Line::District>.
@@ -158,8 +158,8 @@ L<http://search.cpan.org/dist/Map-Tube-London/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain  a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

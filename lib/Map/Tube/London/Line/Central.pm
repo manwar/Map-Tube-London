@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.66';
+$Map::Tube::London::Line::Central::VERSION   = '0.67';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Central - London Tube Map: Central Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -95,7 +95,7 @@ London Tube Map: Central Line.
 
 =item * The station "Stratford" is also part of L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
-        | London Overground Line.
+        | L<London Overground Line|Map::Tube::London::Line::Overground>
 
 =back
 

@@ -1,5 +1,15 @@
 Revision history for Map-Tube-London
 
+0.67  Sat Feb 28 12:15:00 2015
+      - Added File::ShareDir::Install as configure requires in the Makefile.PL file.
+      - Added package to list tube stations for London Overground lines.
+      - Added map for London Overground lines.
+      - Updated map for London Tube.
+      - Updated link information for the station "Harrow & Wealdstone".
+      - Updated link information for the station "Kensington (Olympia)".
+      - Updated link information for the station "West Brompton".
+      - Tidied up the pod document.
+
 0.66  Sun Feb 22 20:20:00 2015
       - Upgraded to use Map::Tube v2.87.
       - Updated link information for the station "East Acton".

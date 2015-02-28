@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Victoria;
 
-$Map::Tube::London::Line::Victoria::VERSION   = '0.66';
+$Map::Tube::London::Line::Victoria::VERSION   = '0.67';
 $Map::Tube::London::Line::Victoria::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Victoria - London Tube Map: Victoria Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -57,7 +57,7 @@ London Tube Map: Victoria Line.
 
 =item * The station "Finsbury Park" is also part of Piccadilly Line.
 
-=item * The station "Blackhorse Road" is also part of London Overground Line.
+=item * The station "Blackhorse Road" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "Warren Street" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 
@@ -72,7 +72,7 @@ London Tube Map: Victoria Line.
 
 =item * The station "Stockwell" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 
-=item * The station "Highbury & Islington" is also part of London Overground Line.
+=item * The station "Highbury & Islington" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =back
 
@@ -139,7 +139,7 @@ L<http://search.cpan.org/dist/Map-Tube-London/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This program  is  free software; you can redistribute it and  /or modify it under
+This program  is  free software; you can redistribute it and / or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain  a copy of the full
 license at:
 

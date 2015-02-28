@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.66';
+$Map::Tube::London::Line::District::VERSION   = '0.67';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::District - London Tube Map: District Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -94,7 +94,7 @@ London Tube Map: District Line.
 
 =item * The station "Barons Court" is also part of Piccadilly Line.
 
-=item * The station "Barking" is also part of London Overground Line.
+=item * The station "Barking" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "Earl's Court" is also part of Piccadilly Line.
 
@@ -102,7 +102,7 @@ London Tube Map: District Line.
 
 =item * The station "Victoria" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
-=item * The station "Whitechapel" is also part of London Overground Line.
+=item * The station "Whitechapel" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "Aldgate East" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>.
 

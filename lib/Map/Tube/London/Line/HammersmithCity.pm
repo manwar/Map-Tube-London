@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.66';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.67';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map: Hammersmith & City L
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -105,7 +105,7 @@ London Tube Map: Hammersmith & City Line.
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
 =item * The station "Whitechapel" is also part of L<District Line|Map::Tube::London::Line::District>
-        | London Overground Line.
+        | <London Overground Line|Map::Tube::London::Line::Overground>.
 
 =back
 

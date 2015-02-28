@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::DLR;
 
-$Map::Tube::London::Line::DLR::VERSION   = '0.66';
+$Map::Tube::London::Line::DLR::VERSION   = '0.67';
 $Map::Tube::London::Line::DLR::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::DLR - London Tube Map: Dockland Light Railway Line.
 
 =head1 VERSION
 
-Version 0.66
+Version 0.67
 
 =head1 DESCRIPTION
 
@@ -90,9 +90,9 @@ London Tube Map: Dockland Light Railway Line.
 
 =item * The station "Stratford" is also part of L<Central Line|Map::Tube::London::Line::Central>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
-        | London Overground Line.
+        | L<London Overground Line|Map::Tube::London::Line::Overground>.
 
-=item * The station "Shadwell" is also part of London Overground Line.
+=item * The station "Shadwell" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =item * The station "West Ham" is also part of L<District Line|Map::Tube::London::Line::District>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
