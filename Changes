@@ -1,5 +1,14 @@
 Revision history for Map-Tube-London
 
+0.69  Sun Mar 01 03:20:00 2015
+      - Added package to list tube stations for Piccadilly lines.
+      - Updated link information for the station "Green Park".
+      - Updated link information for the station "Osterley".
+      - Updated link information for the station "Hatton Cross".
+      - Added map for Piccadilly lines.
+      - Updated map for London Tube.
+      - Tidied up the pod document.
+
 0.68  Sat Feb 28 12:20:00 2015
       - Added package Map::Tube::London::Line::Overground to the 'provides' list in Makefile.PL file.
 

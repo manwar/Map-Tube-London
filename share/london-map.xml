@@ -137,7 +137,7 @@
         <station id="G006" name="Gospel Oak"                        line="Overground"                                                              link="K006,U004,H007"                     />
         <station id="G007" name="Grange Hill"                       line="Central"                                                                 link="H004,C017"                          />
         <station id="G008" name="Great Portland Street"             line="Circle,Hammersmith &amp; City,Metropolitan"                              link="B001,E018"                          />
-        <station id="G009" name="Green Park"                        line="Victoria,Jubilee,Piccadilly"                                             link="V002,O005,B018,W027,L006,H036"      />
+        <station id="G009" name="Green Park"                        line="Victoria,Jubilee,Piccadilly"                                             link="V002,O005,B018,W027,H036,P006"      />
         <station id="G010" name="Greenford"                         line="Central"                                                                 link="N012,P005"                          />
         <station id="G011" name="Greenwich"                         line="DLR"                                                                     link="C033,D006"                          />
         <station id="G012" name="Gunnersbury"                       line="District,Overground"                                                     link="T011,K008,S008"                     />
@@ -154,7 +154,7 @@
         <station id="H011" name="Harrow &amp; Wealdstone"           line="Overground,Bakerloo"                                                     link="K007,H015"                          />
         <station id="H012" name="Harrow-on-the-Hill"                line="Metropolitan"                                                            link="N005,W013,W020,N009,M010,F004"      />
         <station id="H013" name="Hatch End"                         line="Overground"                                                              link="H015,C011"                          />
-        <station id="H014" name="Hatton Cross"                      line="Piccadilly"                                                              link="H017"                               />
+        <station id="H014" name="Hatton Cross"                      line="Piccadilly"                                                              link="H017,H034"                          />
         <station id="H015" name="Headstone Lane"                    line="Overground"                                                              link="H011,H013"                          />
         <station id="H016" name="Heathrow Terminal 1,2,3"           line="Piccadilly"                                                              link="H018,H014"                          />
         <station id="H017" name="Heathrow Terminal 4"               line="Piccadilly"                                                              link="H016"                               />
@@ -241,7 +241,7 @@
         <station id="N016" name="Notting Hill Gate"                 line="Central,Circle,District"                                                 link="H027,Q003,B008,H022"                />
         <station id="O001" name="Oakwood"                           line="Piccadilly"                                                              link="S020,C024"                          />
         <station id="O002" name="Old Street"                        line="Northern"                                                                link="M011,A009"                          />
-        <station id="O003" name="Osterley"                          line="Piccadilly"                                                              link="H033,S009"                          />
+        <station id="O003" name="Osterley"                          line="Piccadilly"                                                              link="H033,B020"                          />
         <station id="O004" name="Oval"                              line="Northern"                                                                link="S028,K001"                          />
         <station id="O005" name="Oxford Circus"                     line="Central,Victoria,Bakerloo"                                               link="G009,W006,B018,R004,P006,H026"      />
         <station id="P001" name="Paddington"                        line="District,Circle,Hammersmith &amp; City,Bakerloo"                         link="B008,W007,E011,R010"                />

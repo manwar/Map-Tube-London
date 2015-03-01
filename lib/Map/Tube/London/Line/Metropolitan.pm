@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Metropolitan;
 
-$Map::Tube::London::Line::Metropolitan::VERSION   = '0.68';
+$Map::Tube::London::Line::Metropolitan::VERSION   = '0.69';
 $Map::Tube::London::Line::Metropolitan::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Metropolitan - London Tube Map: Metropolitan Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -82,7 +82,7 @@ London Tube Map: Metropolitan Line.
         | L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =back
 

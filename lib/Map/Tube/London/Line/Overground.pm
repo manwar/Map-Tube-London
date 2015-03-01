@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Overground;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.68';
+$Map::Tube::London::Line::Central::VERSION   = '0.69';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Overground - London Tube Map: London Overground Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =encoding utf8
 
@@ -131,7 +131,7 @@ London Tube Map: London Overground Line.
 =item * The station "Euston" is also part of L<Northern Line|Map::Tube::London::Line::Northern>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
-=item * The station "Shepher's Bush" is also part of L<Central Line|Map::Tube::London::Line::Central>.
+=item * The station "Shepherd's Bush" is also part of L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Kensington (Olympia)" is also part of L<District Line|Map::Tube::London::Line::District>.
 

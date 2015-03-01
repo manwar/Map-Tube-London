@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Jubilee;
 
-$Map::Tube::London::Line::Jubilee::VERSION   = '0.68';
+$Map::Tube::London::Line::Jubilee::VERSION   = '0.69';
 $Map::Tube::London::Line::Jubilee::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Jubilee - London Tube Map: Jubilee Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -65,7 +65,7 @@ London Tube Map: Jubilee Line.
 =item * The station "Bond Street" is also part of L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Green Park" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Finchley Road" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 

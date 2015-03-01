@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.68';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.69';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map: Hammersmith & City L
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -88,7 +88,7 @@ London Tube Map: Hammersmith & City Line.
 =item * The station "King's Cross St Pancras" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Piccadilly Line
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>

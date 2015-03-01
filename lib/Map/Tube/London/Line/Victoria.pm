@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Victoria;
 
-$Map::Tube::London::Line::Victoria::VERSION   = '0.68';
+$Map::Tube::London::Line::Victoria::VERSION   = '0.69';
 $Map::Tube::London::Line::Victoria::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Victoria - London Tube Map: Victoria Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -45,7 +45,7 @@ London Tube Map: Victoria Line.
 
 =over 2
 
-=item * The station "Finsbury Park" is also part of Piccadilly Line.
+=item * The station "Finsbury Park" is also part of L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Euston" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
 
@@ -53,9 +53,9 @@ London Tube Map: Victoria Line.
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
-=item * The station "Finsbury Park" is also part of Piccadilly Line.
+=item * The station "Finsbury Park" is also part of L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Blackhorse Road" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
@@ -65,7 +65,7 @@ London Tube Map: Victoria Line.
         | L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Green Park" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Victoria" is also part of L<District Line|Map::Tube::London::Line::District>
         | L<Circle Line|Map::Tube::London::Line::Circle>.

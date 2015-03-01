@@ -3,7 +3,7 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use Test::More tests => 13;
+use Test::More tests => 14;
 
 BEGIN {
     use_ok('Map::Tube::London')                        || print "Bail out!\n";
@@ -16,6 +16,7 @@ BEGIN {
     use_ok('Map::Tube::London::Line::Jubilee')         || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::Metropolitan')    || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::Overground')      || print "Bail out!\n";
+    use_ok('Map::Tube::London::Line::Piccadilly')      || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::Northern')        || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::Victoria')        || print "Bail out!\n";
     use_ok('Map::Tube::London::Line::WaterlooCity')    || print "Bail out!\n";

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION   = '0.68';
+$Map::Tube::London::Line::Circle::VERSION   = '0.69';
 $Map::Tube::London::Line::Circle::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Circle - London Tube Map: Circle Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -69,7 +69,7 @@ London Tube Map: Circle Line.
 
 =item * The station "Hammersmith" is also part of L<District Line|Map::Tube::London::Line::District>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
-        | Picadilly Line..
+        | L<Picadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "High Street Kensington" is also part of L<District Line|Map::Tube::London::Line::District>.
 
@@ -85,7 +85,7 @@ London Tube Map: Circle Line.
 =item * The station "King's Cross St Pancras" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
-        | Picadilly Line
+        | L<Picadilly Line|Map::Tube::London::Line::Piccadilly>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =item * The station "Liverpool Street" is also part of L<Central Line|Map::Tube::London::Line::Central>

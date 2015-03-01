@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::District;
 
-$Map::Tube::London::Line::District::VERSION   = '0.68';
+$Map::Tube::London::Line::District::VERSION   = '0.69';
 $Map::Tube::London::Line::District::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::District - London Tube Map: District Line.
 
 =head1 VERSION
 
-Version 0.68
+Version 0.69
 
 =head1 DESCRIPTION
 
@@ -90,15 +90,15 @@ London Tube Map: District Line.
 
 =item * The station "Hammersmith" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
-=item * The station "Barons Court" is also part of Piccadilly Line.
+=item * The station "Barons Court" is also part of L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Barking" is also part of L<London Overground Line|Map::Tube::London::Line::Overground>.
 
-=item * The station "Earl's Court" is also part of Piccadilly Line.
+=item * The station "Earl's Court" is also part of L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
-=item * The station "South Kensington" is also part of Piccadilly Line.
+=item * The station "South Kensington" is also part of L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Victoria" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
@@ -118,7 +118,7 @@ London Tube Map: District Line.
 =item * The station "Mile End" is also part of L<Central Line|Map::Tube::London::Line::Central>.
 
 =item * The station "Gloucester Road" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
-        | Piccadilly Line.
+        | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>.
 
 =item * The station "Embankment" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Northern Line|Map::Tube::London::Line::Northern>.
