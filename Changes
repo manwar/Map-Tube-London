@@ -1,5 +1,10 @@
 Revision history for Map-Tube-London
 
+0.70  Sun Mar 15 17:35:00 2015
+      - Upgraded to use Map::Tube v2.89.
+      - Updated map data with respect to other link type attribute (new).
+      - Added new test case to respect the above changes.
+
 0.69  Sun Mar 01 03:20:00 2015
       - Added package to list tube stations for Piccadilly lines.
       - Updated link information for the station "Green Park".

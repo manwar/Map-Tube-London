@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 use strict; use warnings;
-use Test::More tests => 22;
+use Test::More tests => 24;
 use Map::Tube::London;
 
 my $tube = Map::Tube::London->new;
@@ -49,3 +49,5 @@ Route 19|   Westferry|Cannon      Street|Westferry,Limehouse,Shadwell,Bank,Monum
 Route 20|Westferry    |Cannon      Street|Westferry,Limehouse,Shadwell,Bank,Monument,Cannon Street
 Route 21|Westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Bank,Monument,Cannon Street
 Route 22|westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Bank,Monument,Cannon Street
+Route 23|Tower Gateway|Aldgate|Tower Gateway,Tower Hill,Aldgate
+Route 24|Liverpool Street|Monument|Liverpool Street,Bank,Monument

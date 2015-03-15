@@ -32,7 +32,7 @@
         <station id="A013" name="Abbey Road"                        line="DLR"                                                                     link="W018,S037"                          />
         <station id="B001" name="Baker Street"                      line="Circle,Hammersmith &amp; City,Bakerloo,Metropolitan,Jubilee"             link="B018,R004,M005,G008,S023,E011,F004" />
         <station id="B002" name="Balham"                            line="Northern"                                                                link="C023,T003"                          />
-        <station id="B003" name="Bank"                              line="Central,DLR,Northern,Waterloo &amp; City"                                link="S002,S024,L013,M009,M011,L012,W008" />
+        <station id="B003" name="Bank"                              line="Central,DLR,Northern,Waterloo &amp; City"                                link="S002,S024,L013,M011,L012,W008"      other_link="Tunnel:M009"/>
         <station id="B004" name="Barbican"                          line="Circle,Hammersmith &amp; City,Metropolitan"                              link="F002,M011"                          />
         <station id="B005" name="Barking"                           line="District,Hammersmith &amp; City,Overground"                              link="E006,U003,W037"                     />
         <station id="B006" name="Barkingside"                       line="Central"                                                                 link="N004,F001"                          />
@@ -119,7 +119,7 @@
         <station id="E014" name="Elverson Road"                     line="DLR"                                                                     link="D006,L007"                          />
         <station id="E015" name="Embankment"                        line="Circle,District,Northern,Bakerloo"                                       link="C015,W008,T001,W027"                />
         <station id="E016" name="Epping"                            line="Central"                                                                 link="T002"                               />
-        <station id="E017" name="Euston"                            line="Northern,Overground,Victoria"                                            link="C004,W006,M008,K013,S010"           />
+        <station id="E017" name="Euston"                            line="Northern,Overground,Victoria"                                            link="C004,W006,M008,S010"                other_link="Street:K013"/>
         <station id="E018" name="Euston Square"                     line="Circle,Hammersmith &amp; City,Metropolitan"                              link="G008,K013"                          />
         <station id="F001" name="Fairlop"                           line="Central"                                                                 link="B006,H004"                          />
         <station id="F002" name="Farringdon"                        line="Circle,Hammersmith &amp; City,Metropolitan"                              link="K013,B004"                          />
@@ -192,7 +192,7 @@
         <station id="K010" name="Kilburn High Road"                 line="Overground"                                                              link="Q001,S010"                          />
         <station id="K011" name="Kilburn Park"                      line="Bakerloo"                                                                link="Q001,M001"                          />
         <station id="K012" name="King George V"                     line="DLR"                                                                     link="L014,W039"                          />
-        <station id="K013" name="King's Cross St. Pancras"          line="Circle,Hammersmith &amp; City,Victoria,Metropolitan,Piccadilly,Northern" link="H023,E017,E018,F002,A009,R015,C001" />
+        <station id="K013" name="King's Cross St. Pancras"          line="Circle,Hammersmith &amp; City,Victoria,Metropolitan,Piccadilly,Northern" link="H023,E018,F002,A009,R015,C001"      other_link="Street:E017"/>
         <station id="K014" name="Kingsbury"                         line="Jubilee"                                                                 link="Q002,W013"                          />
         <station id="K015" name="Knightsbridge"                     line="Piccadilly"                                                              link="H036,S012"                          />
         <station id="L001" name="Ladbroke Grove"                    line="Circle,Hammersmith &amp; City"                                           link="L005,W025"                          />
@@ -218,7 +218,7 @@
         <station id="M006" name="Mile End"                          line="Central,District,Hammersmith &amp; City"                                 link="B014,S030,S027,B023"                />
         <station id="M007" name="Mill Hill East"                    line="Northern"                                                                link="F003"                               />
         <station id="M008" name="Momington Crescent"                line="Northern"                                                                link="C004,E017"                          />
-        <station id="M009" name="Monument"                          line="Circle,District"                                                         link="B003,T009,C008"                     />
+        <station id="M009" name="Monument"                          line="Circle,District"                                                         link="T009,C008"                          other_link="Tunnel:B003"/>
         <station id="M010" name="Moor Park"                         line="Metropolitan"                                                            link="N013,C030,R006,H012"                />
         <station id="M011" name="Moorgate"                          line="Circle,Northern,Hammersmith &amp; City,Metropolitan"                     link="L012,B004,B003,O002"                />
         <station id="M012" name="Morden"                            line="Northern"                                                                link="S017"                               />
@@ -322,8 +322,8 @@
         <station id="T005" name="Tottenham Court Road"              line="Northern"                                                                link="G005,L006"                          />
         <station id="T006" name="Tottenham Hale"                    line="Victoria"                                                                link="S001,B016"                          />
         <station id="T007" name="Totteridge &amp; Whetstone"        line="Northern"                                                                link="W038,H021"                          />
-        <station id="T008" name="Tower Gateway"                     line="DLR"                                                                     link="S002"                               />
-        <station id="T009" name="Tower Hill"                        line="Circle,District"                                                         link="A003,A004,M009"                     />
+        <station id="T008" name="Tower Gateway"                     line="DLR"                                                                     link="S002"                               other_link="Street:T009"/>
+        <station id="T009" name="Tower Hill"                        line="Circle,District"                                                         link="A003,A004,M009"                     other_link="Street:T008"/>
         <station id="T010" name="Tufnell Park"                      line="Northern"                                                                link="K005,A010"                          />
         <station id="T011" name="Turnham Green"                     line="District,Piccadilly"                                                     link="S025,C018,G012,H005,A002"           />
         <station id="T012" name="Turnpike Lane"                     line="Piccadilly"                                                              link="M002,W034"                          />
