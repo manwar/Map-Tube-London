@@ -27,3 +27,4 @@ t/meta-yml.t
 t/meta-json.t
 t/test-case-00.t
 t/test-case-01.t
+t/route.t

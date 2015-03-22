@@ -1,5 +1,9 @@
 Revision history for Map-Tube-London
 
+0.71  Sun Mar 22 10:35:00 2015
+      - Upgraded to use Map::Tube v2.90.
+      - Added unit test t/route.t to test the new method preferred() that was added to Map::Tube::Route in v2.90.
+
 0.70  Sun Mar 15 17:35:00 2015
       - Upgraded to use Map::Tube v2.89.
       - Updated map data with respect to other link type attribute (new).
