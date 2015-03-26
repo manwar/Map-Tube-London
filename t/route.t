@@ -13,6 +13,6 @@ while (<DATA>) {
 }
 
 __DATA__
-Route 1|Baker Street|Farringdon|Baker Street (Circle), Great Portland Street (Circle), Euston Square (Circle), King's Cross St. Pancras (Circle), Farringdon (Circle)
+Route 1|Baker Street|Farringdon|Baker Street (Circle, Hammersmith & City, Metropolitan), Great Portland Street (Circle, Hammersmith & City, Metropolitan), Euston Square (Circle, Hammersmith & City, Metropolitan), King's Cross St. Pancras (Circle, Hammersmith & City, Metropolitan), Farringdon (Circle, Hammersmith & City, Metropolitan)
 Route 2|Bank|Monument|Bank (Tunnel), Monument (Tunnel)
-Route 3|Euston|King's Cross St. Pancras|Euston (Northern), King's Cross St. Pancras (Northern)
+Route 3|Euston|King's Cross St. Pancras|Euston (Northern, Street, Victoria), King's Cross St. Pancras (Northern, Street, Victoria)
