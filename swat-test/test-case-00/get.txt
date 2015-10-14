@@ -1,0 +1,7 @@
+begin:
+    get_shortest_route() : Map::Tube::get_shortest_route(): ERROR: Either FROM/TO node is undefined 
+    get_shortest_route('Bond Street') : Map::Tube::get_shortest_route(): ERROR: Either FROM/TO node is undefined 
+    get_shortest_route('XYZ','Bond Street') : Map::Tube::get_node_by_name(): ERROR: Invalid station name
+    get_shortest_route('Bond Street', 'XYZ') : Map::Tube::get_node_by_name(): ERROR: Invalid station name
+end:
+
