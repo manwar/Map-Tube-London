@@ -1,9 +1,10 @@
 generator:                                                                          \
-    my @list;                                                                       \
-    for my  $i (1..15){                                                             \
+    my @list; my $i=0;                                                              \
+    for my  $r (our @routes){                                                       \
         push @list, 'begin:';                                                       \
-        push @list, "regexp: ^Route $i found: (.+)";                                \ 
-        push @list, "generator: [ 'Route $i expected: '.( capture()->[0] ) ]";      \
+        $i++;                                                                       \
+        push @list, "Route $i found: $r";                                           \ 
+        push @list, "Route $i expected: $r";                                        \ 
         push @list, 'end:';                                                         \
     }                                                                               \
     [ @list ]
