@@ -1,11 +1,11 @@
-generator:                                              \
-    my @list;                                           \
-    for my  $i (1..15){                                 \
-        push @list, 'begin:';                           \
-        push @list, "regexp: (^Route $i.{1,8})";        \ 
-        push @list, 'generator: [ capture()->[0] ]';    \
-        push @list, 'end:';                             \
-    }                                                   \
+generator:                                                                          \
+    my @list;                                                                       \
+    for my  $i (1..15){                                                             \
+        push @list, 'begin:';                                                       \
+        push @list, "regexp: ^Route $i found: (.{1,8})";                            \ 
+        push @list, "generator: [ 'Route $i expected: '.( capture()->[0] ) ]"; \
+        push @list, 'end:';                                                         \
+    }                                                                               \
     [ @list ]
 
 

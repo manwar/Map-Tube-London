@@ -12,7 +12,7 @@ while (<DATA>) {
     #is_deeply($tube->get_shortest_route($from, $to), _expected_route($expected), $description);
     my $shortest_one =  $tube->get_shortest_route($from,$to);
     my $expected_one =  _expected_route($expected);
-    $r.= "$description $shortest_one\n$description $expected_one\n\n";
+    $r.= "$description found: $shortest_one\n$description expected: $expected_one\n\n";
 
 }
 
