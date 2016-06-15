@@ -1,4 +1,4 @@
-#!perl
+#!/usr/bin/perl
 
 use strict; use warnings;
 use Test::More tests => 4;
@@ -7,13 +7,13 @@ use Map::Tube::London;
 my $map = Map::Tube::London->new();
 
 eval { $map->get_shortest_route(); };
-like($@, qr/ERROR: Either FROM\/TO node is undefined/);
+like($@, qr/ERROR: Missing Station Name/);
 
 eval { $map->get_shortest_route('Bond Street'); };
-like($@, qr/ERROR: Either FROM\/TO node is undefined/);
+like($@, qr/ERROR: Missing Station Name/);
 
 eval { $map->get_shortest_route('XYZ', 'Bond Street'); };
-like($@, qr/ERROR: Received invalid FROM node 'XYZ'/);
+like($@, qr/ERROR: Invalid Station Name/);
 
 eval { $map->get_shortest_route('Bond Street', 'XYZ'); };
-like($@, qr/ERROR: Received invalid TO node 'XYZ'/);
+like($@, qr/ERROR: Invalid Station Name/);
