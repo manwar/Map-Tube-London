@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Central;
 
-$Map::Tube::London::Line::Central::VERSION   = '0.75';
+$Map::Tube::London::Line::Central::VERSION   = '0.76';
 $Map::Tube::London::Line::Central::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,16 +12,14 @@ Map::Tube::London::Line::Central - London Tube Map: Central Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
 London Tube Map: Central Line.
 
     +----------------------+----------------------------------------------------+
-    |                      |                                                    |
     | Station Name         | Linked To                                          |
-    |                      |                                                    |
     +----------------------+----------------------------------------------------+
     | West Ruislip         | Ruislip Gardens                                    |
     | Ruislip Gardens      | West Ruislip, South Ruislip                        |
@@ -62,7 +60,7 @@ London Tube Map: Central Line.
     | Fairlop              | Barkingside, Hainault                              |
     | Hainault             | Fairlop, Grange Hill                               |
     | Grange Hill          | Hainault, Chigwell                                 |
-    | Chigwell             | Grange Hill, ROding Valley                         |
+    | Chigwell             | Grange Hill, Roding Valley                         |
     | Roding Valley        | Chigwell, Snaresbrook                              |
     | Snaresbrook          | Roding Valley, South Woodford                      |
     | South Woodford       | Snaresbrook, Woodford                              |

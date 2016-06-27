@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Northern;
 
-$Map::Tube::London::Line::Northern::VERSION   = '0.75';
+$Map::Tube::London::Line::Northern::VERSION   = '0.76';
 $Map::Tube::London::Line::Northern::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Northern - London Tube Map: Northern Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
@@ -21,9 +21,7 @@ London Tube Map: Northern Line.
 =head2 High Barnet Branch
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | High Barnet              | Totteridge & Whetstone                         |
     | Totteridge & Whetstone   | High Barnet, Woodside Park                     |
@@ -41,9 +39,7 @@ London Tube Map: Northern Line.
 =head2 Edgware Branch
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Edgware                  | Burnt Oak                                      |
     | Burnt Oak                | Edgware Road, Collindale                       |
@@ -59,9 +55,7 @@ London Tube Map: Northern Line.
 =head2 Charing Cross Branch
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Mornington Crescent      | Euston                                         |
     | Euston                   | Mornington Crescent, Warren Street             |
@@ -77,9 +71,7 @@ London Tube Map: Northern Line.
 =head2 Bank Branch
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Euston                   | King's Cross St. Pancras                       |
     | King's Cross St. Pancras | Euston, Angel                                  |
@@ -95,9 +87,7 @@ London Tube Map: Northern Line.
 =head2 Morden Branch
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Kennington               | Oval                                           |
     | Oval                     | Kennington, Stockwell                          |

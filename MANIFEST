@@ -21,10 +21,7 @@ MANIFEST.SKIP
 README
 t/00-load.t
 t/manifest.t
-t/map.t
 t/pod.t
 t/meta-yml.t
 t/meta-json.t
-t/test-case-00.t
-t/test-case-01.t
-t/route.t
+t/map-tube-london.t

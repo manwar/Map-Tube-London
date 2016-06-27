@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::DLR;
 
-$Map::Tube::London::Line::DLR::VERSION   = '0.75';
+$Map::Tube::London::Line::DLR::VERSION   = '0.76';
 $Map::Tube::London::Line::DLR::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,16 +12,14 @@ Map::Tube::London::Line::DLR - London Tube Map: Dockland Light Railway Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
 London Tube Map: Dockland Light Railway Line.
 
     +-----------------------------------+----------------------------------------+
-    |                                   |                                        |
     | Station Name                      | Connected To                           |
-    |                                   |                                        |
     +-----------------------------------+----------------------------------------+
     | Tower Gateway                     | Shadwell                               |
     | Bank                              | Shadwell                               |

@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Bakerloo;
 
-$Map::Tube::London::Line::Bakerloo::VERSION   = '0.75';
+$Map::Tube::London::Line::Bakerloo::VERSION   = '0.76';
 $Map::Tube::London::Line::Bakerloo::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,16 +12,14 @@ Map::Tube::London::Line::Bakerloo - London Tube Map: Bakerloo Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
 London Tube Map: Bakerloo Line.
 
     +-----------------------+---------------------------------------------------+
-    |                       |                                                   |
     | Station Name          | Linked To                                         |
-    |                       |                                                   |
     +-----------------------+---------------------------------------------------+
     | Harrow & Wealdstone   | Kenton                                            |
     | Kenton                | Harrow & Wealdstone, South Kenton                 |

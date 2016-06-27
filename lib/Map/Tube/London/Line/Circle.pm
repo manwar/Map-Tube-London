@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Circle;
 
-$Map::Tube::London::Line::Circle::VERSION   = '0.75';
+$Map::Tube::London::Line::Circle::VERSION   = '0.76';
 $Map::Tube::London::Line::Circle::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,16 +12,14 @@ Map::Tube::London::Line::Circle - London Tube Map: Circle Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
 London Tube Map: Circle Line.
 
     +--------------------------+-------------------------------------------------+
-    |                          |                                                 |
     | Station Name             | Connected To                                    |
-    |                          |                                                 |
     +--------------------------+-------------------------------------------------+
     | Hammersmith              | Goldhawk Road                                   |
     | Goldhawk Road            | Hammersmith, Shepherd's Bush Market             |

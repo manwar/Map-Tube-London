@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Victoria;
 
-$Map::Tube::London::Line::Victoria::VERSION   = '0.75';
+$Map::Tube::London::Line::Victoria::VERSION   = '0.76';
 $Map::Tube::London::Line::Victoria::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,16 +12,14 @@ Map::Tube::London::Line::Victoria - London Tube Map: Victoria Line.
 
 =head1 VERSION
 
-Version 0.75
+Version 0.76
 
 =head1 DESCRIPTION
 
 London Tube Map: Victoria Line.
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Linked To                                      |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Walthamstow Central      | Blackhorse Road                                |
     | Blackhorse Road          | Walthamstow Road, Tottenham Hale               |

@@ -1,30 +1,21 @@
 #!/usr/bin/perl
 
-use strict; use warnings;
-use Test::More tests => 24;
+use strict;
+use warnings FATAL => 'all';
+use Test::More;
+
+my $min_ver = 0.15;
+eval "use Test::Map::Tube $min_ver tests => 3";
+plan skip_all => "Test::Map::Tube $min_ver required." if $@;
+
+use utf8;
 use Map::Tube::London;
+my $map = Map::Tube::London->new;
+ok_map($map);
+ok_map_functions($map);
 
-my $tube = Map::Tube::London->new;
-while (<DATA>) {
-    chomp;
-    next if /^\#/;
-    my ($description, $from, $to, $expected) = split /\|/;
-    is_deeply($tube->get_shortest_route($from, $to), _expected_route($expected), $description);
-}
-
-sub _expected_route {
-    my ($route) = @_;
-    my $nodes   = [];
-    foreach my $name (split /\,/,$route) {
-        push @$nodes, $tube->get_node_by_name($name);
-    }
-
-    return Map::Tube::Route->new(
-        { from  => $nodes->[0],
-          to    => $nodes->[-1],
-          nodes => $nodes
-        });
-}
+my @routes = <DATA>;
+ok_map_routes($map, \@routes);
 
 __DATA__
 Route 1|Wembley Central|Bond Street|Wembley Central,Stonebridge Park,Harlesden,Willesdon Junction,Shepherd's Bush,Holland Park,Notting Hill Gate,Queensway,Lancaster Gate,Marble Arch,Bond Street
@@ -51,3 +42,6 @@ Route 21|Westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Ba
 Route 22|westferry    |   Cannon      Street    |Westferry,Limehouse,Shadwell,Bank,Monument,Cannon Street
 Route 23|Tower Gateway|Aldgate|Tower Gateway,Tower Hill,Aldgate
 Route 24|Liverpool Street|Monument|Liverpool Street,Bank,Monument
+Route 25|Baker Street|Farringdon|Baker Street,Great Portland Street,Euston Square,King's Cross St. Pancras,Farringdon
+Route 26|Bank|Monument|Bank,Monument
+Route 27|Euston|King's Cross St. Pancras|Euston,King's Cross St. Pancras
