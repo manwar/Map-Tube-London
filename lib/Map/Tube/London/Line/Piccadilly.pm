@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::Piccadilly;
 
-$Map::Tube::London::Line::Piccadilly::VERSION   = '0.76';
+$Map::Tube::London::Line::Piccadilly::VERSION   = '0.77';
 $Map::Tube::London::Line::Piccadilly::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::Piccadilly - London Tube Map: Piccadilly Line.
 
 =head1 VERSION
 
-Version 0.76
+Version 0.77
 
 =head1 DESCRIPTION
 
@@ -80,66 +80,87 @@ London Tube Map: Piccadilly Line.
 
 =over 2
 
-=item * The station "Uxbridge" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Uxbridge" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Hillingdon" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Hillingdon" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Ickenham" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Ickenham" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Ruislip" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Ruislip" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Ruislip Manor" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Ruislip Manor" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Eastcode" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Eastcode" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Rayners Lane" is also part of L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
+=item * The station "Rayners Lane" is also part of
+          L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Ealing Common" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Ealing Common" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Acton Town" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Acton Town" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Turnham Green" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Turnham Green" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Hammersmith" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Hammersmith" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Barons Court" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Barons Court" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Earl's Court" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Earl's Court" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Gloucester Road" is also part of L<District Line|Map::Tube::London::Line::District>
+=item * The station "Gloucester Road" is also part of
+          L<District Line|Map::Tube::London::Line::District>
         | L<Circle Line|Map::Tube::London::Line::Circle>.
 
-=item * The station "South Kensington" is also part of L<District Line|Map::Tube::London::Line::District>
+=item * The station "South Kensington" is also part of
+          L<District Line|Map::Tube::London::Line::District>
         | L<Circle Line|Map::Tube::London::Line::Circle>.
 
-=item * The station "Green Park" is also part of L<Jubilee Line|Map::Tube::London::Line::Jubilee>
+=item * The station "Green Park" is also part of
+          L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
-=item * The station "Picadilly Circus" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
+=item * The station "Picadilly Circus" is also part of
+          L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>.
 
-=item * The station "Leicester Square" is also part of L<Northern Line|Map::Tube::London::Line::Northern>.
+=item * The station "Leicester Square" is also part of
+          L<Northern Line|Map::Tube::London::Line::Northern>.
 
-=item * The station "Holborn" is also part of L<Central Line|Map::Tube::London::Line::Central>.
+=item * The station "Holborn" is also part of
+          L<Central Line|Map::Tube::London::Line::Central>.
 
-=item * The station "King's Cross St. Pancras" is also part of L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
+=item * The station "King's Cross St. Pancras" is also part of
+          L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>
         | L<Northern Line|Map::Tube::London::Line::Northern>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Finsbury Park" is also part of L<Victoria Line|Map::Tube::London::Line::Victoria>.
+=item * The station "Finsbury Park" is also part of
+          L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
 =back
 
 =head1 MAP
 
-London Tube Map: L<Piccadilly Line|https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/Piccadilly.png>
+London Tube Map: L<Piccadilly Line|https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/Piccadilly.png>
 map generated by plugin L<Map::Tube::Plugin::Graph>.
 
 =begin html
 
-<a href = "https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/Piccadilly.png">
-<img src    = "https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/Piccadilly.png"
+<a href = "https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/Piccadilly.png">
+<img src    = "https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/Piccadilly.png"
      alt    = "London Tube Map: Piccadilly Line"
      width  = "400px"
      height = "600px"/>

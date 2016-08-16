@@ -1,6 +1,6 @@
 package Map::Tube::London::Line::HammersmithCity;
 
-$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.76';
+$Map::Tube::London::Line::HammersmithCity::VERSION   = '0.77';
 $Map::Tube::London::Line::HammersmithCity::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::London::Line::HammersmithCity - London Tube Map: Hammersmith & City L
 
 =head1 VERSION
 
-Version 0.76
+Version 0.77
 
 =head1 DESCRIPTION
 
@@ -56,66 +56,82 @@ London Tube Map: Hammersmith & City Line.
 
 =over 2
 
-=item * The station "Aldgate East" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Aldgate East" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Barking" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Barking" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Bromley-by-Bow" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Bromley-by-Bow" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Bow Road" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Bow Road" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "East Ham" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "East Ham" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Upton Park" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Upton Park" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Mile End" is also part of L<District Line|Map::Tube::London::Line::District>
+=item * The station "Mile End" is also part of
+          L<District Line|Map::Tube::London::Line::District>
         | L<Central Line|Map::Tube::London::Line::Central>
 
-=item * The station "Plaistow" is also part of L<District Line|Map::Tube::London::Line::District>.
+=item * The station "Plaistow" is also part of
+          L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "West Ham" is also part of L<District Line|Map::Tube::London::Line::District>
+=item * The station "West Ham" is also part of
+          L<District Line|Map::Tube::London::Line::District>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Dockland Light Railway Line|Map::Tube::London::Line::DLR>.
 
-=item * The station "Paddington" is also part of L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
+=item * The station "Paddington" is also part of
+          L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "Edgware Road" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Edgware Road" is also part of
+          L<Circle Line|Map::Tube::London::Line::Circle>
         | L<District Line|Map::Tube::London::Line::District>.
 
-=item * The station "King's Cross St Pancras" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "King's Cross St Pancras" is also part of
+          L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>
         | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>.
 
-=item * The station "Moorgate" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Moorgate" is also part of
+          L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>.
 
-=item * The station "Liverpool Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Liverpool Street" is also part of
+          L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Central Line|Map::Tube::London::Line::Central>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Baker Street" is also part of L<Circle Line|Map::Tube::London::Line::Circle>
+=item * The station "Baker Street" is also part of
+          L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Bakerloo Line|Map::Tube::London::Line::Bakerloo>
         | L<Jubilee Line|Map::Tube::London::Line::Jubilee>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>.
 
-=item * The station "Whitechapel" is also part of L<District Line|Map::Tube::London::Line::District>
-        | <London Overground Line|Map::Tube::London::Line::Overground>.
+=item * The station "Whitechapel" is also part of
+          L<District Line|Map::Tube::London::Line::District>
+        | L<London Overground Line|Map::Tube::London::Line::Overground>.
 
 =back
 
 =head1 MAP
 
-London Tube Map: L<Hammersmith & City Line|https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/HammersmithCity.png>
+London Tube Map: L<Hammersmith & City Line|https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/HammersmithCity.png>
 map generated by plugin L<Map::Tube::Plugin::Graph>.
 
 =begin html
 
-<a href = "https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/HammersmithCity.png">
-<img src    = "https://raw.githubusercontent.com/Manwar/Map-Tube-London/master/maps/HammersmithCity.png"
+<a href = "https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/HammersmithCity.png">
+<img src    = "https://raw.githubusercontent.com/manwar/Map-Tube-London/master/maps/HammersmithCity.png"
      alt    = "London Tube Map: Hammersmith & City Line"
      width  = "500px"
      height = "500px"/>
@@ -129,7 +145,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-London>
+L<https://github.com/manwar/Map-Tube-London>
 
 =head1 BUGS
 
