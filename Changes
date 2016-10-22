@@ -1,5 +1,9 @@
 Revision history for Map::Tube::London
 
+0.78  Sat Oct 22 08:00:00 2016
+      - Upgraded to use Map::Tube v3.21.
+      - Upgraded to use Test::Map::Tube v0.17.
+
 0.77  Tue Aug 16 12:00:00 2016
       - Upgraded to use Map::Tube v3.18.
       - Tidied up github repo url.
