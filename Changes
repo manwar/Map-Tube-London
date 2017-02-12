@@ -1,5 +1,9 @@
 Revision history for Map::Tube::London
 
+0.79  Sun Feb 12 08:55:00 2017
+      - Upgraded to use Map::Tube v3.22.
+      - Changed map data file format to JSON.
+
 0.78  Sat Oct 22 08:00:00 2016
       - Upgraded to use Map::Tube v3.21.
       - Upgraded to use Test::Map::Tube v0.17.

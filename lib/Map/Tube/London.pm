@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '0.78';
+$Map::Tube::London::VERSION   = '0.79';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 0.78
+Version 0.79
 
 =cut
 
@@ -20,7 +20,7 @@ use File::Share ':all';
 use Moo;
 use namespace::clean;
 
-has xml  => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.xml') });
+has json => (is => 'ro', default => sub { return dist_file('Map-Tube-London', 'london-map.json') });
 has skip => (is => 'ro', default => sub { _skip(); });
 with 'Map::Tube';
 

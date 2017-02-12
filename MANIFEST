@@ -13,7 +13,7 @@ lib/Map/Tube/London/Line/Overground.pm
 lib/Map/Tube/London/Line/Piccadilly.pm
 lib/Map/Tube/London/Line/Victoria.pm
 lib/Map/Tube/London/Line/WaterlooCity.pm
-share/london-map.xml
+share/london-map.json
 Makefile.PL
 LICENSE
 MANIFEST
