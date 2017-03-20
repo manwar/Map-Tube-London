@@ -1,5 +1,8 @@
 Revision history for Map::Tube::London
 
+0.82  Mon Mar 20 13:30:00 2017
+      - Tidied up test scripts and removed "-T" switch.
+
 0.81  Thu Mar 16 11:10:00 2017
       - Upgraded to use Test::Map::Tube v0.25.
 
