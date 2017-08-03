@@ -25,3 +25,4 @@ t/pod.t
 t/meta-yml.t
 t/meta-json.t
 t/map-tube-london.t
+t/changes.t
