@@ -1,5 +1,8 @@
 Revision history for Map::Tube::London
 
+0.87  2017-08-08
+      - Added station index for all tube lines.
+
 0.86  2017-08-03
       - Updated Changes file in accordance to CPAN::Changes.
       - Added test script t/changes.t.
