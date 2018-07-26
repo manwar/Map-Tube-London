@@ -1,5 +1,8 @@
 Revision history for Map::Tube::London
 
+1.10  2018-07-26
+      - Added missing line "Piccadilly" for the "King's Cross St. Pancrass".
+
 1.09  2018-07-24
       - Updated section NOTES for the line "Central".
 
