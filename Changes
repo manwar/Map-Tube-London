@@ -1,5 +1,8 @@
 Revision history for Map::Tube::London
 
+1.19  2018-08-10
+      - Updated dependency on Map::Tube v3.55.
+
 1.18  2018-08-08
       - Updated section NOTE for the line "Metropolitan".
 
