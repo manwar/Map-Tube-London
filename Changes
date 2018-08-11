@@ -1,5 +1,8 @@
 Revision history for Map::Tube::London
 
+1.20  2018-08-11
+      - Updated section NOTE for the line "DLR".
+
 1.19  2018-08-10
       - Updated dependency on Map::Tube v3.55.
 
