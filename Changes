@@ -1,7 +1,10 @@
 Revision history for Map::Tube::London
 
+1.21  2018-08-12
+      - Updated section NOTE for the line "Piccadilly".
+
 1.20  2018-08-11
-      - Updated section NOTE for the line "DLR".
+      - Updated section NOTE for the line "Overground".
 
 1.19  2018-08-10
       - Updated dependency on Map::Tube v3.55.
