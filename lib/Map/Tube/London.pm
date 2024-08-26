@@ -1,6 +1,6 @@
 package Map::Tube::London;
 
-$Map::Tube::London::VERSION   = '1.36';
+$Map::Tube::London::VERSION   = '1.37';
 $Map::Tube::London::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::London - Interface to the London Tube Map.
 
 =head1 VERSION
 
-Version 1.36
+Version 1.37
 
 =cut
 
@@ -150,6 +150,14 @@ Mohammad Sajid Anwar, C<< <mohammad.anwar at yahoo.com> >>
 =head1 REPOSITORY
 
 L<https://github.com/manwar/Map-Tube-London>
+
+=head1 CONTRIBUTORS
+
+=over 2
+
+=item * Ed J
+
+=back
 
 =head1 BUGS
 
