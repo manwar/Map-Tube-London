@@ -186,7 +186,7 @@ London Tube Map: District Line.
           L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>
 
-=item * The station "St. James's Park" is also part of
+=item * The station "St James's Park" is also part of
           L<Circle Line|Map::Tube::London::Line::Circle>
 
 =item * The station "Stepney Green" is also part of

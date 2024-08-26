@@ -70,19 +70,19 @@ London Tube Map: Northern Line.
 
 =head2 Bank Branch
 
-    +--------------------------+------------------------------------------------+
+    +--------------------------+--------------------------------------+
     | Station Name             | Connected To                                   |
-    +--------------------------+------------------------------------------------+
-    | Euston                   | King's Cross St. Pancras                       |
-    | King's Cross St. Pancras | Euston, Angel                                  |
-    | Angel                    | King's Cross St. Pancras, Old Street           |
-    | Old Street               | Angel, Moorgate                                |
-    | Moorgate                 | Old Street, Bank                               |
-    | Bank                     | Moorgate, London Bridge                        |
-    | London Bridge            | Bank, Borough                                  |
-    | Borough                  | London Bridge, Elephant and Castle             |
-    | Elephant and Castle      | Borough                                        |
-    +--------------------------+------------------------------------------------+
+    +--------------------------+--------------------------------------+
+    | Euston                   | King's Cross St Pancras              |
+    | King's Cross St Pancras  | Euston, Angel                        |
+    | Angel                    | King's Cross St Pancras, Old Street  |
+    | Old Street               | Angel, Moorgate                      |
+    | Moorgate                 | Old Street, Bank                     |
+    | Bank                     | Moorgate, London Bridge              |
+    | London Bridge            | Bank, Borough                        |
+    | Borough                  | London Bridge, Elephant and Castle   |
+    | Elephant and Castle      | Borough                              |
+    +--------------------------+--------------------------------------+
 
 =head2 Morden Branch
 
@@ -124,7 +124,7 @@ London Tube Map: Northern Line.
           L<Overground Line|Map::Tube::London::Line::Overground>
         | L<Victoria Line|Map::Tube::London::Line::Victoria>
 
-=item * The station "King's Cross St. Pancras" is also part of
+=item * The station "King's Cross St Pancras" is also part of
           L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
