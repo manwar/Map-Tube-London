@@ -33,9 +33,9 @@ London Tube Map: Circle Line.
     | Edgware Road             | Paddington, Baker Street                        |
     | Baker Street             | Edgware Road, Great Portland Street             |
     | Great Portland Street    | Baker Street, Euston Square                     |
-    | Euston Square            | Great Portland Street, King's Cross St. Pancras |
-    | King's Cross St. Pancras | Euston Square, Farringdon                       |
-    | Farringdon               | King's Cross St. Pancras, Barbican              |
+    | Euston Square            | Great Portland Street, King's Cross St Pancras |
+    | King's Cross St Pancras  | Euston Square, Farringdon                       |
+    | Farringdon               | King's Cross St Pancras, Barbican              |
     | Barbican                 | Farringdon, Moorgate                            |
     | Moorgate                 | Barbican, Liverpool Street                      |
     | Liverpool Street         | Moorgate, Aldgate                               |
@@ -121,7 +121,7 @@ London Tube Map: Circle Line.
 =item * The station "High Street Kensington" is also part of
           L<District Line|Map::Tube::London::Line::District>
 
-=item * The station "King's Cross St. Pancras" is also part of
+=item * The station "King's Cross St Pancras" is also part of
           L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Metropolitan Line|Map::Tube::London::Line::Metropolitan>
         | L<Northern Line|Map::Tube::London::Line::Northern>

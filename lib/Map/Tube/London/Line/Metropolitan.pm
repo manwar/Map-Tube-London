@@ -25,9 +25,9 @@ London Tube Map: Metropolitan Line.
     | Liverpool Street         | Aldgate, Moorgate                               |
     | Moorgate                 | Liverpool Street, Barbican                      |
     | Barbican                 | Moorgate, Farringdon                            |
-    | Farringdon               | Barbican, King's Cross St. Pancras              |
-    | King's Cross St. Pancras | Farringdon, Euston Square                       |
-    | Euston Square            | King's Cross St. Pancras, Great Portland Street |
+    | Farringdon               | Barbican, King's Cross St Pancras              |
+    | King's Cross St Pancras  | Farringdon, Euston Square                       |
+    | Euston Square            | King's Cross St Pancras, Great Portland Street |
     | Great Portland Street    | Euston Square, Baker Street                     |
     | Baker Street             | Great Portland Street, Finchley Road            |
     | Finchley Road            | Baker Street, Wembley Park                      |
@@ -98,7 +98,7 @@ London Tube Map: Metropolitan Line.
 =item * The station "Ickenham" is also part of
           L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>
 
-=item * The station "King's Cross St. Pancras" is also part of
+=item * The station "King's Cross St Pancras" is also part of
           L<Circle Line|Map::Tube::London::Line::Circle>
         | L<Hammersmith & City Line|Map::Tube::London::Line::HammersmithCity>
         | L<Northern Line|Map::Tube::London::Line::Northern>
