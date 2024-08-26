@@ -49,7 +49,7 @@ London Tube Map: Circle Line.
     | Embankment               | Temple, Westminster                             |
     | Westminster              | Embankment, St Jame's Park                      |
     | St James's Park          | Westminster, Victoria                           |
-    | Victoria                 | St. James Park, Sloane Square                   |
+    | Victoria                 | St James's Park, Sloane Square                   |
     | Sloane Square            | Victoria, South Kensington                      |
     | South Kensington         | Sloane Square, Gloucester Road                  |
     | Gloucester Road          | South Kensington, High Street Kensington        |
@@ -172,7 +172,7 @@ London Tube Map: Circle Line.
           L<District Line|Map::Tube::London::Line::District>
         | L<Piccadilly Line|Map::Tube::London::Line::Piccadilly>
 
-=item * The station "St. James's Park" is also part of
+=item * The station "St James's Park" is also part of
           L<District Line|Map::Tube::London::Line::District>
 
 =item * The station "Temple" is also part of
