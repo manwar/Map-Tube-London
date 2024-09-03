@@ -2,26 +2,18 @@
 
 use strict;
 use warnings FATAL => 'all';
-use Test::More;
-
-my $min_ver = '0.60';
-eval "use Test::Map::Tube $min_ver tests => 4";
-plan skip_all => "Test::Map::Tube $min_ver required." if $@;
+use Test::Map::Tube tests => 3;
 
 use utf8;
 use Map::Tube::London;
-my $map = new_ok("Map::Tube::London");
 
-SKIP: {
-    ok_map($map) or skip "Skip map function and routes test.", 2;
+my $map = Map::Tube::London->new;
 
-    ok_map_functions($map);
+ok_map($map);
+ok_map_functions($map);
 
-    my @routes = <DATA>;
-    ok_map_routes($map, \@routes);
-}
-
-done_testing;
+my @routes = <DATA>;
+ok_map_routes($map, \@routes);
 
 __DATA__
 Route 1|Wembley Central|Bond Street|Wembley Central,Stonebridge Park,Harlesden,Willesden Junction,Shepherd's Bush,Holland Park,Notting Hill Gate,Bayswater,Paddington,Bond Street
