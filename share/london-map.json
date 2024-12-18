@@ -1092,7 +1092,7 @@
          {
             "id" : "H017",
             "line" : "Piccadilly:18",
-            "link" : "H020,H039",
+            "link" : "H020,H022,H039",
             "name" : "Hatton Cross"
          },
          {
