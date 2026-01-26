@@ -2490,7 +2490,7 @@
          {
             "id" : "W024",
             "line" : "DLR:39",
-            "link" : "C007,P012",
+            "link" : "C007,P012,W029",
             "name" : "West India Quay"
          },
          {
@@ -2520,7 +2520,7 @@
          {
             "id" : "W029",
             "line" : "DLR:41",
-            "link" : "L013,P012",
+            "link" : "L013,P012,C007",
             "name" : "Westferry"
          },
          {
