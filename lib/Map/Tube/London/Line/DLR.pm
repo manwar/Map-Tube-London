@@ -21,59 +21,61 @@ Version v2.0.2
 
 London Tube Map: Dockland Light Railway Line.
 
-    +-----------------------------------+----------------------------------------+
-    | Station Name                      | Connected To                           |
-    +-----------------------------------+----------------------------------------+
-    | Tower Gateway                     | Shadwell                               |
-    | Bank                              | Shadwell                               |
-    | Shadwell                          | Bank, Tower Gateway                    |
-    | Limehouse                         | Shadwell, Westferry                    |
-    | Westferry                         | Limehouse, Poplar, West India Quay     |
-    | Poplar                            | Westferry, West India Quay, All Saints |
-    | West India Quay                   | Westferry, Poplar, Canary Wharf        |
-    | Canary Wharf                      | West India Quay, Heron Quays           |
-    | Heron Quays                       | Canary Wharf, South Quay               |
-    | South Quay                        | Heron Quays, Crossharbour              |
-    | Crossharbour                      | South Quay, Mudchute                   |
-    | Mudchute                          | Crossharbour, Island Gardens           |
-    | Island Gardens                    | Mudchute,                              |
-    |                                   | Cutty Sark for Maritime Greenwich      |
-    | Cutty Sark for Maritime Greenwich | Island Gardens, Greenwich              |
-    | Greenwich                         | Cutty Sark for Maritime Greenwich,     |
-    |                                   | Deptford Bridge                        |
-    | Deptford Bridge                   | Greenwich, Elverston Road              |
-    | Elverston Road                    | Deptford Bridge, Lewisham              |
-    | Lewisham                          | Elverston Road                         |
-    | All Saints                        | Poplar, Langdon Park                   |
-    | Langdon Park                      | All Saints, Devons Road                |
-    | Devons Road                       | Langdon Park, Bow Church               |
-    | Bow Church                        | Devons Road, Pudding Mill Lane         |
-    | Pudding Mill Lane                 | Bow Church, Stratford                  |
-    | Stratford                         | Pudding Mill Lane,                     |
-    |                                   | Stratford International,               |
-    |                                   | Stratford High Street                  |
-    | Stratford High Street             | Stratford, Abbey Road                  |
-    | Abbey Road                        | Stratford High Street, West Ham        |
-    | West Ham                          | Abbey Road, Star Lane                  |
-    | Star Lane                         | West Ham, Canning Town,                |
-    |                                   | Royal Victoria, West Silvertown        |
-    | Canning Town                      | Star Lane, East India                  |
-    | East India                        | Canning Town, Blackwall                |
-    | Blackwall                         | East India, Poplar                     |
-    | Royal Victoria                    | Canning Town, Custom House for ExCeL   |
-    | Custom House for ExCeL            | Royal Victoria, Prince Regent          |
-    | Prince Regent                     | Custom House for ExCeL, Royal Albert   |
-    | Royal Albert                      | Prince Regent, Beckton Park            |
-    | Beckton Park                      | Royal Albert, Cyprus                   |
-    | Cyprus                            | Beckton Park, Gallions Reach           |
-    | Gallions Reach                    | Cyprus, Beckton                        |
-    | Beckton                           | Gallions Reach                         |
-    | West Silvertown                   | Canning Town, Pontoon Dock             |
-    | Pontoon Dock                      | West Silvertown                        |
-    | London City Airport               | Pontoon Dock, King George V            |
-    | King George V                     | London City Airport, Woolwich Arsenal  |
-    | Woolwich Arsenal                  | King George V                          |
-    +-----------------------------------+----------------------------------------+
+    +-----------------------------------+------------------------------------------------+
+    | Station Name                      | Connected To                                   |
+    +-----------------------------------+------------------------------------------------+
+    | Tower Gateway                     | Shadwell                                       |
+    | Bank                              | Shadwell                                       |
+    | Shadwell                          | Bank, Tower Gateway                            |
+    | Limehouse                         | Shadwell, Westferry                            |
+    | Westferry                         | Limehouse, Poplar, Canary Wharf (from Bank),   |
+    |                                   | West India Quay (towards Bank)                 |
+    | Poplar                            | Westferry, West India Quay, All Saints         |
+    | West India Quay                   | Poplar, Canary Wharf, Westferry (towards Bank) |
+    | Canary Wharf                      | West India Quay, Heron Quays                   |
+    |                                   | Westferry (from Bank)                          |
+    | Heron Quays                       | Canary Wharf, South Quay                       |
+    | South Quay                        | Heron Quays, Crossharbour                      |
+    | Crossharbour                      | South Quay, Mudchute                           |
+    | Mudchute                          | Crossharbour, Island Gardens                   |
+    | Island Gardens                    | Mudchute,                                      |
+    |                                   | Cutty Sark for Maritime Greenwich              |
+    | Cutty Sark for Maritime Greenwich | Island Gardens, Greenwich                      |
+    | Greenwich                         | Cutty Sark for Maritime Greenwich,             |
+    |                                   | Deptford Bridge                                |
+    | Deptford Bridge                   | Greenwich, Elverston Road                      |
+    | Elverston Road                    | Deptford Bridge, Lewisham                      |
+    | Lewisham                          | Elverston Road                                 |
+    | All Saints                        | Poplar, Langdon Park                           |
+    | Langdon Park                      | All Saints, Devons Road                        |
+    | Devons Road                       | Langdon Park, Bow Church                       |
+    | Bow Church                        | Devons Road, Pudding Mill Lane                 |
+    | Pudding Mill Lane                 | Bow Church, Stratford                          |
+    | Stratford                         | Pudding Mill Lane,                             |
+    |                                   | Stratford International,                       |
+    |                                   | Stratford High Street                          |
+    | Stratford High Street             | Stratford, Abbey Road                          |
+    | Abbey Road                        | Stratford High Street, West Ham                |
+    | West Ham                          | Abbey Road, Star Lane                          |
+    | Star Lane                         | West Ham, Canning Town,                        |
+    |                                   | Royal Victoria, West Silvertown                |
+    | Canning Town                      | Star Lane, East India                          |
+    | East India                        | Canning Town, Blackwall                        |
+    | Blackwall                         | East India, Poplar                             |
+    | Royal Victoria                    | Canning Town, Custom House for ExCeL           |
+    | Custom House for ExCeL            | Royal Victoria, Prince Regent                  |
+    | Prince Regent                     | Custom House for ExCeL, Royal Albert           |
+    | Royal Albert                      | Prince Regent, Beckton Park                    |
+    | Beckton Park                      | Royal Albert, Cyprus                           |
+    | Cyprus                            | Beckton Park, Gallions Reach                   |
+    | Gallions Reach                    | Cyprus, Beckton                                |
+    | Beckton                           | Gallions Reach                                 |
+    | West Silvertown                   | Canning Town, Pontoon Dock                     |
+    | Pontoon Dock                      | West Silvertown                                |
+    | London City Airport               | Pontoon Dock, King George V                    |
+    | King George V                     | London City Airport, Woolwich Arsenal          |
+    | Woolwich Arsenal                  | King George V                                  |
+    +-----------------------------------+------------------------------------------------+
 
 =head1 NOTE
 
